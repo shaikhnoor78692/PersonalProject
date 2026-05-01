@@ -1,5 +1,5 @@
 /* ============================================================
-   NEXAMIND — JAVASCRIPT
+   SCALESNAP — JAVASCRIPT
    Pure vanilla JS — no frameworks or libraries
    ============================================================
 
