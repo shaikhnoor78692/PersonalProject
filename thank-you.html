@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You — NexaMind</title>
+
+  <!-- Prevent search engines from indexing this confirmation page -->
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Thank you for contacting NexaMind. We'll be in touch within 24 hours." />
+
+  <!-- Same fonts as main site -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+
+  <!-- Shared stylesheet for buttons, typography, colour tokens -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* Page-specific styles for the full-screen centred layout */
+
+    .ty-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 24px;
+      padding-top: calc(60px + 32px);
+      background: var(--bg);
+      /* Subtle radial glow matching the hero orb aesthetic */
+      background-image: radial-gradient(
+        ellipse 60% 50% at 50% 50%,
+        rgba(124, 110, 242, 0.1) 0%,
+        transparent 70%
+      );
+    }
+
+    /* Card container */
+    .ty-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: clamp(40px, 8vw, 64px) clamp(32px, 6vw, 56px);
+      max-width: 540px;
+      width: 100%;
+      text-align: center;
+      animation: tyEntrance 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+      box-shadow: 0 0 60px rgba(124, 110, 242, 0.1);
+    }
+
+    @keyframes tyEntrance {
+      from {
+        opacity: 0;
+        transform: translateY(32px) scale(0.97);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    /* Big emoji / illustration */
+    .ty-icon {
+      font-size: 3.5rem;
+      display: block;
+      margin-bottom: 24px;
+      animation: iconBounce 0.6s ease 0.3s both;
+    }
+
+    @keyframes iconBounce {
+      0%   { transform: scale(0.5); opacity: 0; }
+      70%  { transform: scale(1.15); }
+      100% { transform: scale(1);    opacity: 1; }
+    }
+
+    /* Headline */
+    .ty-card h1 {
+      font-family: var(--font-head);
+      font-size: clamp(1.8rem, 4vw, 2.2rem);
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+
+    /* Sub-copy */
+    .ty-card p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.75;
+      margin-bottom: 32px;
+    }
+
+    .ty-card p strong {
+      color: var(--text);
+    }
+
+    /* What-happens-next bullet list */
+    .ty-next {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-bottom: 32px;
+      text-align: left;
+    }
+
+    .ty-next h2 {
+      font-family: var(--font-head);
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--accent);
+      margin-bottom: 14px;
+    }
+
+    .ty-next ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .ty-next li {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .ty-next li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* Back to home button */
+    .ty-actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* Logo in top-left */
+    .ty-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      padding-inline: 24px;
+      background: rgba(10, 10, 15, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Minimal top bar with logo -->
+  <nav class="ty-nav" aria-label="Site navigation">
+    <a href="index.html" class="logo" aria-label="NexaMind — back to home">Nexa<span>Mind</span></a>
+  </nav>
+
+  <!-- Full-screen centred card -->
+  <main class="ty-page" role="main">
+    <div class="ty-card">
+
+      <!-- Celebration emoji -->
+      <span class="ty-icon" role="img" aria-label="Party popper">🎉</span>
+
+      <!-- Headline -->
+      <h1>You're All Set!</h1>
+
+      <!-- Sub-copy -->
+      <p>
+        Thanks for reaching out to <strong>NexaMind</strong>. We've received
+        your project request and a member of our team will be in touch with
+        you within <strong>24 hours</strong>.
+      </p>
+
+      <!-- What happens next -->
+      <div class="ty-next" aria-label="What happens next">
+        <h2>What Happens Next</h2>
+        <ul>
+          <li>We review your project details and requirements</li>
+          <li>A strategist prepares a custom proposal for your goals</li>
+          <li>We email you a detailed quote within 24 hours</li>
+          <li>You approve and we get to work — zero setup fee</li>
+        </ul>
+      </div>
+
+      <!-- Actions -->
+      <div class="ty-actions">
+        <a href="index.html" class="btn btn-primary btn-lg">Back to Home</a>
+        <a href="index.html#services" class="btn btn-ghost">Explore Services</a>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>

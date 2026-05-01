@@ -1,0 +1,74 @@
+# ============================================================
+# NEXAMIND — Netlify Configuration
+# ============================================================
+#
+# Deployment steps:
+#   1. Push all files to a GitHub/GitLab repo
+#   2. Connect the repo to Netlify (app.netlify.com → "Add new site")
+#   3. Leave Build command EMPTY and set Publish directory to "."
+#   4. Click Deploy — Netlify handles the rest automatically
+#
+# Netlify Forms are enabled automatically because index.html
+# contains <form data-netlify="true">. View submissions at:
+#   Netlify Dashboard → Your Site → Forms
+# ============================================================
+
+
+# ---- Build settings ----------------------------------------
+[build]
+  # Serve files directly from the repo root — no build needed
+  publish = "."
+  # No build command required for pure HTML/CSS/JS sites
+
+
+# ---- Redirect: 404 → custom page ---------------------------
+# Uncomment the block below if you create a custom 404.html:
+#
+# [[redirects]]
+#   from   = "/*"
+#   to     = "/index.html"
+#   status = 404
+
+
+# ---- Security headers (applied to all pages) ---------------
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+    # Prevent the site from being embedded in iframes on other domains
+    X-Frame-Options = "SAMEORIGIN"
+
+    # Stop browsers from MIME-sniffing the content type
+    X-Content-Type-Options = "nosniff"
+
+    # Enable XSS filtering in older browsers
+    X-XSS-Protection = "1; mode=block"
+
+    # Only send the origin when navigating cross-origin (hides full path)
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+    # Allow camera/mic only when explicitly needed (none needed for this site)
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+
+# ---- Cache: CSS & JS (fingerprint these files to bust cache) ----
+[[headers]]
+  for = "/style.css"
+
+  [headers.values]
+    # Long cache — safe because filename changes when content changes
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/script.js"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+
+# ---- Cache: HTML pages (short cache so updates show quickly) ----
+[[headers]]
+  for = "/*.html"
+
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
