@@ -1,5 +1,5 @@
 # ScaleSnap Business Handover — Nooralam Shaikh
-**Last updated:** 2026-05-01 (Session 1 — Complete business setup. Website live, Fiverr gig published, Razorpay active, PayPal pending verification.)
+**Last updated:** 2026-05-01 (Session 1 — Complete business setup + MCP configuration. Website live, Fiverr gig published, Razorpay active, PayPal pending, all 4 MCPs connected.)
 **Owner:** Nooralam Shaikh (shaikhnoor78692)
 **Business Email:** scalesnap.in@gmail.com
 **UPI:** shaikhnoor78692@okhdfcbank
@@ -13,305 +13,307 @@
 ## COMPLETED WORK
 
 ### Business Setup (May 1, 2026)
-- **Concept decided:** AI-powered content writing & digital marketing agency
+- **Concept:** AI-powered content writing & digital marketing agency
 - **Business name:** ScaleSnap
 - **Model:** Use Claude AI to create content → deliver to clients → collect payment
-- **Target:** Indian clients (website/Razorpay) + International clients (Fiverr)
+- **Target:** Indian clients (website/Razorpay) + International (Fiverr)
 - **Monthly cost:** ₹92/month (domain only — everything else free)
 
 ### Website Built (May 1, 2026)
-- Built complete 5-file website from scratch:
-  - `index.html` — Main page with 8 sections
-  - `style.css` — Dark theme, purple accent, fully responsive
-  - `script.js` — Animations, form validation, hamburger menu
-  - `thank-you.html` — Post-submission confirmation page
-  - `netlify.toml` — Auto-deploy configuration
-- **Design system:**
-  - Background: `#0a0a0f` | Surface: `#111118` | Purple: `#7c6ef2` | Orange: `#e4845a`
-  - Fonts: Syne (headings 800wt) + DM Sans (body)
-- **Sections:** Nav → Hero → Stats → Services (6 cards) → How It Works → Pricing (3 tiers) → Contact Form → Footer
-- **5 bugs fixed after audit:**
-  1. `script.js:88` — navbar declared locally in initHamburger IIFE
-  2. `style.css` — .stats-grid at ≤1024px changed to repeat(2, 1fr)
-  3. `thank-you.html` — padding-top added for fixed nav overlap
-  4. `index.html` — iOS Safari select placeholder fix (disabled selected hidden)
-  5. Both HTML files — emoji favicon added
+- 5 files: index.html, style.css, script.js, thank-you.html, netlify.toml
+- Dark theme: bg #0a0a0f | purple #7c6ef2 | orange #e4845a
+- Fonts: Syne (headings) + DM Sans (body)
+- 8 sections: Nav → Hero → Stats → Services → How It Works → Pricing → Contact → Footer
+- 5 bugs fixed after full audit
+- Rebranded from NexaMind → ScaleSnap
 
-### Branding Update (May 1, 2026)
-- Original name was NexaMind → fully rebranded to ScaleSnap
-- All 5 files updated — zero NexaMind references remaining
-- Razorpay placeholder URLs updated to scalesnap branding
-
-### Domain Setup (May 1, 2026)
-- **Domain:** scalesnap.in purchased on GoDaddy
-- **Cost:** ₹1,100/year
-- **Nameservers pointed to Netlify:**
-  ```
-  dns1.p04.nsone.net
-  dns2.p04.nsone.net
-  dns3.p04.nsone.net
-  dns4.p04.nsone.net
-  ```
-- DNS propagated successfully — scalesnap.in live ✅
-
-### Netlify Hosting Setup (May 1, 2026)
-- **Plan:** Free
-- **Initial deploy:** Drag & drop → lambent-klepon-5feddb.netlify.app
-- **GitHub connected:** Auto-deploy on every git push
-- **Custom domain:** scalesnap.in connected and SSL active
-- **Git config fixed:**
-  ```bash
-  git config user.name "shaikhnoor78692"
-  git config user.email "scalesnap.in@gmail.com"
-  ```
-- **Deploy workflow:**
-  ```bash
-  git add .
-  git commit -m "description"
-  git push
-  # scalesnap.in updates in ~30 seconds
-  ```
+### Domain & Hosting (May 1, 2026)
+- Domain: scalesnap.in on GoDaddy (₹1,100/year)
+- Hosting: Netlify Free Plan
+- GitHub connected for auto-deploy
+- SSL active via Netlify
+- Nameservers: dns1-4.p04.nsone.net
 
 ### SEO Setup (May 1, 2026)
-- Added to `index.html` head:
-  - Meta description and keywords
-  - Open Graph tags (og:title, og:description, og:url, og:type)
-  - Canonical URL tag
-  - Schema markup JSON-LD (LocalBusiness type, Mumbai location)
-- Added to `thank-you.html`:
-  - `noindex, nofollow` meta robots tag
-- `netlify.toml` updated with publish = "." for auto-deploy fix
+- Meta description, keywords, Open Graph tags
+- Schema markup JSON-LD (LocalBusiness, Mumbai)
+- Canonical URL, noindex on thank-you.html
 
-### Claude Code Skills Installed (May 1, 2026)
-- Cloned from: github.com/ComposioHQ/awesome-claude-skills
-- Installed using sparse checkout (token efficient):
+### Fiverr Setup (May 1, 2026)
+- Username: scalesnap | Profile: fiverr.com/scalesnap
+- Gig: "I will write SEO blog posts and AI powered content"
+- Packages: $10 / $25 / $60
+- Profile score: 10/12
+- Trust & Safety: Completed
+- Tax forms: Completed (Export category)
+
+### Razorpay Setup (May 1, 2026)
+- Plan: Free (2% per transaction)
+- Website verified: scalesnap.in ✅
+- Payment handle: razorpay.me/@scalesnap
+- 3 payment links created and added to website:
+  ```
+  Starter  ₹4,000/mo → https://rzp.io/rzp/5ettcpbh
+  Growth  ₹12,000/mo → https://rzp.io/rzp/rXSdDJ0
+  Agency  ₹29,000/mo → https://rzp.io/rzp/xz3E1vG
+  ```
+
+### PayPal Setup (May 1, 2026)
+- Email: scalesnap.in@gmail.com
+- Status: ⏳ Pending bank verification (3-5 days)
+- Action: Check bank for 2 small PayPal deposits → enter in PayPal
+
+### Claude Code Skills (May 1, 2026)
+- Installed from: github.com/ComposioHQ/awesome-claude-skills
   ```
   ~/.config/claude/skills/content-research-writer
   ~/.config/claude/skills/lead-research-assistant
   ```
 
-### Fiverr Account Setup (May 1, 2026)
-- **Username:** scalesnap
-- **Display name:** Nooralam Shaikh (real name required by Fiverr)
-- **Profile email:** scalesnap.in@gmail.com
-- **Profile score:** 10/12
-- **Gig title:** "I will write SEO blog posts and AI powered content for your business"
-- **Category:** Writing & Translation → Articles & Blog Posts → SEO Writing
-- **Tags:** content writing, blog writing, article writing, copywriting, blog post
-- **Packages:**
-  ```
-  Basic (Starter):   $10 — 1 article, 500 words, 1 revision, 2 days
-  Standard (Growth): $25 — 2 articles, 1000 words each, 3 revisions, 2 days
-  Premium (Authority):$60 — 3 articles, 1500 words each, unlimited revisions, 3 days
-  ```
-- **Extras:**
-  ```
-  Extra Fast Delivery:    $10-20 (reduces by 1 day)
-  Additional Revision:    $5 + 0 days
-  SEO Keyword Research:   $15 + 1 day
-  ```
-- **Profile completed:**
-  - ✅ Real photo uploaded
-  - ✅ Description (200 words)
-  - ✅ Skills: Content Writing, SEO, Blog Writing, Social Media Marketing, Email Marketing (all Intermediate)
-  - ✅ Languages: English (Conversational) + Hindi
-  - ✅ Experience: Freelance Content Writer at Freelancer.com (2026–present)
-  - ✅ Education: Real details added
-  - ✅ Portfolio: 3 gig images + project added
-  - ✅ Trust & Safety training completed
-  - ✅ Tax forms completed (India GST: Export category)
-  - ✅ W-9: Declared not a US person
-  - ✅ TCS under GST: Export selected
-  - ✅ Gig images created (1280x769px PNG files):
-    - fiverr_gig_1_main.png (purple bg — main service)
-    - fiverr_gig_2_benefits.png (dark bg — why choose us)
-    - fiverr_gig_3_process.png (dark bg — how it works)
-  - ✅ Sample blog PDF created and uploaded to portfolio
+### MCP Setup (May 1, 2026)
+All 4 MCPs installed and connected:
 
-- **⚠️ SCAM WARNING (encountered May 1, 2026):**
-  - User `iwib1kee7wsg` sent fake "I placed an order" message with Google Doc link
-  - Reported and blocked immediately
-  - Real Fiverr orders ONLY appear in Orders tab — never via message
-  - Never click external links from Fiverr messages
+```
+✅ GitHub       → Auto commit/push website changes
+✅ Google Drive → Save/read client files
+✅ Gmail        → Read/draft client emails
+✅ Tavily       → Research for client content
+```
 
-### Razorpay Setup (May 1, 2026)
-- **Plan:** Free (2% per transaction)
-- **Business type:** Unregistered (individual/sole proprietor)
-- **Website verified:** scalesnap.in ✅
-- **Payment handle:** razorpay.me/@scalesnap
-- **3 Payment links created and added to website:**
-  ```
-  Starter Plan  ₹4,000/mo → https://rzp.io/rzp/5ettcpbh
-  Growth Plan  ₹12,000/mo → https://rzp.io/rzp/rXSdDJ0
-  Agency Plan  ₹29,000/mo → https://rzp.io/rzp/xz3E1vG
-  ```
-- Fee: 2% per transaction (e.g. ₹4,000 → you receive ₹3,920)
-- Links tested and working ✅
+#### GitHub MCP
+```
+Status: Connected ✅
+Token: Stored in local environment
+Scope: repo, read:org, workflow
+Usage: Claude can edit and push 
+       website changes directly
+```
 
-### PayPal Setup (May 1, 2026)
-- **Email:** scalesnap.in@gmail.com
-- **Business name:** ScaleSnap
-- **Status:** ⏳ Pending bank verification
-- **Action required:** PayPal sent 2 small deposits (< ₹1.50 each) to bank account
-  - Check bank account in 3-5 days
-  - Login to PayPal → Payment Methods → Select bank → Enter 2 deposit amounts
-  - Account fully verified after this step
+#### Google Drive MCP
+```
+Status: Connected ✅
+Auth: OAuth via gcp-oauth.keys.json
+Credentials: C:\Users\Neebal\.gdrive-server-credentials.json
+OAuth file: D:\devops\personalproject\gcp-oauth.keys.json
+Usage: Claude can save/read client 
+       work files directly
+```
 
-### Pricing Structure (May 1, 2026)
-- Website shows USD prices (international appeal)
-- Razorpay charges INR (Indian clients)
-- Prices set independently (not tied to exchange rate):
-  ```
-  Plan      USD      INR
-  Starter   $49/mo   ₹4,000/mo
-  Growth    $149/mo  ₹12,000/mo
-  Agency    $349/mo  ₹29,000/mo
-  ```
+#### Gmail MCP
+```
+Status: Connected ✅
+Auth: OAuth via gcp-oauth.keys.json
+Credentials: C:\Users\Neebal\.gmail-mcp\credentials.json
+Package: @gongrzhe/server-gmail-autoauth-mcp
+Usage: Claude can read client emails
+       and draft replies
+```
 
-### Documents Created (May 1, 2026)
-- `README.md` — Project overview for GitHub
-- `ScaleSnap_Complete_Setup_Guide.md` — Full business bible
-- `SCALESNAP_HANDOVER.md` — This file (session handover)
-- `MEMORY.md` — Quick session starter for Claude
+#### Tavily Search MCP
+```
+Status: Connected ✅
+API Key: Stored in local config
+Free tier: 1,000 searches/month
+Usage: Claude researches topics
+       for client content
+```
+
+#### Note on claude.ai Google Drive
+```
+Shows in MCP list but cannot be removed
+It is Claude Code's built-in Drive integration
+Harmless — ignore it completely
+```
+
+---
+
+## MCP SETUP FOR NEW LAPTOP
+
+### Prerequisites
+```
+1. Install Node.js LTS from nodejs.org
+2. Install Claude Code: npm install -g @anthropic-ai/claude-code
+3. Copy gcp-oauth.keys.json to new machine
+```
+
+### Step 1 — PowerShell Execution Policy
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+### Step 2 — Install All MCPs
+```bash
+# GitHub MCP
+claude mcp add github -s local -- npx -y @modelcontextprotocol/server-github
+
+# Google Drive MCP
+claude mcp add gdrive -s local -- npx -y @modelcontextprotocol/server-gdrive
+
+# Gmail MCP
+claude mcp add gmail -s local -- npx @gongrzhe/server-gmail-autoauth-mcp
+
+# Tavily MCP
+claude mcp add tavily -s local -- npx -y tavily-mcp
+```
+
+### Step 3 — Set API Keys
+```powershell
+# GitHub token (get from github.com/settings/tokens)
+# Scopes needed: repo, read:org, workflow, gist, read:user
+# Expiration: No expiration
+export GITHUB_PERSONAL_ACCESS_TOKEN=your_token_here
+
+# Tavily API key (get from tavily.com - free)
+export TAVILY_API_KEY=your_key_here
+```
+
+### Step 4 — Authenticate Google Drive
+```powershell
+# Create credentials folder
+mkdir C:\Users\USERNAME\.gdrive-server-credentials
+
+# Run OAuth flow
+$env:GDRIVE_OAUTH_PATH="PATH\TO\gcp-oauth.keys.json"
+$env:GDRIVE_CREDENTIALS_PATH="C:\Users\USERNAME\.gdrive-server-credentials.json"
+npx @modelcontextprotocol/server-gdrive auth
+# Browser opens → login with scalesnap.in@gmail.com → Allow
+```
+
+### Step 5 — Authenticate Gmail
+```powershell
+# Create credentials folder
+mkdir C:\Users\USERNAME\.gmail-mcp
+
+# Run OAuth flow
+$env:GMAIL_OAUTH_PATH="PATH\TO\gcp-oauth.keys.json"
+npx @gongrzhe/server-gmail-autoauth-mcp auth
+# Copy URL from terminal → paste in browser → login → Allow
+```
+
+### Step 6 — Google Cloud Console Setup
+```
+Only needed once per Google account:
+1. Go to console.cloud.google.com
+2. Create project: ScaleSnap MCP
+3. Enable Google Drive API
+4. Enable Gmail API
+5. Create OAuth 2.0 Client ID:
+   - Type: Desktop app
+   - Name: ScaleSnap MCP
+6. Add test user: scalesnap.in@gmail.com
+   (OAuth consent screen → Audience → Test users)
+7. Download JSON → rename to gcp-oauth.keys.json
+```
+
+### Step 7 — Install Claude Code Skills
+```bash
+mkdir -p ~/.config/claude/skills
+git clone --depth=1 --filter=blob:none --sparse https://github.com/ComposioHQ/awesome-claude-skills /tmp/awesome-skills
+cd /tmp/awesome-skills
+git sparse-checkout set content-research-writer lead-research-assistant
+cp -r content-research-writer lead-research-assistant ~/.config/claude/skills/
+```
+
+### Step 8 — Verify Everything
+```bash
+claude mcp list
+ls ~/.config/claude/skills/
+```
+
+Expected output:
+```
+✅ github  → Connected
+✅ gdrive  → Connected
+✅ gmail   → Connected
+✅ tavily  → Connected
+
+Skills:
+content-research-writer
+lead-research-assistant
+```
 
 ---
 
 ## PENDING TASKS (in priority order)
 
 ### 1. HIGH — PayPal Bank Verification
-**Status:** Waiting for 2 small deposits from PayPal
-**Action:**
 ```
-1. Check bank account daily for next 3-5 days
-2. Find 2 small PayPal deposits (< ₹1.50 each)
-3. Login to paypal.com
-4. Go to Payment Methods → Select bank account
-5. Enter the exact 2 deposit amounts
-6. Account verified! ✅
+Check bank account for 2 small PayPal deposits
+Login to paypal.com → Payment Methods → 
+Select bank → Enter 2 deposit amounts → Verified!
 ```
 
 ### 2. HIGH — Get First Client
-**Status:** Not started — this is #1 priority
-**Why urgent:** Every day without a client = lost revenue
-**Action options:**
 ```
-Option A — Share Fiverr link directly:
-"Hey! I started a content writing service.
-Check it out: fiverr.com/scalesnap
-Would love your support! 🙏"
-
-Option B — Join WhatsApp business groups
-Share Fiverr gig in relevant groups
-
-Option C — Wait for organic Fiverr traffic
-New gigs take 1-3 days to get indexed
+Share: fiverr.com/scalesnap
+Message: "I started a content writing service.
+Check it out: fiverr.com/scalesnap 🙏"
+Note: Nooralam prefers not to post on 
+personal social media — use Fiverr organic
 ```
-**Note:** Nooralam is shy — prefers not to market on personal social media
 
-### 3. HIGH — ScaleSnap Instagram Business Account
-**Status:** Not started
-**Action:**
+### 3. HIGH — ScaleSnap Instagram Business
 ```
-1. Go to instagram.com
-2. Create new account (NOT personal)
-3. Username: @scalesnap.in or @scalesnap_agency
-4. Email: scalesnap.in@gmail.com
-5. Switch to Business Account in settings
-6. Bio: "AI-powered content agency | scalesnap.in"
-7. Post AI/marketing tips only (no personal content)
+Username: @scalesnap.in or @scalesnap_agency
+Email: scalesnap.in@gmail.com
+Type: Business account
+Content: AI/marketing tips only (no personal)
+Bio: "AI-powered content agency | scalesnap.in"
 ```
 
 ### 4. MEDIUM — Google Business Profile
-**Status:** Not started
-**Action:**
 ```
-1. Go to business.google.com
-2. Sign in with scalesnap.in@gmail.com
-3. Add business: ScaleSnap
-4. Category: Content Marketing Agency
-5. Location: Mumbai, Maharashtra
-6. Website: scalesnap.in
-7. Verify via postcard or phone
-```
-**Why:** Helps appear in "content writing Mumbai" Google searches
-
-### 5. MEDIUM — Add Tidio Chatbot to Website
-**Status:** Not started (decided to add after getting first client)
-**Action when ready:**
-```
-1. Sign up free at tidio.com
-2. Create greeting chatbot flow:
-   Bot: "Welcome to ScaleSnap! What do you need?"
-   Options → Send Google Form link or UPI ID
-3. Get Tidio script code
-4. Add to index.html before </body>
-5. git push → auto deploys
+Go to: business.google.com
+Business: ScaleSnap
+Category: Content Marketing Agency
+Location: Mumbai, Maharashtra
+Website: scalesnap.in
 ```
 
-### 6. LOW — Raise Fiverr Prices
-**Status:** Not started — do after 5 reviews
-**Current:** $10/$25/$60
-**Target after 5 reviews:** $15/$35/$80
-
-### 7. LOW — Create More Fiverr Gigs
-**Status:** Not started — do after first gig gets reviews
-**Planned gigs:**
+### 5. MEDIUM — Add Tidio Chatbot
 ```
-Gig 2: Social media content pack
-Gig 3: Email marketing sequences
-Gig 4: Video scripts for YouTube/Reels
+Sign up free: tidio.com
+Create greeting flow
+Add script to index.html before </body>
+git push → auto deploys
 ```
 
-### 8. LOW — Add Blog to Website
-**Status:** Not started — Month 2-3
-**Why:** Long-term SEO strategy to get organic Google traffic
+### 6. LOW — After 5 Fiverr Reviews
+```
+Raise prices: $10→$15 / $25→$35 / $60→$80
+Create new gigs: Social media, Email, Video scripts
+```
 
 ---
 
 ## HOW TO DELIVER CLIENT ORDERS
 
-### Blog Post / Article
+### Blog Post
 ```
-Client sends: topic, audience, keywords, tone, length
-Claude prompt:
+Prompt to Claude:
 "Write a [X] word SEO blog post about [TOPIC]
 for a [BUSINESS TYPE] targeting [AUDIENCE].
-Include these keywords naturally: [KEYWORDS].
-Tone: [PROFESSIONAL/FRIENDLY/CONVERSATIONAL]
+Keywords: [KEYWORDS]. Tone: [TONE]
 Structure: intro, 5 subheadings, conclusion, CTA"
-
-Delivery: Google Doc or .docx file
-Time: 15-20 minutes total
+Time: 15-20 mins | Deliver: Google Doc
 ```
 
-### Social Media Pack (30 posts)
+### Social Media Pack
 ```
-Claude prompt:
-"Write 30 Instagram captions for a [BUSINESS]
-in [CITY/NICHE]. Mix:
-- 10 promotional posts
-- 10 educational/tip posts
-- 10 engaging/question posts
-Add 5-8 relevant hashtags to each.
-Tone: [TONE]"
-
-Delivery: Google Sheets or PDF
-Time: 20-30 minutes total
+Prompt to Claude:
+"Write 30 Instagram captions for [BUSINESS].
+Mix: 10 promotional, 10 educational, 10 engaging.
+Add hashtags. Tone: [TONE]"
+Time: 20-30 mins | Deliver: Spreadsheet/PDF
 ```
 
 ### Email Sequence
 ```
-Claude prompt:
-"Write a 5-email welcome sequence for [BUSINESS].
-Email 1: Welcome + what to expect
-Email 2: Brand story/about us
-Email 3: Most valuable tip or insight
-Email 4: Case study or social proof
-Email 5: Special offer + CTA
-Tone: [TONE] | Audience: [AUDIENCE]"
-
-Delivery: Google Doc with each email labeled
-Time: 20-30 minutes total
+Prompt to Claude:
+"Write 5-email welcome sequence for [BUSINESS].
+Email 1: Welcome | 2: Story | 3: Best tip
+4: Social proof | 5: Special offer + CTA"
+Time: 20-30 mins | Deliver: Google Doc
 ```
 
 ---
@@ -320,86 +322,69 @@ Time: 20-30 minutes total
 
 ### Monthly Costs
 ```
-Domain (GoDaddy scalesnap.in): ₹92/month (₹1,100/year)
-Netlify hosting:                ₹0 (Free plan)
-Fiverr account:                 ₹0 (Free + 20% commission on sales)
-Razorpay:                       ₹0 (Free + 2% per transaction)
-Claude AI:                      ₹0 (Free tier — upgrade if needed)
-All other tools:                ₹0 (Free)
-─────────────────────────────────────────────
-Total fixed monthly cost:       ₹92/month only!
+Domain (GoDaddy): ₹92/month
+Everything else:  ₹0 (Free)
+Total:            ₹92/month only!
 ```
 
-### Revenue Potential
+### Payment Links
 ```
-3 Indian clients × ₹4,000  = ₹12,000/month
-3 Fiverr orders  × $25     = $75 (~₹7,000/month)
-─────────────────────────────────────────────
-Realistic Month 1 target:    ₹15,000-20,000/month
+UPI:     shaikhnoor78692@okhdfcbank
+Starter: https://rzp.io/rzp/5ettcpbh (₹4,000)
+Growth:  https://rzp.io/rzp/rXSdDJ0 (₹12,000)
+Agency:  https://rzp.io/rzp/xz3E1vG (₹29,000)
+Fiverr:  Handles international payments
+PayPal:  scalesnap.in@gmail.com (pending)
 ```
 
-### Payment Methods Active
+### Revenue Target
 ```
-Indian clients:        Razorpay (3 links) + UPI direct
-International clients: Fiverr (handles payment automatically)
-Direct UPI:            shaikhnoor78692@okhdfcbank
-PayPal:                Pending verification (3-5 days)
+Month 1: ₹15,000-20,000
+3 Indian clients × ₹4,000 = ₹12,000
+3 Fiverr orders  × $25    = ~₹7,000
 ```
 
 ---
 
-## IMPORTANT ACCOUNT DETAILS
+## ALL ACCOUNTS
 
-### All Accounts Summary
 ```
-Business Gmail:    scalesnap.in@gmail.com
-GoDaddy:           scalesnap.in domain (₹1,100/yr)
-Netlify:           Free plan — scalesnap.in
-GitHub:            Auto-deploy connected to Netlify
-Fiverr:            fiverr.com/scalesnap (score: 10/12)
-Razorpay:          Free plan — razorpay.me/@scalesnap
-PayPal:            scalesnap.in@gmail.com (⏳ pending)
-Canva:             scalesnap.in@gmail.com
-Instamojo:         Backup payment (setup initiated)
-```
-
-### Razorpay Payment Links
-```
-Starter  ₹4,000/mo → https://rzp.io/rzp/5ettcpbh
-Growth  ₹12,000/mo → https://rzp.io/rzp/rXSdDJ0
-Agency  ₹29,000/mo → https://rzp.io/rzp/xz3E1vG
-```
-
-### Netlify Details
-```
-Site name:    lambent-klepon-5feddb
-Custom domain: scalesnap.in
-SSL:          Active (auto by Netlify)
-Deploy:       Auto via GitHub push
+Gmail:      scalesnap.in@gmail.com
+GoDaddy:    scalesnap.in (₹1,100/yr)
+Netlify:    lambent-klepon-5feddb / scalesnap.in
+GitHub:     auto-deploy connected
+Fiverr:     fiverr.com/scalesnap (10/12)
+Razorpay:   razorpay.me/@scalesnap (free)
+PayPal:     scalesnap.in@gmail.com (pending)
+Canva:      scalesnap.in@gmail.com
+Tavily:     scalesnap.in@gmail.com (free)
+GCP:        ScaleSnap MCP project
 ```
 
 ---
 
 ## FILES IN THIS PROJECT
 
-### Website Files (GitHub repo)
+### Website (GitHub repo)
 ```
-index.html          → Main landing page
-style.css           → All styles
-script.js           → JavaScript functionality
-thank-you.html      → Order confirmation page
-netlify.toml        → Netlify deploy config
-README.md           → Project overview
-SCALESNAP_HANDOVER.md → This file
-MEMORY.md           → Quick Claude session starter
+index.html              → Main landing page
+style.css               → All styles
+script.js               → JavaScript
+thank-you.html          → Confirmation page
+netlify.toml            → Deploy config
+README.md               → Project overview
+SCALESNAP_HANDOVER.md   → This file
+MEMORY.md               → Quick session starter
+SETUP.sh                → Auto setup script
 ```
 
-### Asset Files (saved locally)
+### Local Files (save these safely!)
 ```
-fiverr_gig_1_main.png       → Fiverr gallery image 1
-fiverr_gig_2_benefits.png   → Fiverr gallery image 2
-fiverr_gig_3_process.png    → Fiverr gallery image 3
-scalesnap_sample_blog.pdf   → Portfolio sample
+gcp-oauth.keys.json           → Google OAuth credentials
+fiverr_gig_1_main.png         → Fiverr image 1
+fiverr_gig_2_benefits.png     → Fiverr image 2
+fiverr_gig_3_process.png      → Fiverr image 3
+scalesnap_sample_blog.pdf     → Portfolio sample
 ScaleSnap_Complete_Setup_Guide.md → Full business bible
 ```
 
@@ -407,17 +392,64 @@ ScaleSnap_Complete_Setup_Guide.md → Full business bible
 
 ## STANDING INSTRUCTIONS FOR NEXT SESSION
 
-1. Always check pending tasks list above first
-2. Start with PayPal verification status
-3. Priority is getting FIRST CLIENT
-4. Nooralam prefers: exact prompts to copy-paste, small steps, files created directly
-5. Never suggest paid tools unless absolutely necessary (budget: ₹92/month)
-6. If website edits needed → give Claude Code prompt
-7. If content needed → create directly in Claude.ai chat
+```
+1. Read all pending tasks — start from top
+2. First check PayPal verification status
+3. Priority #1 = Get first client
+4. Always give exact prompts to copy-paste
+5. Create files directly — don't send to Canva
+6. Keep steps small and simple
+7. Budget: ₹92/month — no paid tools unless critical
+8. Website edits → give Claude Code prompt
+9. Content needed → create directly in Claude.ai
+10. Nooralam is shy — no personal social media marketing
+```
+
+---
+
+## GIT WORKFLOW
+
+```bash
+# After any website change:
+git add .
+git commit -m "describe change"
+git push
+# scalesnap.in updates in ~30 seconds ✅
+
+# Git config:
+git config user.name "shaikhnoor78692"
+git config user.email "scalesnap.in@gmail.com"
+```
+
+---
+
+## DESIGN SYSTEM
+
+```css
+--bg:      #0a0a0f  /* main background */
+--bg2:     #111118  /* surface */
+--bg3:     #1a1a24  /* cards */
+--accent:  #7c6ef2  /* purple primary */
+--accent2: #e4845a  /* orange secondary */
+--text:    #f0f0f5  /* main text */
+--muted:   #8888a0  /* secondary text */
+Fonts: Syne (headings 800) + DM Sans (body)
+```
+
+---
+
+## SCAM WARNING
+
+```
+⚠️ Fiverr scam encountered May 1, 2026
+User iwib1kee7wsg sent fake order via message
+Real orders ONLY appear in Orders tab!
+Never click Google Doc links from strangers!
+Always report and block suspicious users!
+```
 
 ---
 
 *Last session: May 1, 2026*
-*Session duration: Full day (complete business setup)*
 *Next focus: PayPal verification + Instagram + First Client*
 *Prepared by: Claude (Anthropic) for Nooralam Shaikh*
