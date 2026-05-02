@@ -25,34 +25,48 @@ STEP 5 — Claude Code does everything automatically
 
 ---
 
-## What Claude Code does automatically:
+## When you receive "Run logging off: [answers]"
+do exactly this:
 
-When you receive "Run logging off: [answers]", do this:
+STEP 1 — Read the 2 answers provided
 
-1. Read the answers provided
-2. Update MEMORY.md:
-   - Business status if anything changed
-   - Outreach status if any replies received
-   - Security rules if any issues flagged
-3. Update AGENT_Z_CONTEXT.md:
-   - Yesterday's actions → today's completed actions
-   - Replies received → any new replies
-   - Active leads → update status if changed
-4. Update AGENT_W_CONTEXT.md:
-   - Revenue if any payment received
-   - Clients if any new client added
-   - Last week summary if relevant
-5. Update AGENT_S_CONTEXT.md:
-   - Only if security issue mentioned
-6. Update SCALESNAP_HANDOVER_v2.md:
-   - Add today's date to completed work
-   - Update pending tasks if anything resolved
-7. Commit ALL changed files with message:
-   "auto: end of day update [TODAY'S DATE]"
-8. Push to GitHub
-9. Confirm:
-   "✅ All done Nooralam!
-   Files updated: [list]
-   Committed and pushed to GitHub.
-   See you tomorrow! 🚀
-   First thing: paste MEMORY.md → Run Agent Z"
+STEP 2 — Update files based on answers:
+
+If "No replies yet":
+→ No changes to outreach status
+
+If any lead replied:
+→ Update AGENT_Z_CONTEXT.md active leads table
+→ Update MEMORY.md outreach status
+→ Update ScaleSnap_Project_Hub.md client tracker
+
+If "Nothing extra logged":
+→ No additional action needed
+
+If something extra was done:
+→ Add it to AGENT_Z_CONTEXT.md yesterday's actions
+→ Add it to SCALESNAP_HANDOVER_v2.md completed work
+
+STEP 3 — Always update these regardless of answers:
+→ MEMORY.md → tomorrow's priorities section
+   Based on context files, figure out top 3 priorities
+   for tomorrow automatically
+→ AGENT_Z_CONTEXT.md → last updated date
+
+STEP 4 — Commit all changed files:
+Message: "auto: end of day update [TODAY'S DATE]"
+
+STEP 5 — Push to GitHub
+
+STEP 6 — Confirm with:
+"✅ All done Nooralam!
+Updated: [list files changed]
+Pushed to GitHub ✅
+---
+Tomorrow's priorities:
+1. [priority 1]
+2. [priority 2]
+3. [priority 3]
+---
+See you tomorrow! Get some rest. 🙏
+First thing: paste MEMORY.md → Claude reminds you automatically"
