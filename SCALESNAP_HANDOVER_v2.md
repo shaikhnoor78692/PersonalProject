@@ -44,6 +44,13 @@
 - Google account disabled — appeal submitted
 - .gitignore created — all sensitive files blocked
 - Credentials purged from all 19 git commits
+- Netlify suspended (credit limit exceeded)
+- Migrated to GitHub Pages (free forever)
+- DNS A records configured in GoDaddy
+- CNAME file added to repo for custom domain
+- Site live at scalesnap.in (HTTPS auto-enables overnight)
+- Repo made public for GitHub Pages
+- Contact form updated from Netlify Forms → Formspree
 
 ---
 
@@ -740,7 +747,14 @@ When Google restores scalesnap.in@gmail.com:
 → Website: scalesnap.in
 → NOTE: Need Google account restored first
 
-### 6. LOW — Instagram Business Account
+### 6. MEDIUM — Formspree Contact Form ⏳
+→ Go to formspree.io → Sign up free
+→ Create form → name: "ScaleSnap Quote"
+→ Copy form ID (8 characters)
+→ Tell Claude Code: "Formspree ID is [ID]"
+→ Claude Code updates index.html + pushes
+
+### 7. LOW — Instagram Business Account
 → Wait until Phase 2 (₹15k/month)
 → Username to reserve: @scalesnap.in
 
@@ -779,7 +793,7 @@ Month 1: ₹15,000-20,000
 ```
 Gmail:      scalesnap.in@gmail.com
 GoDaddy:    scalesnap.in (₹1,100/yr)
-Hosting:    GitHub Pages (Netlify suspended — migrated May 2, 2026)
+Hosting:    GitHub Pages — free (Netlify suspended May 2, 2026)
 GitHub:     auto-deploy connected
 Fiverr:     fiverr.com/scalesnap (10/12)
 LinkedIn:   linkedin.com/in/nooralam-scalesnap

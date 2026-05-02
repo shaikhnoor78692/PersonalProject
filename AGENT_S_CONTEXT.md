@@ -38,7 +38,8 @@ Files to never commit:
 |---------|--------|---------------|-------|
 | scalesnap.in@gmail.com | 🔴 Disabled | May 2, 2026 | Appeal submitted |
 | GitHub | ✅ Active | May 2, 2026 | — |
-| Netlify | ✅ Active | May 2, 2026 | — |
+| Netlify | ❌ Suspended | May 2, 2026 | Credit limit exceeded |
+| GitHub Pages | ✅ Live | May 2, 2026 | Replaced Netlify |
 | Fiverr | ✅ Active | May 2, 2026 | — |
 | LinkedIn | ✅ Active | May 2, 2026 | — |
 | Razorpay | ✅ Active | May 2, 2026 | — |
@@ -69,6 +70,7 @@ Last issue: None
 | May 2, 2026 | gcp-oauth.keys.json exposed on GitHub | 🔴 Critical | Purged from all history |
 | May 2, 2026 | Google account disabled | 🔴 Critical | Appeal submitted |
 | May 2, 2026 | Facebook scam group | 🟡 Medium | Left group immediately |
+| May 2, 2026 | Netlify suspended — credit limit | 🟡 Medium | Migrated to GitHub Pages |
 
 ## SECURITY CHECKLIST (Agent S checks every run)
 GitHub:

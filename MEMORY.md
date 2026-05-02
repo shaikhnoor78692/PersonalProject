@@ -153,9 +153,10 @@ Evening (5 mins):
 
 ## TOMORROW'S PRIORITIES (May 3, 2026)
 1. 🔴 Check personal email for Google appeal response
-2. ✅ Paste MEMORY.md → Run Agent Z (first thing)
-3. ⏳ Check replies from Dipti, Aalok, Abhisek
-4. ⏳ Follow up due May 4 if no replies yet
+2. 🌐 Check scalesnap.in is fully live with HTTPS
+3. 📋 Set up Formspree contact form (formspree.io — free)
+4. ✅ Paste MEMORY.md → Run Agent Z
+5. ⏳ Check replies from Dipti, Aalok, Abhisek
 
 ## PHASE ROADMAP
 Phase 1 (NOW):      ₹92/mo  → Get first client
@@ -182,8 +183,8 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 
 ## TECH STACK
 - Website: HTML + CSS + JS (no frameworks)
-- Hosting: Netlify (lambent-klepon-5feddb)
-- GitHub: auto-deploy connected
+- Hosting: GitHub Pages (free — Netlify suspended May 2)
+- GitHub: shaikhnoor78692/PersonalProject (public repo)
 - MCPs: github, gdrive, gmail, tavily
 - Skills: content-research-writer, lead-research-assistant
 

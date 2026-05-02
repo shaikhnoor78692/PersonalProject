@@ -35,7 +35,8 @@ What didn't work: Facebook scam group
 ## WEBSITE STATUS
 Last checked: May 2, 2026
 Score: 9/10
-Last change: Fixed pricing, removed unavailable services
+Hosting: GitHub Pages (migrated from Netlify — suspended)
+Last change: Migrated hosting + DNS updated in GoDaddy
 
 ## PRICING STATUS
 Current: ₹4,000 / ₹12,000 / ₹29,000
@@ -48,6 +49,7 @@ Decision: Keep launch pricing for first 3 clients
 | May 2 | Keep Phase 1 pricing | No clients yet |
 | May 2 | Skip Instagram | Wait for Phase 2 |
 | May 2 | Skip n8n | Wait for Phase 3 |
+| May 2 | Migrate to GitHub Pages | Netlify suspended |
 
 ## WEEKLY SCORECARDS HISTORY
 | Week | Revenue | Clients | Phase | Score |
