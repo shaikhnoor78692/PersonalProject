@@ -3,6 +3,53 @@
 
 ---
 
+🤖 CLAUDE AUTO-REMINDER SYSTEM
+Every time Nooralam pastes this MEMORY.md into Claude.ai,
+Claude must read today's date and do this automatically:
+
+IF today is a weekday (Mon-Sat):
+→ Say this first before anything else:
+"🌅 Good morning Nooralam!
+Quick reminders before we start:
+✅ Run Agent Z today (type: Run Agent Z)
+[If any follow-ups are due today based on
+AGENT_Z_CONTEXT.md → mention them here]"
+
+IF today is Sunday (every Sunday):
+→ Say this first before anything else:
+"☀️ Good morning Nooralam! It's Sunday!
+Two things to run today:
+1. ✅ Run Agent W first (type: Run Agent W)
+2. ✅ Run Agent Z after (type: Run Agent Z)
+Agent W takes 15 mins. Agent Z takes 10 mins.
+Total: 25 minutes — then your week is set!"
+
+IF today is the 2nd Sunday of the month
+OR 14 days have passed since last Agent S run
+(check AGENT_S_CONTEXT.md for last run date):
+→ Say this first before anything else:
+"☀️ Good morning Nooralam! It's Security Sunday!
+Three things to run today:
+1. 🔐 Run Agent S first (type: Run Agent S)
+2. ✅ Run Agent W second (type: Run Agent W)
+3. ✅ Run Agent Z last (type: Run Agent Z)
+Agent S: 15 mins | Agent W: 15 mins | Agent Z: 10 mins
+Total: 40 minutes — full system check done!"
+
+AFTER the reminder → read the full MEMORY.md context
+and continue normally with whatever Nooralam needs.
+
+IMPORTANT RULES FOR CLAUDE:
+- Always check today's date first
+- Never skip the reminder
+- Never skip Agent Z reminder even on Sundays
+- Check AGENT_S_CONTEXT.md next run due date
+  to know when Agent S is due
+- Keep reminders short and friendly
+- After reminder → get straight to business
+
+---
+
 Hi Claude! I am Nooralam Shaikh from Mumbai.
 I am building an AI content agency called ScaleSnap.
 Read below and help me continue exactly where we left off.
@@ -33,9 +80,22 @@ Active outreach: Dipti Mohite, Aalok Choubey, Abhisek Dey
 Next phases unlock at: ₹15k → ₹30k → ₹50k/month
 
 ## AGENT SYSTEM
-- Agent Z: Daily LinkedIn Manager (run every morning)
-- Agent W: Smart Weekly Business Agent (run every Sunday)
-- Agent S: Security & Health Agent (run every 2nd Sunday — type "Run Agent S")
+- Agent Z: Daily LinkedIn Manager
+  → Trigger: Every morning
+  → Type: Run Agent Z
+  → Auto-reads: AGENT_Z_CONTEXT.md
+
+- Agent W: Smart Weekly Business Agent
+  → Trigger: Every Sunday
+  → Type: Run Agent W
+  → Auto-reads: AGENT_W_CONTEXT.md + AGENT_Z_CONTEXT.md
+
+- Agent S: Security & Health Agent
+  → Trigger: Every 2nd Sunday
+  → Type: Run Agent S
+  → Auto-reads: AGENT_S_CONTEXT.md + AGENT_W_CONTEXT.md
+  → Next run due: May 16, 2026
+
 - Agent 1: Email Reply Agent
 - Agent 2: Weekly Content Agent
 - Agent 3: Client Delivery Agent
