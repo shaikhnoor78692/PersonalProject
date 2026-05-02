@@ -135,11 +135,15 @@ Evening (5 mins):
 - Fiverr: fiverr.com/scalesnap
 
 ## WEBSITE STATUS
+- Hosting: GitHub Pages (migrated from Netlify — suspended)
+- URL: shaikhnoor78692.github.io/PersonalProject (temp)
+- Custom domain: scalesnap.in (DNS update needed in GoDaddy)
 - Pricing: ₹4,000 / ₹12,000 / ₹29,000/month ✅
 - Services: AI Content Writing, Social Media, Email Sequences ✅
 - Logo: Added to navbar and footer ✅
 - Copyright: © 2026 ✅
-- Last commit: Fix pricing, remove unavailable services
+- Contact form: Formspree (replace YOUR_FORM_ID after signup)
+- Monthly cost: still ₹92/month (GitHub Pages is free)
 
 ## OUTREACH STATUS (May 2, 2026)
 - Dipti Mohite: LinkedIn comment sent ⏳ awaiting reply

@@ -779,7 +779,7 @@ Month 1: ₹15,000-20,000
 ```
 Gmail:      scalesnap.in@gmail.com
 GoDaddy:    scalesnap.in (₹1,100/yr)
-Netlify:    lambent-klepon-5feddb
+Hosting:    GitHub Pages (Netlify suspended — migrated May 2, 2026)
 GitHub:     auto-deploy connected
 Fiverr:     fiverr.com/scalesnap (10/12)
 LinkedIn:   linkedin.com/in/nooralam-scalesnap

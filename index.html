@@ -361,24 +361,16 @@
       </div>
 
       <!--
-        NETLIFY FORMS: This form is pre-configured for Netlify Forms.
-        Just deploy to Netlify — submissions will appear in your Forms dashboard.
-        data-netlify="true" tells Netlify to process this form automatically.
+        FORMSPREE: Form submissions go to scalesnap.in@gmail.com via Formspree.
+        Sign up free at formspree.io → create form → replace YOUR_FORM_ID below.
       -->
       <form
         id="quoteForm"
         class="quote-form fade-in"
-        name="quote"
+        action="https://formspree.io/f/YOUR_FORM_ID"
         method="POST"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
         novalidate
       >
-        <!-- Netlify hidden fields -->
-        <input type="hidden" name="form-name" value="quote" />
-        <div class="form-group" style="display:none;" aria-hidden="true">
-          <label>Don't fill this out: <input name="bot-field" /></label>
-        </div>
 
         <!-- Name -->
         <div class="form-group">
