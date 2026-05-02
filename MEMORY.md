@@ -68,7 +68,8 @@ Read below and help me continue exactly where we left off.
 - Facebook: ScaleSnap Business Page (LIVE ✅)
 - Razorpay: 3 payment links active ✅
 - PayPal: Pending bank verification ⏳
-- MCPs: github, gdrive, gmail, tavily (all connected ✅)
+- MCPs: GitHub ✅ | Tavily ✅ | Gmail 🔴 | GDrive 🔴
+- Gmail account: 🔴 Disabled — appeal submitted May 2
 - Skills: content-research-writer, lead-research-assistant ✅
 - CLAUDE.md: Auto-update system active ✅
 
@@ -76,7 +77,11 @@ Read below and help me continue exactly where we left off.
 Phase 1 — Getting First Client
 Target: ₹15,000/month
 Status: 0 clients so far
-Active outreach: Dipti Mohite, Aalok Choubey, Abhisek Dey
+Active outreach:
+- Dipti Mohite: LinkedIn comment sent ⏳ awaiting reply
+- Aalok Choubey: Email sent ⏳ awaiting reply
+- Abhisek Dey: Email sent ⏳ awaiting reply
+- Follow up if no reply by: May 4, 2026
 Next phases unlock at: ₹15k → ₹30k → ₹50k/month
 
 ## AGENT SYSTEM
@@ -173,15 +178,41 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 - Skills: content-research-writer, lead-research-assistant
 
 ## KEY FILES IN PROJECT
-- SCALESNAP_HANDOVER_v2.md → Full session details + all agents
-- MEMORY.md → This file
-- ScaleSnap_Agent_Templates.md → All 8 agent prompts
+Root:
+- MEMORY.md → This file — paste at start of every chat
+- CLAUDE.md → Claude Code standing instructions
+- README.md → Developer setup guide
+- .gitignore → Security — blocks sensitive files
+
+agents/
+- AGENT_Z_CONTEXT.md → Daily context — auto-updated
+- AGENT_W_CONTEXT.md → Weekly context — auto-updated
+- AGENT_S_CONTEXT.md → Security context — auto-updated
+- ScaleSnap_Agent_Templates.md → All agent prompts
+
+management/
+- SCALESNAP_HANDOVER_v2.md → Full session details
+- ScaleSnap_Project_Hub.md → Master project organiser
+- SESSION_2_SUMMARY.md → Session 2 recap
+- SESSION_3_SUMMARY.md → Today's session recap
+- ScaleSnap_Complete_Setup_Guide.md → Business bible
+
+website/
+- index.html → Main website
+- style.css → Styling
+- script.js → Scripts
+- thank-you.html → Form confirmation
+- netlify.toml → Deploy config
+
+brand/
 - scalesnap_logo_transparent.svg → Website logo
 - scalesnap_logo.png → Social media logo
-- scalesnap_facebook_cover.png → Facebook cover photo
-- README.md → Developer setup guide
+- scalesnap_facebook_cover.png → Facebook cover
+
+setup/
 - SETUP.sh → New laptop auto-setup
-- CLAUDE.md → Claude Code standing instructions
+
+clients/ → Empty now — fills when orders come in
 
 ## SCAM WARNING
 - Fiverr scam May 1: User iwib1kee7wsg sent fake order
@@ -195,10 +226,38 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 - Never commit .env files
 - Run Agent S every 2nd Sunday
 - Next Agent S run due: May 16, 2026
-- If Google account restored → immediately revoke
-  old OAuth client in Google Cloud Console
-- Always check Fiverr orders tab — never messages tab
+- Google account disabled — appeal submitted May 2
+  → When restored: immediately revoke old OAuth client
+  → Then regenerate credentials + reconnect MCPs
+- gcp-oauth.keys.json — purged from GitHub history ✅
+- Always check Fiverr Orders tab — never messages tab
 - Never click Google Doc links from strangers
 - Report all scam attempts immediately
+
+## LOGGING OFF SYSTEM
+When Nooralam says any of these:
+"logging off" / "done for the day" / "shutting down" /
+"closing laptop" / "that's it for today" / "wrapping up"
+
+Claude must automatically:
+1. Ask these 3 quick questions:
+   "Before you go — quick update:
+   1. Any replies received today from leads?
+   2. Any actions completed today not yet logged?
+   3. Anything urgent for tomorrow I should flag?"
+
+2. Then update these files via Claude Code prompt:
+   - MEMORY.md → business status + outreach status
+   - SCALESNAP_HANDOVER_v2.md → session summary
+   - AGENT_Z_CONTEXT.md → if any leads updated
+   - AGENT_W_CONTEXT.md → if revenue/clients changed
+   - AGENT_S_CONTEXT.md → if any security issues found
+
+3. Then say:
+   "✅ All documents updated and saved to GitHub.
+   See you tomorrow Nooralam!
+   First thing tomorrow: paste MEMORY.md + Run Agent Z 🚀"
+
+---
 
 Ready to continue! What should we do today?

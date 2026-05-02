@@ -30,6 +30,21 @@
   - Email to Aalok Kumar Choubey (info.fragreto@gmail.com)
   - Email to Abhisek Dey (abhisekdey.net@gmail.com)
 
+### Session 2 Extended (May 2, 2026)
+- ScaleSnap_Project_Hub.md created (6 sections)
+- Agent Z made fully automatic (reads AGENT_Z_CONTEXT.md)
+- Agent W made fully automatic (reads AGENT_W_CONTEXT.md)
+- Agent S built — Security & Health Agent (every 2nd Sunday)
+- Auto-reminder system added to MEMORY.md
+- Logging off system added to MEMORY.md
+- Future agent roadmap saved (Phase 2/3/4 agents)
+- Phase checker added to Agent W
+- Project folder reorganised into subfolders
+- Security incident: gcp-oauth.keys.json exposed + fixed
+- Google account disabled — appeal submitted
+- .gitignore created — all sensitive files blocked
+- Credentials purged from all 19 git commits
+
 ---
 
 ## 🤖 DAILY AGENT SYSTEM
@@ -690,49 +705,44 @@ EVENING (5 mins):
 
 ## 📋 PENDING TASKS (Priority Order)
 
-### 1. HIGH — PayPal Bank Verification ⏳
-```
-Check bank for 2 small PayPal deposits
-Login paypal.com → Payment Methods →
-Select bank → Enter 2 amounts → Verified!
-```
+### 1. CRITICAL — Google Account Recovery 🔴
+When Google restores scalesnap.in@gmail.com:
+→ Go to console.cloud.google.com
+→ APIs & Services → Credentials
+→ Delete old OAuth 2.0 Client ID
+→ Create new one → download new JSON
+→ Save as gcp-oauth.keys.json (DO NOT commit to GitHub)
+→ Re-run Drive and Gmail MCP auth flows
+→ Update AGENT_S_CONTEXT.md account status table
+→ Update AGENT_W_CONTEXT.md MCP status
 
-### 2. HIGH — First Client (IN PROGRESS)
-```
-Outreach done May 2:
+### 2. HIGH — PayPal Bank Verification ⏳
+→ Check bank for 2 small PayPal deposits
+→ Login paypal.com → Payment Methods
+→ Select bank → Enter 2 amounts → Verified!
+
+### 3. HIGH — First Client (IN PROGRESS)
 → Dipti Mohite — LinkedIn comment ✅
 → Aalok Choubey — Email sent ✅
 → Abhisek Dey — Email sent ✅
+→ Follow up May 4 if no reply
 
-Next step: Follow up in 48 hours if no reply
-Follow up message:
-"Hi [Name], just following up on my message
-about content writing. Happy to share a free
-sample to show you quality first. 🙏
-— Nooralam, ScaleSnap"
-```
+### 4. HIGH — Daily LinkedIn (Run Agent Z every morning)
+→ Post every day
+→ Connect with 3 people every day
+→ Comment on 3 posts every day
 
-### 3. HIGH — Daily LinkedIn (Run Agent Z every morning)
-```
-Goal: Post every day
-Goal: Connect with 3 people every day
-Goal: Comment on 3 posts every day
-```
+### 5. MEDIUM — Google Business Profile
+→ Go to business.google.com
+→ Business: ScaleSnap
+→ Category: Content Marketing Agency
+→ Location: Mumbai, Maharashtra
+→ Website: scalesnap.in
+→ NOTE: Need Google account restored first
 
-### 4. MEDIUM — Google Business Profile
-```
-Go to: business.google.com
-Business: ScaleSnap
-Category: Content Marketing Agency
-Location: Mumbai, Maharashtra
-Website: scalesnap.in
-```
-
-### 5. LOW — Instagram Business Account
-```
-Wait until Phase 2 (₹15k/month)
-Username to reserve: @scalesnap.in
-```
+### 6. LOW — Instagram Business Account
+→ Wait until Phase 2 (₹15k/month)
+→ Username to reserve: @scalesnap.in
 
 ---
 
