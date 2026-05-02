@@ -17,9 +17,10 @@ Read below and help me continue exactly where we left off.
 ## BUSINESS STATUS
 - Website: scalesnap.in (LIVE ✅)
 - Fiverr: fiverr.com/scalesnap (LIVE ✅)
+- LinkedIn: linkedin.com/in/nooralam-scalesnap (LIVE ✅)
+- Facebook: ScaleSnap Business Page (LIVE ✅)
 - Razorpay: 3 payment links active ✅
 - PayPal: Pending bank verification ⏳
-- Profile Score: 10/12 ✅
 - MCPs: github, gdrive, gmail, tavily (all connected ✅)
 - Skills: content-research-writer, lead-research-assistant ✅
 - CLAUDE.md: Auto-update system active ✅
@@ -28,7 +29,35 @@ Read below and help me continue exactly where we left off.
 Phase 1 — Getting First Client
 Target: ₹15,000/month
 Status: 0 clients so far
+Active outreach: Dipti Mohite, Aalok Choubey, Abhisek Dey
 Next phases unlock at: ₹15k → ₹30k → ₹50k/month
+
+## AGENT SYSTEM
+- Agent Z: Daily LinkedIn Manager (run every morning)
+- Agent W: Smart Weekly Business Agent (run every Sunday)
+- Agent 1: Email Reply Agent
+- Agent 2: Weekly Content Agent
+- Agent 3: Client Delivery Agent
+- Agent 4: Website Update Agent
+- Agent 5: Lead Research Agent
+- Agent 6: Order Fulfillment Agent
+
+## DAILY ROUTINE
+Morning (10 mins):
+→ Type "Run Agent Z" with today's date + yesterday's context
+→ Publish the post it gives
+→ Send 3 connection requests
+→ Leave 3 comments
+Evening (5 mins):
+→ Check email replies
+→ Check LinkedIn notifications
+→ Check Fiverr briefs
+
+## SUNDAY ROUTINE
+⚠️ EVERY SUNDAY → Type "Run Agent W"
+→ Give this week's business status
+→ Follow the decisions it makes
+→ Execute Agent 4 instructions for website
 
 ## PAYMENT DETAILS
 - UPI: shaikhnoor78692@okhdfcbank
@@ -37,14 +66,18 @@ Next phases unlock at: ₹15k → ₹30k → ₹50k/month
 - Razorpay Agency: https://rzp.io/rzp/xz3E1vG
 - Fiverr: fiverr.com/scalesnap
 
-## SESSION 3 PRIORITIES
-1. Check PayPal verification (2 small deposits in bank → enter at paypal.com)
-2. Create ScaleSnap Instagram business account (@scalesnap.in)
-3. Share Fiverr gig to get first client
+## WEBSITE STATUS
+- Pricing: ₹4,000 / ₹12,000 / ₹29,000/month ✅
+- Services: AI Content Writing, Social Media, Email Sequences ✅
+- Logo: Added to navbar and footer ✅
+- Copyright: © 2026 ✅
+- Last commit: Fix pricing, remove unavailable services
 
-## AGENT TEMPLATES
-File: ScaleSnap_Agent_Templates.md (in repo ✅)
-6 agents ready: Email Reply, Weekly Content, Client Delivery, Website Update, Lead Research, Order Fulfillment
+## OUTREACH STATUS (May 2, 2026)
+- Dipti Mohite: LinkedIn comment sent ⏳ awaiting reply
+- Aalok Choubey: Email sent (info.fragreto@gmail.com) ⏳
+- Abhisek Dey: Email sent (abhisekdey.net@gmail.com) ⏳
+- Follow up if no reply by: May 4, 2026
 
 ## PHASE ROADMAP
 Phase 1 (NOW):      ₹92/mo  → Get first client
@@ -53,11 +86,11 @@ Phase 3 (₹30k/mo): ₹1,500/mo → Add n8n automation
 Phase 4 (₹50k/mo): Custom → Full AI agent system
 
 ## HOW I WORK WITH CLAUDE
-- Claude.ai = strategy, content, creating files
+- Claude.ai = strategy, content, agents, creating files
 - Claude Code = editing website files only
 - I copy-paste prompts Claude gives me
 - Claude creates files directly (not Canva)
-- After every task → Claude updates all 4 docs
+- After every task → Claude updates all documents
 
 ## IMPORTANT RULES
 - Always give exact prompts to copy-paste
@@ -65,20 +98,32 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 - Create files directly here when possible
 - Be honest — don't suggest unnecessary costs
 - No personal social media for Nooralam
-- Update HANDOVER + MEMORY + README + SETUP after every task
+- Update HANDOVER + MEMORY after every session
+- Sunday = Run Agent W reminder
 
 ## TECH STACK
 - Website: HTML + CSS + JS (no frameworks)
-- Hosting: Netlify (auto-deploy from GitHub)
+- Hosting: Netlify (lambent-klepon-5feddb)
+- GitHub: auto-deploy connected
 - MCPs: github, gdrive, gmail, tavily
 - Skills: content-research-writer, lead-research-assistant
-- To update site: git add . → git commit → git push
 
 ## KEY FILES IN PROJECT
-- SCALESNAP_HANDOVER.md → Full session details
+- SCALESNAP_HANDOVER_v2.md → Full session details + all agents
 - MEMORY.md → This file
+- ScaleSnap_Agent_Templates.md → All 8 agent prompts
+- scalesnap_logo_transparent.svg → Website logo
+- scalesnap_logo.png → Social media logo
+- scalesnap_facebook_cover.png → Facebook cover photo
 - README.md → Developer setup guide
 - SETUP.sh → New laptop auto-setup
 - CLAUDE.md → Claude Code standing instructions
+
+## SCAM WARNING
+- Fiverr scam May 1: User iwib1kee7wsg sent fake order
+- Real orders ONLY appear in Orders tab
+- Never click Google Doc links from strangers
+- Facebook "Mumbai Business Network" group = SCAM
+  (asks for WhatsApp to admin before posting)
 
 Ready to continue! What should we do today?
