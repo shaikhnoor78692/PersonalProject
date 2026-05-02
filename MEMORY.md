@@ -37,15 +37,14 @@ Next phases unlock at: ₹15k → ₹30k → ₹50k/month
 - Razorpay Agency: https://rzp.io/rzp/xz3E1vG
 - Fiverr: fiverr.com/scalesnap
 
-## TOMORROW'S PRIORITIES (Session 2)
-1. Build 4 free AI agent templates:
-   - Email Reply Agent (Gmail MCP)
-   - Weekly Content Agent (Tavily + Claude)
-   - Client Delivery Agent (GDrive MCP)
-   - Website Update Agent (GitHub MCP)
-2. Check PayPal verification (2 small deposits in bank)
-3. Create ScaleSnap Instagram business account
-4. Share Fiverr gig to get first client
+## SESSION 3 PRIORITIES
+1. Check PayPal verification (2 small deposits in bank → enter at paypal.com)
+2. Create ScaleSnap Instagram business account (@scalesnap.in)
+3. Share Fiverr gig to get first client
+
+## AGENT TEMPLATES
+File: ScaleSnap_Agent_Templates.md (in repo ✅)
+6 agents ready: Email Reply, Weekly Content, Client Delivery, Website Update, Lead Research, Order Fulfillment
 
 ## PHASE ROADMAP
 Phase 1 (NOW):      ₹92/mo  → Get first client

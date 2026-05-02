@@ -17,7 +17,8 @@ scalesnap/
 ├── README.md               → This file
 ├── SCALESNAP_HANDOVER.md   → Full session handover doc
 ├── MEMORY.md               → Quick Claude session starter
-└── SETUP.sh                → New laptop auto-setup script
+├── SETUP.sh                → New laptop auto-setup script
+└── ScaleSnap_Agent_Templates.md → 6 agent prompt templates
 ```
 
 ## 🎨 Design System
