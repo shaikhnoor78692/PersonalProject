@@ -91,6 +91,7 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 - I copy-paste prompts Claude gives me
 - Claude creates files directly (not Canva)
 - After every task → Claude updates all documents
+- Agent Z reads AGENT_Z_CONTEXT.md automatically — just type "Run Agent Z"
 
 ## IMPORTANT RULES
 - Always give exact prompts to copy-paste

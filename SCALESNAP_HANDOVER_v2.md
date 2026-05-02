@@ -47,27 +47,11 @@ Just type the trigger word — Claude will do the rest!
 
 ### How to run every morning:
 1. Open Claude.ai
-2. Paste your MEMORY.md first
-3. Then type **Run Agent Z** with this context:
-
-```
-Run Agent Z
-
-Today's date: [TODAY'S DATE e.g. May 3, 2026]
-
-WHAT I DID YESTERDAY:
-- [List outreach done e.g. Emailed Aalok, commented on Dipti]
-- [List posts published]
-- [Any other actions]
-
-REPLIES RECEIVED:
-- [Name + what they said, OR "No replies yet"]
-
-CURRENT STATUS:
-- Clients: [number e.g. 0]
-- Active leads: [names if any]
-- LinkedIn followers: [number]
-```
+2. Paste MEMORY.md
+3. Type just: **Run Agent Z**
+4. Agent Z reads AGENT_Z_CONTEXT.md from GitHub automatically
+5. Answer its quick check-in questions (30 seconds)
+6. Execute the output (10 minutes)
 
 ### What Agent Z gives you:
 ```
