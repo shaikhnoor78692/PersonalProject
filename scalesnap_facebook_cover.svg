@@ -1,0 +1,46 @@
+<svg width="820" height="312" viewBox="0 0 820 312" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="820" height="312" fill="#0a0a0f"/>
+
+<!-- Subtle grid pattern -->
+<line x1="0" y1="104" x2="820" y2="104" stroke="#1a1a24" stroke-width="1"/>
+<line x1="0" y1="208" x2="820" y2="208" stroke="#1a1a24" stroke-width="1"/>
+<line x1="205" y1="0" x2="205" y2="312" stroke="#1a1a24" stroke-width="1"/>
+<line x1="410" y1="0" x2="410" y2="312" stroke="#1a1a24" stroke-width="1"/>
+<line x1="615" y1="0" x2="615" y2="312" stroke="#1a1a24" stroke-width="1"/>
+
+<!-- Bar chart icon large -->
+<rect x="80" y="180" width="28" height="72" rx="6" fill="#7c6ef2" opacity="0.6"/>
+<rect x="118" y="148" width="28" height="104" rx="6" fill="#7c6ef2" opacity="0.75"/>
+<rect x="156" y="110" width="28" height="142" rx="6" fill="#7c6ef2" opacity="0.9"/>
+<rect x="194" y="130" width="28" height="122" rx="6" fill="#e4845a" opacity="0.9"/>
+<rect x="232" y="155" width="28" height="97" rx="6" fill="#e4845a" opacity="0.7"/>
+
+<!-- Trend line -->
+<polyline points="94,180 132,148 170,110 208,130 246,155" fill="none" stroke="#e4845a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170" cy="110" r="7" fill="#e4845a"/>
+
+<!-- Main text -->
+<text x="300" y="130" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#f0f0f5" letter-spacing="1">Scale<tspan fill="#e4845a">Snap</tspan></text>
+
+<!-- Tagline -->
+<text x="300" y="175" font-family="Georgia, serif" font-size="20" fill="#8888a0" letter-spacing="2">AI-POWERED CONTENT AGENCY</text>
+
+<!-- Services pills -->
+<rect x="300" y="200" width="140" height="34" rx="17" fill="#1a1a24" stroke="#7c6ef2" stroke-width="1"/>
+<text x="370" y="222" font-family="Georgia, serif" font-size="13" fill="#7c6ef2" text-anchor="middle">SEO Blog Posts</text>
+
+<rect x="452" y="200" width="160" height="34" rx="17" fill="#1a1a24" stroke="#7c6ef2" stroke-width="1"/>
+<text x="532" y="222" font-family="Georgia, serif" font-size="13" fill="#7c6ef2" text-anchor="middle">Social Media Posts</text>
+
+<rect x="624" y="200" width="160" height="34" rx="17" fill="#1a1a24" stroke="#7c6ef2" stroke-width="1"/>
+<text x="704" y="222" font-family="Georgia, serif" font-size="13" fill="#7c6ef2" text-anchor="middle">Email Sequences</text>
+
+<!-- Website -->
+<text x="300" y="268" font-family="Georgia, serif" font-size="15" fill="#e4845a" letter-spacing="1">scalesnap.in</text>
+
+<!-- Starting price -->
+<text x="300" y="295" font-family="Georgia, serif" font-size="13" fill="#8888a0">Starting at ₹4,000/month · Mumbai, India</text>
+
+</svg>

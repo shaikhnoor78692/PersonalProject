@@ -1,0 +1,29 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="icongrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#7c6ef2"/>
+    <stop offset="100%" stop-color="#e4845a"/>
+  </linearGradient>
+</defs>
+
+<!-- Background -->
+<rect width="500" height="500" rx="60" fill="#0a0a0f"/>
+
+<!-- Growth bars -->
+<rect x="100" y="240" width="45" height="110" rx="8" fill="#7c6ef2" opacity="0.7"/>
+<rect x="160" y="200" width="45" height="150" rx="8" fill="#7c6ef2" opacity="0.85"/>
+<rect x="220" y="155" width="45" height="195" rx="8" fill="url(#icongrad)"/>
+<rect x="280" y="180" width="45" height="170" rx="8" fill="#e4845a" opacity="0.85"/>
+<rect x="340" y="210" width="45" height="140" rx="8" fill="#e4845a" opacity="0.6"/>
+
+<!-- Trend line -->
+<polyline points="122,240 182,200 242,155 302,180 362,210" fill="none" stroke="#e4845a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="242" cy="155" r="7" fill="#e4845a"/>
+
+<!-- Brand name -->
+<text x="250" y="415" text-anchor="middle" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#f0f0f5" letter-spacing="2">Scale<tspan fill="#e4845a">Snap</tspan></text>
+
+<!-- Tagline -->
+<text x="250" y="455" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#8888a0" letter-spacing="3">AI CONTENT AGENCY</text>
+
+</svg>
