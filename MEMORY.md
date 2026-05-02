@@ -35,6 +35,7 @@ Next phases unlock at: ₹15k → ₹30k → ₹50k/month
 ## AGENT SYSTEM
 - Agent Z: Daily LinkedIn Manager (run every morning)
 - Agent W: Smart Weekly Business Agent (run every Sunday)
+- Agent S: Security & Health Agent (run every 2nd Sunday — type "Run Agent S")
 - Agent 1: Email Reply Agent
 - Agent 2: Weekly Content Agent
 - Agent 3: Client Delivery Agent
@@ -128,5 +129,16 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 - Never click Google Doc links from strangers
 - Facebook "Mumbai Business Network" group = SCAM
   (asks for WhatsApp to admin before posting)
+
+## SECURITY RULES
+- Never commit .json credential files to GitHub
+- Never commit .env files
+- Run Agent S every 2nd Sunday
+- Next Agent S run due: May 16, 2026
+- If Google account restored → immediately revoke
+  old OAuth client in Google Cloud Console
+- Always check Fiverr orders tab — never messages tab
+- Never click Google Doc links from strangers
+- Report all scam attempts immediately
 
 Ready to continue! What should we do today?
