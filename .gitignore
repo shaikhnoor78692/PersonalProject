@@ -1,4 +1,7 @@
 .claude/
 .env
+*.env
 node_modules/
 .DS_Store
+gcp-oauth.keys.json
+*.keys.json
