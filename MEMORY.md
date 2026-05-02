@@ -143,9 +143,15 @@ Evening (5 mins):
 
 ## OUTREACH STATUS (May 2, 2026)
 - Dipti Mohite: LinkedIn comment sent ⏳ awaiting reply
-- Aalok Choubey: Email sent (info.fragreto@gmail.com) ⏳
-- Abhisek Dey: Email sent (abhisekdey.net@gmail.com) ⏳
+- Aalok Choubey: Email sent ⏳ awaiting reply
+- Abhisek Dey: Email sent ⏳ awaiting reply
 - Follow up if no reply by: May 4, 2026
+
+## TOMORROW'S PRIORITIES (May 3, 2026)
+1. 🔴 Check personal email for Google appeal response
+2. ✅ Paste MEMORY.md → Run Agent Z (first thing)
+3. ⏳ Check replies from Dipti, Aalok, Abhisek
+4. ⏳ Follow up due May 4 if no replies yet
 
 ## PHASE ROADMAP
 Phase 1 (NOW):      ₹92/mo  → Get first client

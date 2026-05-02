@@ -1,15 +1,23 @@
 # Logging Off — Fixed Prompt for Claude Code
 # When Nooralam says "logging off" in Claude.ai,
-# Claude.ai asks 3 questions and formats the answers.
+# Claude.ai asks 2 questions and formats the answers.
 # Then Nooralam pastes ONLY the formatted answers here.
 # Claude Code reads them and does everything automatically.
+
+---
+
+## Logging Off Check-in — Only 2 Questions:
+1. Any replies received from leads today?
+2. Anything you did today not logged yet?
+Claude figures out tomorrow's priorities automatically
+from context files — no need to ask Nooralam.
 
 ---
 
 ## How to use this every evening:
 
 STEP 1 — In Claude.ai say "logging off"
-STEP 2 — Answer 3 questions
+STEP 2 — Answer 2 questions
 STEP 3 — Copy the formatted output Claude.ai gives
 STEP 4 — Open Claude Code and type:
           "Run logging off: [paste answers here]"
