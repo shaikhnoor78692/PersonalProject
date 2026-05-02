@@ -158,6 +158,12 @@ Evening (5 mins):
 4. ✅ Paste MEMORY.md → Run Agent Z
 5. ⏳ Check replies from Dipti, Aalok, Abhisek
 
+## LOW PRIORITY TASKS
+- Delete ScaleSnap site from Netlify account
+  (site already migrated to GitHub Pages — no rush)
+- Instagram business account @scalesnap.in
+  (wait until Phase 2 — ₹15k/month)
+
 ## PHASE ROADMAP
 Phase 1 (NOW):      ₹92/mo  → Get first client
 Phase 2 (₹15k/mo): ₹800/mo → Add Buffer for social media
