@@ -55,9 +55,11 @@ Evening (5 mins):
 
 ## SUNDAY ROUTINE
 ⚠️ EVERY SUNDAY → Type "Run Agent W"
-→ Give this week's business status
-→ Follow the decisions it makes
-→ Execute Agent 4 instructions for website
+→ Agent W reads AGENT_W_CONTEXT.md automatically
+→ Asks you only 3 quick questions
+→ Gives full weekly analysis and decisions
+→ Updates context files automatically
+→ Takes 15 minutes total
 
 ## PAYMENT DETAILS
 - UPI: shaikhnoor78692@okhdfcbank
