@@ -169,19 +169,28 @@ If follow-up is due today → this is always action #1.
 6. TOMORROW PREVIEW
 3-line preview of what tomorrow should focus on.
 
-STEP 3 — CONTEXT UPDATE INSTRUCTIONS:
-At the end of every Agent Z run, output this:
+STEP 3 — AUTO-UPDATE CONTEXT FILE:
+After delivering all 6 sections, automatically update
+AGENT_Z_CONTEXT.md in the GitHub repo with these changes:
 
----
-AGENT_Z_CONTEXT.md UPDATE NEEDED:
-Please update these fields in your context file:
-- Last post topic: [today's post topic]
-- Last post date: [today's date]
-- Topics used: add "[today's topic]"
-- LinkedIn followers: [number from check-in]
-- Any new replies: [if yes, add to replies section]
-- Any new leads added: [if yes, add to leads table]
----
+1. LAST UPDATED → today's date
+2. LinkedIn followers → number from check-in
+3. Last post topic → today's post topic
+4. Last post date → today's date
+5. Posts published → add today's post to the list
+6. Topics used → add today's topic
+7. Yesterday's actions → replace with today's planned actions
+8. Replies received → update if any replies given in check-in
+9. Active leads → update status if any lead replied
+10. Follow up due → recalculate based on new lead statuses
+
+After updating the file, commit to GitHub with message:
+"auto: Agent Z context update [TODAY'S DATE]"
+
+Then confirm to Nooralam:
+"✅ Context file updated and saved.
+Tomorrow I'll pick up exactly from here.
+See you tomorrow! 🚀"
 
 RULES:
 - Everything copy-paste ready
