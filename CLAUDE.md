@@ -41,11 +41,24 @@ Update ALL 4 files after:
 - Any payment link changed
 - Any configuration changed
 
+## GIT WORKFLOW — BRANCH PROTECTION ACTIVE
+main branch is protected. Direct push to main will be REJECTED.
+
+For ALL changes:
+1. `git checkout dev` or `git checkout -b dev`
+2. Make all changes on dev only
+3. `git push origin dev`
+4. Create PR: dev → main (via GitHub MCP or `gh pr create`)
+5. End every task with: "Changes pushed to dev branch. Pull Request created. Please review before merging."
+6. NEVER merge the PR — user merges manually
+
 ## HOW TO UPDATE
 After every completed task run:
+git checkout dev
 git add SCALESNAP_HANDOVER.md MEMORY.md README.md SETUP.sh
 git commit -m "docs: update handover after [task name]"
-git push
+git push origin dev
+# Then create PR from dev → main
 
 ## PROJECT CONTEXT
 - Owner: Nooralam Shaikh
