@@ -1,4 +1,4 @@
-# ScaleSnap — Master Memory File v4.0
+# ScaleSnap — Master Memory File v4.1
 # Owner: Nooralam Shaikh | Updated: May 3, 2026
 # Paste this at the start of EVERY new Claude.ai chat
 
@@ -400,27 +400,20 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 - Monthly cost: ₹92/month (domain only)
 
 ## Website Sections (May 3, 2026)
-- Navbar: Logo + Services, How It Works, Pricing, FAQ, Contact ✅
-- Hero: "Automate. Create. Scale with AI." (fix pending)
+- Navbar: Logo + Services, How It Works, Pricing, FAQ, About, Contact ✅
+- Hero: "Automate. Create. Scale with AI." — subtext fixed ✅
 - Services: AI Content Writing, Social Media, Email Sequences ✅
-- How It Works: 4 steps ✅
-- About: ⏳ PENDING — website PR not yet merged
-- Work Samples: ⏳ PENDING — website PR not yet merged
-- Pricing: ₹4,000 / ₹12,000 / ₹29,000 ✅
-- FAQ: ⏳ PENDING — website PR not yet merged
-- WhatsApp button: ⏳ PENDING — needs real phone number first
+- How It Works: 4 steps — Step 4 copy fixed ✅
+- About: Nooralam Shaikh, Mumbai, 3 stats cards ✅ LIVE
+- Work Samples: 3 cards — Blog (PDF), Social Media, Email ✅ LIVE
+- Pricing: ₹4,000 / ₹12,000 / ₹29,000 — dropdown fixed to ₹ ✅
+- FAQ: 6-item accordion ✅ LIVE
+- WhatsApp button: wa.me/918356012566, pulse, mobile-safe ✅ LIVE
+- Logo: scalesnap_logo_transparent.svg in docs/ ✅ FIXED
 - Footer: ✅ LIVE
 
 ## Pending Website Changes
-File: management/WEBSITE_UPDATE_PROMPT.md
-1. Fix budget dropdown $ → ₹
-2. Fix hero subtext
-3. Fix Step 4 copy
-4. Add About section
-5. Add Work Samples section
-6. Add FAQ section
-7. Add WhatsApp button (needs real phone number)
-8. Add About + FAQ to navbar
+None — all changes from May 3 are live ✅
 
 ## Design System
 Colors:
