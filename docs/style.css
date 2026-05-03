@@ -7,17 +7,16 @@
 
 /* ============================================================
    1. CSS CUSTOM PROPERTIES (design tokens)
-   Change colours/fonts here — they cascade everywhere.
 ============================================================ */
 :root {
   /* Colours */
-  --bg:           #0a0a0f;   /* page background */
-  --surface:      #111118;   /* card / section background */
-  --surface-2:    #1a1a24;   /* input / elevated surface */
+  --bg:           #0a0a0f;
+  --surface:      #111118;
+  --surface-2:    #1a1a24;
   --border:       rgba(255, 255, 255, 0.07);
-  --accent:       #7c6ef2;   /* purple */
+  --accent:       #7c6ef2;
   --accent-hover: #9183f5;
-  --accent-2:     #e4845a;   /* orange */
+  --accent-2:     #e4845a;
   --text:         #e8e8f0;
   --text-muted:   #8888a0;
   --error:        #e05a5a;
@@ -86,8 +85,6 @@ button {
 /* ============================================================
    3. UTILITY CLASSES
 ============================================================ */
-
-/* Centred max-width wrapper */
 .container {
   width: 100%;
   max-width: var(--container);
@@ -95,7 +92,6 @@ button {
   padding-inline: 24px;
 }
 
-/* Purple → orange gradient text */
 .gradient-text {
   background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
   -webkit-background-clip: text;
@@ -136,7 +132,6 @@ button {
   font-size: 1rem;
 }
 
-/* Primary — filled purple */
 .btn-primary {
   background: var(--accent);
   color: #fff;
@@ -151,7 +146,6 @@ button {
   transform: translateY(0);
 }
 
-/* Ghost — transparent with border */
 .btn-ghost {
   background: transparent;
   color: var(--text);
@@ -164,7 +158,6 @@ button {
   transform: translateY(-2px);
 }
 
-/* Outline — transparent with accent border */
 .btn-outline {
   background: transparent;
   color: var(--accent);
@@ -176,12 +169,10 @@ button {
   transform: translateY(-2px);
 }
 
-/* Full-width variant */
 .btn-full {
   width: 100%;
 }
 
-/* Loading state */
 .btn-spinner {
   display: none;
   width: 16px;
@@ -208,8 +199,6 @@ button {
 
 /* ============================================================
    5. FADE-IN SCROLL ANIMATIONS
-   Elements start hidden; script.js adds .visible when
-   they enter the viewport via IntersectionObserver.
 ============================================================ */
 .fade-in {
   opacity: 0;
@@ -240,7 +229,6 @@ button {
   transition: background var(--transition);
 }
 
-/* Darker on scroll — class added by script.js */
 .navbar.scrolled {
   background: rgba(10, 10, 15, 0.92);
 }
@@ -252,7 +240,6 @@ button {
   gap: 40px;
 }
 
-/* Logo */
 .logo {
   font-family: var(--font-head);
   font-size: 1.45rem;
@@ -269,17 +256,16 @@ button {
   color: var(--accent);
 }
 
-/* Nav links (desktop) */
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 28px;
   margin-right: auto;
 }
 
 .nav-links a {
   color: var(--text-muted);
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   font-weight: 500;
   transition: color var(--transition);
 }
@@ -288,12 +274,10 @@ button {
   color: var(--text);
 }
 
-/* CTA button in nav */
 .nav-cta {
   margin-left: auto;
 }
 
-/* Hamburger button (hidden on desktop) */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -318,7 +302,6 @@ button {
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Hamburger → X animation when menu is open */
 .hamburger.active span:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
 }
@@ -343,7 +326,6 @@ button {
   padding-top: var(--nav-h);
 }
 
-/* -- Animated glow orbs -- */
 .hero-orb {
   position: absolute;
   border-radius: 50%;
@@ -374,7 +356,7 @@ button {
   top: 55%;
   left: 58%;
   transform: translate(-50%, -50%);
-  animation: orbFloat 9s ease-in-out infinite alternate-reverse;
+  animation: orbFloat2 9s ease-in-out infinite alternate-reverse;
   animation-delay: 2s;
 }
 
@@ -383,17 +365,11 @@ button {
   100% { transform: translate(-52%, -58%) scale(1.25); opacity: 1;   }
 }
 
-/* Offset the second orb from the same transform origin */
-.hero-orb--2 {
-  animation-name: orbFloat2;
-}
-
 @keyframes orbFloat2 {
   0%   { transform: translate(-50%, -50%) scale(1);    opacity: 0.5; }
   100% { transform: translate(-44%, -44%) scale(1.15); opacity: 0.9; }
 }
 
-/* Hero content sits on top of orbs */
 .hero-content {
   position: relative;
   z-index: 1;
@@ -607,11 +583,10 @@ button {
   position: relative;
 }
 
-/* Horizontal connector line between steps (desktop only) */
 .steps-grid::before {
   content: '';
   position: absolute;
-  top: 27px; /* aligns with center of step number circles */
+  top: 27px;
   left: calc(12.5% + 12px);
   right: calc(12.5% + 12px);
   height: 2px;
@@ -627,7 +602,7 @@ button {
   text-align: center;
   padding: 0 8px;
   position: relative;
-  z-index: 1; /* sits above the connector line */
+  z-index: 1;
 }
 
 .step-number {
@@ -663,7 +638,156 @@ button {
 
 
 /* ============================================================
-   12. PRICING
+   12. ABOUT SECTION
+============================================================ */
+.about {
+  background: var(--bg);
+}
+
+.about-inner {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 64px;
+  align-items: center;
+}
+
+.about-text .section-tag {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.about-heading {
+  font-family: var(--font-head);
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+  margin-bottom: 24px;
+}
+
+.about-text p {
+  color: var(--text-muted);
+  font-size: 0.975rem;
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+.about-text p strong {
+  color: var(--text);
+}
+
+.about-text .btn {
+  margin-top: 8px;
+}
+
+.about-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.about-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.about-stat-num {
+  font-family: var(--font-head);
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.about-stat-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.about-location {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+
+/* ============================================================
+   13. WORK SAMPLES SECTION
+============================================================ */
+.work-samples {
+  background: var(--surface);
+}
+
+.samples-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.sample-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition),
+              border-color var(--transition),
+              box-shadow var(--transition);
+}
+
+.sample-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(124, 110, 242, 0.4);
+  box-shadow: 0 12px 48px rgba(124, 110, 242, 0.12);
+}
+
+.sample-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  line-height: 1;
+}
+
+.sample-type {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.sample-title {
+  font-family: var(--font-head);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.sample-desc {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.65;
+  flex: 1;
+  margin-bottom: 24px;
+}
+
+.sample-btn {
+  align-self: flex-start;
+  font-size: 0.875rem;
+}
+
+
+/* ============================================================
+   14. PRICING
 ============================================================ */
 .pricing {
   background: var(--bg);
@@ -689,7 +813,6 @@ button {
   transform: translateY(-4px);
 }
 
-/* Featured card styling */
 .pricing-card--featured {
   border-color: var(--accent);
   box-shadow: 0 0 48px rgba(124, 110, 242, 0.18);
@@ -763,7 +886,6 @@ button {
   color: var(--text-muted);
 }
 
-/* Style the checkmark character */
 .price-features li::first-letter {
   color: var(--accent);
   font-weight: 700;
@@ -771,10 +893,124 @@ button {
 
 
 /* ============================================================
-   13. CONTACT / QUOTE FORM
+   15. FAQ SECTION
+============================================================ */
+.faq {
+  background: var(--surface);
+}
+
+.faq-list {
+  max-width: 720px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-item {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color var(--transition);
+}
+
+.faq-item.open {
+  border-color: rgba(124, 110, 242, 0.35);
+}
+
+.faq-question {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  text-align: left;
+  font-family: var(--font-body);
+  font-size: 0.975rem;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  transition: color var(--transition);
+}
+
+.faq-question:hover {
+  color: var(--accent);
+}
+
+.faq-icon {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1.5px solid var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: border-color var(--transition),
+              transform var(--transition),
+              background var(--transition);
+}
+
+.faq-icon::before,
+.faq-icon::after {
+  content: '';
+  position: absolute;
+  background: var(--text-muted);
+  border-radius: 2px;
+  transition: background var(--transition),
+              transform var(--transition),
+              opacity var(--transition);
+}
+
+.faq-icon::before {
+  width: 10px;
+  height: 1.5px;
+}
+
+.faq-icon::after {
+  width: 1.5px;
+  height: 10px;
+}
+
+.faq-item.open .faq-icon {
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: rotate(45deg);
+}
+
+.faq-item.open .faq-icon::before,
+.faq-item.open .faq-icon::after {
+  background: #fff;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+
+.faq-answer p {
+  padding: 0 24px 20px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.75;
+}
+
+.faq-item.open .faq-answer {
+  max-height: 300px;
+}
+
+
+/* ============================================================
+   16. CONTACT / QUOTE FORM
 ============================================================ */
 .contact {
-  background: var(--surface);
+  background: var(--bg);
 }
 
 .contact-inner {
@@ -782,7 +1018,6 @@ button {
   margin-inline: auto;
 }
 
-/* Two-column form grid */
 .quote-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -795,7 +1030,6 @@ button {
   gap: 6px;
 }
 
-/* Full-width form group spans both columns */
 .form-group--full {
   grid-column: 1 / -1;
 }
@@ -811,7 +1045,6 @@ label {
   margin-left: 2px;
 }
 
-/* Shared input/select/textarea styles */
 input,
 select,
 textarea {
@@ -828,7 +1061,6 @@ textarea {
   transition: border-color var(--transition), box-shadow var(--transition);
 }
 
-/* Custom select arrow */
 select {
   appearance: none;
   -webkit-appearance: none;
@@ -839,14 +1071,12 @@ select {
   cursor: pointer;
 }
 
-/* Placeholder colour */
 input::placeholder,
 textarea::placeholder {
   color: var(--text-muted);
   opacity: 1;
 }
 
-/* Select placeholder option */
 select option[value=""] {
   color: var(--text-muted);
 }
@@ -856,7 +1086,6 @@ select option {
   color: var(--text);
 }
 
-/* Focus ring */
 input:focus,
 select:focus,
 textarea:focus {
@@ -864,7 +1093,6 @@ textarea:focus {
   box-shadow: 0 0 0 3px rgba(124, 110, 242, 0.18);
 }
 
-/* Error state */
 input.error,
 select.error,
 textarea.error {
@@ -877,7 +1105,6 @@ textarea {
   min-height: 120px;
 }
 
-/* Inline validation error text */
 .form-error {
   font-size: 0.8rem;
   color: var(--error);
@@ -889,7 +1116,6 @@ textarea {
   align-items: flex-start;
 }
 
-/* Success message shown after submit */
 .form-success {
   grid-column: 1 / -1;
   background: rgba(124, 110, 242, 0.08);
@@ -919,7 +1145,7 @@ textarea {
 
 
 /* ============================================================
-   14. FOOTER
+   17. FOOTER
 ============================================================ */
 .footer {
   background: var(--bg);
@@ -961,7 +1187,7 @@ textarea {
 
 
 /* ============================================================
-   15. BACK TO TOP BUTTON
+   18. BACK TO TOP BUTTON
 ============================================================ */
 .back-to-top {
   position: fixed;
@@ -976,7 +1202,6 @@ textarea {
   font-size: 1.6rem;
   line-height: 1;
   cursor: pointer;
-  /* Hidden by default — script.js adds .visible after 300px scroll */
   opacity: 0;
   pointer-events: none;
   transform: translateY(16px);
@@ -1000,7 +1225,41 @@ textarea {
 
 
 /* ============================================================
-   16. KEYFRAME ANIMATIONS
+   19. WHATSAPP FLOATING BUTTON
+============================================================ */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 92px;
+  right: 32px;
+  width: 56px;
+  height: 56px;
+  background: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  z-index: 150;
+  transition: transform var(--transition), box-shadow var(--transition);
+  animation: waPulse 2.5s ease-in-out infinite;
+  text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 32px rgba(37, 211, 102, 0.6);
+  animation-play-state: paused;
+}
+
+@keyframes waPulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4); }
+  50%       { box-shadow: 0 4px 32px rgba(37, 211, 102, 0.7), 0 0 0 8px rgba(37, 211, 102, 0.1); }
+}
+
+
+/* ============================================================
+   20. KEYFRAME ANIMATIONS
 ============================================================ */
 @keyframes spin {
   to { transform: rotate(360deg); }
@@ -1013,10 +1272,14 @@ textarea {
 
 
 /* ============================================================
-   17. RESPONSIVE — TABLET (≤1024px)
+   21. RESPONSIVE — TABLET (≤1024px)
 ============================================================ */
 @media (max-width: 1024px) {
   .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .samples-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -1026,7 +1289,6 @@ textarea {
     margin-inline: auto;
   }
 
-  /* Remove scale on featured card since they're stacked */
   .pricing-card--featured {
     transform: none;
   }
@@ -1039,7 +1301,6 @@ textarea {
     gap: 40px 32px;
   }
 
-  /* Hide the connector line on 2-column layout */
   .steps-grid::before {
     display: none;
   }
@@ -1047,11 +1308,33 @@ textarea {
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .about-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .about-stat {
+    flex: 1;
+    min-width: 120px;
+  }
+
+  .about-location {
+    width: 100%;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
 }
 
 
 /* ============================================================
-   18. RESPONSIVE — MOBILE (≤768px)
+   22. RESPONSIVE — MOBILE (≤768px)
 ============================================================ */
 @media (max-width: 768px) {
   :root {
@@ -1059,7 +1342,6 @@ textarea {
   }
 
   /* -- Nav -- */
-  /* Hide desktop links, show hamburger */
   .nav-links {
     position: fixed;
     top: var(--nav-h);
@@ -1073,7 +1355,6 @@ textarea {
     gap: 0;
     padding: 8px 0 16px;
     border-bottom: 1px solid var(--border);
-    /* Slide up and fade out by default */
     transform: translateY(-110%);
     opacity: 0;
     pointer-events: none;
@@ -1081,7 +1362,6 @@ textarea {
     z-index: 199;
   }
 
-  /* Open state — script.js adds .open */
   .nav-links.open {
     transform: translateY(0);
     opacity: 1;
@@ -1101,7 +1381,6 @@ textarea {
     border-bottom: none;
   }
 
-  /* Hide desktop CTA, show hamburger */
   .nav-cta {
     display: none;
   }
@@ -1150,6 +1429,21 @@ textarea {
     gap: 32px;
   }
 
+  /* -- About -- */
+  .about-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .about-card {
+    flex-direction: column;
+  }
+
+  /* -- Samples -- */
+  .samples-grid {
+    grid-template-columns: 1fr;
+  }
+
   /* -- Stats -- */
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1180,11 +1474,19 @@ textarea {
     height: 44px;
     font-size: 1.4rem;
   }
+
+  /* -- WhatsApp -- */
+  .whatsapp-btn {
+    bottom: 80px;
+    right: 16px;
+    width: 50px;
+    height: 50px;
+  }
 }
 
 
 /* ============================================================
-   19. RESPONSIVE — SMALL MOBILE (≤480px)
+   23. RESPONSIVE — SMALL MOBILE (≤480px)
 ============================================================ */
 @media (max-width: 480px) {
   .hero-actions {
@@ -1202,6 +1504,10 @@ textarea {
   }
 
   .service-card {
+    padding: 24px;
+  }
+
+  .sample-card {
     padding: 24px;
   }
 }

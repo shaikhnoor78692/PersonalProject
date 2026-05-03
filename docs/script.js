@@ -346,3 +346,36 @@
     });
   });
 })();
+
+
+/* ============================================================
+   7. FAQ ACCORDION
+   Toggles .open on .faq-item when question is clicked.
+   Only one item open at a time.
+============================================================ */
+(function initFAQ() {
+  var faqItems = document.querySelectorAll('.faq-item');
+  if (!faqItems.length) return;
+
+  faqItems.forEach(function (item) {
+    var btn = item.querySelector('.faq-question');
+    if (!btn) return;
+
+    btn.addEventListener('click', function () {
+      var isOpen = item.classList.contains('open');
+
+      // Close all
+      faqItems.forEach(function (i) {
+        i.classList.remove('open');
+        var b = i.querySelector('.faq-question');
+        if (b) b.setAttribute('aria-expanded', 'false');
+      });
+
+      // Open clicked if it was closed
+      if (!isOpen) {
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+})();
