@@ -142,7 +142,10 @@ Evening (5 mins):
 - Services: AI Content Writing, Social Media, Email Sequences ✅
 - Logo: Added to navbar and footer ✅
 - Copyright: © 2026 ✅
-- Contact form: Formspree (replace YOUR_FORM_ID after signup)
+- HTTP: LIVE ✅
+- HTTPS: ⏳ Pending SSL certificate (auto-issued by GitHub)
+- Formspree: mojrjlkk ✅ connected to scalesnap.in@gmail.com
+- Contact form: LIVE ✅
 - Monthly cost: still ₹92/month (GitHub Pages is free)
 
 ## OUTREACH STATUS (May 2, 2026)
@@ -157,6 +160,9 @@ Evening (5 mins):
 3. 📋 Set up Formspree contact form (formspree.io — free)
 4. ✅ Paste MEMORY.md → Run Agent Z
 5. ⏳ Check replies from Dipti, Aalok, Abhisek
+6. 🔐 Once scalesnap.in shows HTTPS in browser →
+   Go to GitHub → PersonalProject → Settings → Pages →
+   tick 'Enforce HTTPS' ✅
 
 ## LOW PRIORITY TASKS
 - Delete ScaleSnap site from Netlify account
