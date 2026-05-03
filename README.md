@@ -8,17 +8,50 @@ ScaleSnap is an AI-powered content writing and digital marketing agency. Built t
 
 ## 📁 Project Structure
 ```
-scalesnap/
-├── index.html              → Main landing page (8 sections)
-├── style.css               → Dark theme, animations, responsive
-├── script.js               → Form validation, scroll effects
-├── thank-you.html          → Order confirmation page
-├── netlify.toml            → Auto-deploy configuration
-├── README.md               → This file
-├── SCALESNAP_HANDOVER.md   → Full session handover doc
-├── MEMORY.md               → Quick Claude session starter
-├── SETUP.sh                → New laptop auto-setup script
-└── ScaleSnap_Agent_Templates.md → 6 agent prompt templates
+PersonalProject/
+├── .gitignore                  → Blocks secrets (.env, *.keys.json)
+├── CNAME                       → Custom domain for GitHub Pages
+├── README.md                   → This file
+│
+├── agents/
+│   ├── AGENT_S_CONTEXT.md      → Security agent context (bi-weekly)
+│   ├── AGENT_W_CONTEXT.md      → Weekly agent context
+│   ├── AGENT_Z_CONTEXT.md      → Daily agent context
+│   ├── LOGGING_OFF_PROMPT.md   → End-of-day logging prompt
+│   └── ScaleSnap_Agent_Templates.md → All 6 agent prompts
+│
+├── brand/
+│   ├── fiverr_gig_1_main.png
+│   ├── fiverr_gig_2_benefits.png
+│   ├── fiverr_gig_3_process.png
+│   ├── scalesnap_facebook_cover.png
+│   ├── scalesnap_facebook_cover.svg
+│   ├── scalesnap_logo.png
+│   ├── scalesnap_logo.svg
+│   └── scalesnap_logo_transparent.svg
+│
+├── clients/                    → Client work files (empty until first order)
+│
+├── management/
+│   ├── CLAUDE.md               → Claude Code standing instructions
+│   ├── MEMORY.md               → Session starter — paste at chat start
+│   ├── SCALESNAP_HANDOVER_v2.md → Full session handover doc
+│   ├── ScaleSnap_Complete_Setup_Guide.md
+│   ├── ScaleSnap_Project_Hub.md
+│   ├── SESSION_2_SUMMARY.md
+│   └── SESSION_3_SUMMARY.md
+│
+├── samples/
+│   └── scalesnap_sample_blog.pdf
+│
+├── setup/
+│   └── SETUP.sh                → New laptop auto-setup script
+│
+└── website/
+    ├── index.html              → Main landing page
+    ├── script.js               → Form validation, scroll effects
+    ├── style.css               → Dark theme, animations, responsive
+    └── thank-you.html          → Form confirmation page
 ```
 
 ## 🎨 Design System
@@ -31,12 +64,14 @@ Body:        DM Sans (400/500) via Google Fonts
 ```
 
 ## 🚀 Deployment
-Auto-deploys via GitHub → Netlify on every push.
+GitHub Pages. Custom domain: scalesnap.in.
+All changes go to `dev` branch → PR → merge to `main`.
 ```bash
+git checkout dev
 git add .
 git commit -m "your change"
-git push
-# scalesnap.in updates in ~30 seconds
+git push origin dev
+# Create PR: dev → main. Merge manually.
 ```
 
 ## 💻 New Developer / New Laptop Setup
