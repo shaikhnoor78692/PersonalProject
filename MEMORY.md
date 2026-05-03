@@ -68,8 +68,8 @@ Read below and help me continue exactly where we left off.
 - Facebook: ScaleSnap Business Page (LIVE ✅)
 - Razorpay: 3 payment links active ✅
 - PayPal: Pending bank verification ⏳
-- MCPs: GitHub ✅ | Tavily ✅ | Gmail 🔴 | GDrive 🔴
-- Gmail account: 🔴 Disabled — appeal submitted May 2
+- MCPs: GitHub ✅ | Tavily ✅ | Gmail ✅ | GDrive ✅
+- Gmail account: ✅ Restored — scalesnap.in@gmail.com active
 - Skills: content-research-writer, lead-research-assistant ✅
 - CLAUDE.md: Auto-update system active ✅
 
@@ -249,9 +249,9 @@ clients/ → Empty now — fills when orders come in
 - Never commit .env files
 - Run Agent S every 2nd Sunday
 - Next Agent S run due: May 16, 2026
-- Google account disabled — appeal submitted May 2
-  → When restored: immediately revoke old OAuth client
-  → Then regenerate credentials + reconnect MCPs
+- Google account restored ✅ — scalesnap.in@gmail.com active
+- Gmail API enabled on GCP project 287963424652 ✅
+- New OAuth client: ScaleSnap Gmail MCP v2 — active ✅
 - gcp-oauth.keys.json — purged from GitHub history ✅
 - Always check Fiverr Orders tab — never messages tab
 - Never click Google Doc links from strangers
