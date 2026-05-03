@@ -1,0 +1,22 @@
+<svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bargrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#7c6ef2"/>
+      <stop offset="100%" stop-color="#e4845a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mini bar chart icon -->
+  <rect x="0" y="22" width="7" height="12" rx="2" fill="#7c6ef2" opacity="0.7"/>
+  <rect x="9" y="16" width="7" height="18" rx="2" fill="#7c6ef2" opacity="0.85"/>
+  <rect x="18" y="10" width="7" height="24" rx="2" fill="url(#bargrad)"/>
+  <rect x="27" y="14" width="7" height="20" rx="2" fill="#e4845a" opacity="0.85"/>
+  <rect x="36" y="19" width="7" height="15" rx="2" fill="#e4845a" opacity="0.6"/>
+
+  <!-- Trend line -->
+  <polyline points="3.5,22 12.5,16 21.5,10 30.5,14 39.5,19" fill="none" stroke="#e4845a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="21.5" cy="10" r="2.5" fill="#e4845a"/>
+
+  <!-- Brand name -->
+  <text x="52" y="26" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f0f0f5" letter-spacing="0.5">Scale<tspan fill="#e4845a">Snap</tspan></text>
+</svg>
