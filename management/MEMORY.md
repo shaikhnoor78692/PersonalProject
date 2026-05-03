@@ -1,328 +1,535 @@
-# ScaleSnap — Claude Memory File
-# Paste this at the start of every new Claude chat
+# ScaleSnap — Master Memory File v4.0
+# Owner: Nooralam Shaikh | Updated: May 3, 2026
+# Paste this at the start of EVERY new Claude.ai chat
+
+# ════════════════════════════════════════════════════
+# SECTION 1 — CLAUDE AUTO-REMINDER (READ THIS FIRST)
+# ════════════════════════════════════════════════════
+
+CLAUDE: When Nooralam pastes this file, do this immediately:
+
+STEP 1 → Check today's date and day of week
+STEP 2 → Show the correct reminder from the schedule below
+STEP 3 → Give a 3-line business status update
+STEP 4 → Ask "What do you need today?"
+STEP 5 → Read the rest of this file silently and be ready
 
 ---
 
-🤖 CLAUDE AUTO-REMINDER SYSTEM
-Every time Nooralam pastes this MEMORY.md into Claude.ai,
-Claude must read today's date and do this automatically:
+## DAILY REMINDER SCHEDULE
 
-IF today is a weekday (Mon-Sat):
-→ Say this first before anything else:
+### IF TODAY IS MONDAY:
+"🌅 Good morning Nooralam! It's Monday — new week!
+
+Today's agents:
+✅ Run Agent Z (LinkedIn intel — type: Run Agent Z) — 10 mins
+🔍 Run Agent L (find new leads — type: Run Agent L) — 15 mins
+
+Business status: [see Section 3 below]
+[If follow-ups due today from outreach status → mention names]
+
+What do you need today?"
+
+---
+
+### IF TODAY IS TUESDAY / WEDNESDAY / THURSDAY / FRIDAY / SATURDAY:
 "🌅 Good morning Nooralam!
-Quick reminders before we start:
-✅ Run Agent Z today (type: Run Agent Z)
-[If any follow-ups are due today based on
-AGENT_Z_CONTEXT.md → mention them here]"
 
-IF today is Sunday (every Sunday):
-→ Say this first before anything else:
-"☀️ Good morning Nooralam! It's Sunday!
-Two things to run today:
-1. ✅ Run Agent W first (type: Run Agent W)
-2. ✅ Run Agent Z after (type: Run Agent Z)
-Agent W takes 15 mins. Agent Z takes 10 mins.
-Total: 25 minutes — then your week is set!"
+Today's agent:
+✅ Run Agent Z (type: Run Agent Z) — 10 mins
 
-IF today is the 2nd Sunday of the month
-OR 14 days have passed since last Agent S run
-(check AGENT_S_CONTEXT.md for last run date):
-→ Say this first before anything else:
-"☀️ Good morning Nooralam! It's Security Sunday!
-Three things to run today:
-1. 🔐 Run Agent S first (type: Run Agent S)
-2. ✅ Run Agent W second (type: Run Agent W)
-3. ✅ Run Agent Z last (type: Run Agent Z)
-Agent S: 15 mins | Agent W: 15 mins | Agent Z: 10 mins
-Total: 40 minutes — full system check done!"
+[If follow-ups due today → say: 📌 Follow-up due today: [Name]]
+[If Agent 4 Audit is overdue (check Section 6) → mention it]
 
-AFTER the reminder → read the full MEMORY.md context
-and continue normally with whatever Nooralam needs.
-
-IMPORTANT RULES FOR CLAUDE:
-- Always check today's date first
-- Never skip the reminder
-- Never skip Agent Z reminder even on Sundays
-- Check AGENT_S_CONTEXT.md next run due date
-  to know when Agent S is due
-- Keep reminders short and friendly
-- After reminder → get straight to business
+Business status: [see Section 3 below]
+What do you need today?"
 
 ---
 
-Hi Claude! I am Nooralam Shaikh from Mumbai.
-I am building an AI content agency called ScaleSnap.
-Read below and help me continue exactly where we left off.
+### IF TODAY IS SUNDAY (not Agent S day):
+"☀️ Good morning Nooralam! It's Sunday!
 
-## WHO I AM
-- Full time employee + building side business
-- Shy — no personal social media marketing
-- Beginner-intermediate tech level
-- Goal: Earn ₹15,000-20,000/month from ScaleSnap
-- Budget: ₹92/month only (domain cost)
+Today's agents:
+1. ✅ Run Agent W first (type: Run Agent W) — 15 mins
+2. ✅ Run Agent Z after (type: Run Agent Z) — 10 mins
 
-## BUSINESS STATUS
-- Website: scalesnap.in (LIVE ✅ — HTTPS pending)
-- Fiverr: fiverr.com/scalesnap (LIVE ✅)
-- LinkedIn: linkedin.com/in/nooralam-scalesnap (LIVE ✅)
-- Facebook: ScaleSnap Business Page (LIVE ✅)
-- Razorpay: 3 payment links active ✅
-- PayPal: Pending bank verification ⏳
-- MCPs: GitHub ✅ | Tavily ✅ | Gmail ✅ | GDrive ✅
-- Gmail account: ✅ Restored — scalesnap.in@gmail.com active
-- Skills: content-research-writer, lead-research-assistant ✅
-- CLAUDE.md: Auto-update system active ✅
-- Branch protection: ✅ Active — dev → PR → main workflow
+Business status: [see Section 3 below]
+What do you need today?"
 
-## CURRENT PHASE
+---
+
+### IF TODAY IS THE 2ND SUNDAY OF THE MONTH
+### OR 14+ DAYS SINCE LAST AGENT S RUN (check Section 6):
+"☀️ Good morning Nooralam! It's Security Sunday!
+
+Today's agents:
+1. 🔐 Run Agent S first (type: Run Agent S) — 15 mins
+2. ✅ Run Agent W second (type: Run Agent W) — 15 mins
+3. ✅ Run Agent Z last (type: Run Agent Z) — 10 mins
+
+Total: 40 mins — full system check done!
+Business status: [see Section 3 below]
+What do you need today?"
+
+---
+
+## CLAUDE'S CHECKLIST — RUN THIS EVERY TIME MEMORY.md IS PASTED
+
+Do this silently and fast before responding. Takes 10 seconds.
+
+STEP A → Show today's reminder (from schedule above)
+
+STEP B → Check for overdue items:
+  - Agent L overdue? (every Monday)
+  - Agent 4 Audit overdue? (every 2 weeks — check Section 6)
+  - Agent S overdue? (every 2nd Sunday — check Section 6)
+  - Any follow-ups due today? (check Section 4 outreach)
+  If anything is overdue → add it to the reminder
+
+STEP C → Silently check agent health:
+  For each ACTIVE agent, ask:
+  - Is it doing deep enough work for Phase 1 goals?
+  - Has anything in the business changed making it outdated?
+  - Is anything missing that would help get clients faster?
+  If you spot an upgrade worth doing → say briefly at the END:
+  "💡 I noticed Agent [X] could be improved — want me to upgrade it?"
+  NEVER upgrade without asking first. One suggestion max per chat.
+
+STEP D → Ask "What do you need today?"
+
+## IMPORTANT RULES FOR CLAUDE
+- Never skip the daily reminder
+- Never skip Agent Z on any weekday
+- Never skip Agent L on Mondays
+- Always check Section 4 for due follow-ups
+- Always check Section 6 for overdue agents
+- Always check Section 5 before creating anything new
+  → so you NEVER duplicate or recreate an existing agent
+- Never upgrade an agent without Nooralam's permission
+- After every session → update this file via Claude Code
+
+# ════════════════════════════════════════════════════
+# SECTION 2 — WHO NOORALAM IS
+# ════════════════════════════════════════════════════
+
+Name: Nooralam Shaikh
+Location: Mumbai, India
+Situation: Full-time employee + building ScaleSnap as side business
+Personality: Shy — no personal social media marketing ever
+Tech level: Beginner-intermediate
+Goal: Earn ₹15,000–20,000/month from ScaleSnap
+Monthly budget: ₹92/month only (domain cost — everything else free)
+
+How Nooralam works with Claude:
+- Claude.ai = strategy, content, agents, reviewing PRs, all decisions
+- Claude Code = website changes + file saves to GitHub only
+- Claude Code always pushes to dev branch → creates PR
+- Claude.ai reviews PR → approves or rejects
+- Nooralam merges on GitHub only after Claude.ai approval
+- Nooralam copy-pastes prompts Claude gives her
+- After every session → Claude updates all relevant documents
+
+# ════════════════════════════════════════════════════
+# SECTION 3 — BUSINESS STATUS (update every session)
+# ════════════════════════════════════════════════════
+
+## Current Phase
 Phase 1 — Getting First Client
-Target: ₹15,000/month
-Status: 0 clients so far
-Active outreach:
-- Dipti Mohite: LinkedIn comment sent ⏳ follow-up due May 4
-- Aalok Choubey: Email sent ⏳ follow-up due May 4
-- Abhisek Dey: Email sent ⏳ follow-up due May 4
-Next phases unlock at: ₹15k → ₹30k → ₹50k/month
+Revenue target: ₹15,000/month
+Current revenue: ₹0
+Clients: 0
 
-## AGENT SYSTEM
-- Agent Z: Daily LinkedIn Intelligence System
-  → Trigger: Every morning
-  → Type: Run Agent Z
-  → NEW: Asks for 6 inputs one at a time (feed, notifications,
-    network, messages, profile, search)
-  → Auto-reads: agents/AGENT_Z_CONTEXT.md
+## Phase Roadmap
+Phase 1 (NOW):      ₹92/mo  → Get first client
+Phase 2 (₹15k/mo): ₹800/mo → Add Buffer for social media
+Phase 3 (₹30k/mo): ₹1,500/mo → Add n8n automation
+Phase 4 (₹50k/mo): Custom → Full AI agent system
 
-- Agent W: Smart Weekly Business Agent
-  → Trigger: Every Sunday
-  → Type: Run Agent W
-  → NEW: Asks questions with clickable options (A/B/C/D)
-  → Auto-reads: agents/AGENT_W_CONTEXT.md
+## All Platforms (LIVE)
+- Website: scalesnap.in ✅ LIVE (HTTPS pending — check daily)
+- Fiverr: fiverr.com/scalesnap ✅ LIVE
+- LinkedIn: linkedin.com/in/nooralam-scalesnap ✅ LIVE
+- Facebook: ScaleSnap Business Page ✅ LIVE
+- Razorpay: 3 payment links active ✅
+- PayPal: ⏳ Pending bank verification
+- Gmail: scalesnap.in@gmail.com ✅ Active
 
-- Agent S: Security & Health Agent
-  → Trigger: Every 2nd Sunday
-  → Type: Run Agent S
-  → Auto-reads: agents/AGENT_S_CONTEXT.md
-  → Next run due: May 16, 2026
+## LinkedIn Status (May 3, 2026)
+- Connections: 1
+- Followers: 1
+- Requests sent: 9 (pending)
+- Posts published: 2 (launch + personal story)
+- LinkedIn notes: USED UP — resets June 2026
+- Warm contact: Samuel Dias (Finance Consultant Mumbai)
+- Headline: "Helping Indian Founders Save Time on Content | AI-Powered Blogs · Social Media · Emails | ScaleSnap"
 
-- Agent 1: Email Reply Agent
-- Agent 2: Weekly Content Agent
-- Agent 3: Client Delivery Agent
-- Agent 4: Website Update Agent
-- Agent 5: Lead Research Agent
-- Agent 6: Order Fulfillment Agent
-
-## DAILY ROUTINE
-Morning (20 mins):
-→ Paste MEMORY.md → Type "Run Agent Z"
-→ Agent Z asks for 6 LinkedIn inputs one at a time
-→ Share each input as asked
-→ Agent Z gives full action plan
-→ Execute: post + connections + comments + notifications
-Evening (5 mins):
-→ Check email replies
-→ Check LinkedIn notifications
-→ Check Fiverr briefs
-
-## SUNDAY ROUTINE
-⚠️ EVERY SUNDAY → Type "Run Agent W" first
-→ Agent W asks 3 questions with clickable options
-→ Gives full weekly analysis and plan
-→ Then run Agent Z after
-→ Total: 25 minutes
-
-## PAYMENT DETAILS
+## Payment Details
 - UPI: shaikhnoor78692@okhdfcbank
 - Razorpay Starter: https://rzp.io/rzp/5ettcpbh
 - Razorpay Growth: https://rzp.io/rzp/rXSdDJ0
 - Razorpay Agency: https://rzp.io/rzp/xz3E1vG
 - Fiverr: fiverr.com/scalesnap
 
-## WEBSITE STATUS
-- Hosting: GitHub Pages (free)
-- Custom domain: scalesnap.in ✅ LIVE
-- Website files: docs/ folder (GitHub Pages serves from /docs)
-- Pricing: ₹4,000 / ₹12,000 / ₹29,000/month ✅
-- Services: AI Content Writing, Social Media, Email Sequences ✅
-- Logo: Added to navbar and footer ✅
-- Copyright: © 2026 ✅
-- HTTP: LIVE ✅
-- HTTPS: ⏳ Pending SSL (auto-issued by GitHub — check daily)
-- Formspree: mojrjlkk ✅ connected to scalesnap.in@gmail.com
-- Contact form: LIVE ✅
-- Monthly cost: ₹92/month (GitHub Pages is free)
+# ════════════════════════════════════════════════════
+# SECTION 4 — OUTREACH STATUS (update every session)
+# ════════════════════════════════════════════════════
 
-## GITHUB WORKFLOW (NEW — May 3, 2026)
-- Main branch is PROTECTED — no direct pushes allowed
-- All changes → dev branch first
-- Claude Code creates PR → share link in Claude.ai
-- Claude.ai reviews PR → says merge or don't merge
-- Nooralam merges on GitHub only after Claude.ai approval
-- This is the permanent workflow going forward
-
-## OUTREACH STATUS (May 3, 2026)
-- Dipti Mohite: LinkedIn comment sent ⏳ follow-up May 4
-- Aalok Choubey: Email sent ⏳ follow-up May 4
-- Abhisek Dey: Email sent ⏳ follow-up May 4
+## Active Leads (May 3, 2026)
+- Dipti Mohite: LinkedIn comment sent ⏳ follow-up due MAY 4
+- Aalok Choubey: Email sent ⏳ follow-up due MAY 4
+- Abhisek Dey: Email sent ⏳ follow-up due MAY 4
 - Samuel Dias: Warm interaction ✅ replied to his mention
 
-## TOMORROW'S PRIORITIES (May 4, 2026)
+## Tomorrow's Priorities (May 4, 2026)
 1. 🔴 MOST URGENT: Send follow-ups to Dipti, Aalok, Abhisek
-   (exact messages ready in AGENT_W_CONTEXT.md)
+   (exact messages in agents/AGENT_W_CONTEXT.md)
 2. 🌐 Check scalesnap.in for HTTPS — if live → tick Enforce HTTPS
-   in GitHub → Settings → Pages
-3. ✅ Paste MEMORY.md → Run Agent Z (new 6-input flow)
+   GitHub → Settings → Pages
+3. ✅ Paste MEMORY.md → Run Agent Z
 4. 🔍 Find 3 new leads on LinkedIn
 
-## LOW PRIORITY TASKS
-- Delete ScaleSnap site from Netlify account
-  (site migrated to GitHub Pages — no rush)
-- Instagram business account @scalesnap.in
-  (wait until Phase 2 — ₹15k/month)
-- Move gcp-oauth.keys.json out of project folder entirely
-  (currently blocked by .gitignore but should move to
-  D:\devops\credentials\ for extra safety)
+## Outreach Rules
+- Always personalise — never copy-paste generic messages
+- Follow up exactly on the due date — not before, not after
+- Track every lead in this section after each session
+- When a lead converts → move to clients/ folder
 
-## PHASE ROADMAP
-Phase 1 (NOW):      ₹92/mo  → Get first client
-Phase 2 (₹15k/mo): ₹800/mo → Add Buffer for social media
-Phase 3 (₹30k/mo): ₹1,500/mo → Add n8n automation
-Phase 4 (₹50k/mo): Custom → Full AI agent system
+# ════════════════════════════════════════════════════
+# SECTION 5 — ALL AGENTS (MASTER LIST)
+# ════════════════════════════════════════════════════
 
-## HOW I WORK WITH CLAUDE
-- Claude.ai = strategy, content, agents, creating files, PR review
-- Claude Code = website + file changes only
-- Claude Code pushes to dev branch → creates PR
-- Claude.ai reviews PR → approves or rejects
-- Nooralam merges on GitHub after Claude.ai approval
-- I copy-paste prompts Claude gives me
-- After every task → Claude updates all documents
-- Agent Z reads AGENT_Z_CONTEXT.md automatically
-
-## IMPORTANT RULES
-- Always give exact prompts to copy-paste
-- Keep steps small and simple
-- Create files directly here when possible
-- Be honest — don't suggest unnecessary costs
-- No personal social media for Nooralam
-- Update HANDOVER + MEMORY after every session
-- Sunday = Run Agent W first, then Agent Z
-- Never push directly to main — always dev → PR → review → merge
-
-## TECH STACK
-- Website: HTML + CSS + JS (no frameworks)
-- Hosting: GitHub Pages (free — Netlify suspended May 2)
-- GitHub: shaikhnoor78692/PersonalProject (public repo)
-- Branch protection: main protected, dev → PR → main
-- MCPs: github, gdrive, gmail, tavily
-- Skills: content-research-writer, lead-research-assistant
-
-## KEY FILES IN PROJECT (Updated Structure — May 3, 2026)
-Root:
-- README.md → Developer setup guide
-- .gitignore → Security — blocks sensitive files
-- CNAME → Custom domain (must stay in root)
-
-agents/
-- AGENT_Z_CONTEXT.md → Daily LinkedIn Intelligence System
-- AGENT_W_CONTEXT.md → Weekly agent with options-based questions
-- AGENT_S_CONTEXT.md → Security context — auto-updated
-- ScaleSnap_Agent_Templates.md → All agent prompts
-- LOGGING_OFF_PROMPT.md → End of day system
-
-management/
-- MEMORY.md → This file — paste at start of every chat
-- CLAUDE.md → Claude Code standing instructions
-- SCALESNAP_HANDOVER_v2.md → Full session details
-- ScaleSnap_Project_Hub.md → Master project organiser
-- SESSION_2_SUMMARY.md → Session 2 recap
-- SESSION_3_SUMMARY.md → Session 3 recap
-- ScaleSnap_Complete_Setup_Guide.md → Business bible
-
-docs/ (GitHub Pages serves website from here)
-- index.html → Main website
-- style.css → Styling
-- script.js → Scripts
-- thank-you.html → Form confirmation
-- CNAME → Custom domain
-
-brand/
-- scalesnap_logo_transparent.svg → Website logo
-- scalesnap_logo.png → Social media logo
-- scalesnap_logo.svg → Vector logo
-- scalesnap_facebook_cover.png → Facebook cover
-- scalesnap_facebook_cover.svg → Facebook cover vector
-- fiverr_gig_1_main.png → Fiverr gig image
-- fiverr_gig_2_benefits.png → Fiverr gig image
-- fiverr_gig_3_process.png → Fiverr gig image
-
-samples/
-- scalesnap_sample_blog.pdf → Work sample for leads
-
-setup/
-- SETUP.sh → New laptop auto-setup
-
-clients/ → Empty now — fills when orders come in
-
-## LINKEDIN STATUS (May 3, 2026)
-- Connections: 1
-- Followers: 1
-- Following: 4
-- Requests sent: 9 total (pending)
-- Posts published: 2 (launch + personal story)
-- LinkedIn notes: USED UP — reset June 2026
-- Warm contact: Samuel Dias (Finance Consultant Mumbai)
-- Headline updated: "Helping Indian Founders Save Time on Content
-  | AI-Powered Blogs · Social Media · Emails | ScaleSnap"
-
-## SCAM WARNING
-- Fiverr scam May 1: User iwib1kee7wsg sent fake order
-- Real orders ONLY appear in Orders tab
-- Never click Google Doc links from strangers
-- Facebook "Mumbai Business Network" group = SCAM
-  (asks for WhatsApp to admin before posting)
-
-## SECURITY RULES
-- Never commit .json credential files to GitHub
-- Never commit .env files
-- Run Agent S every 2nd Sunday
-- Next Agent S run due: May 16, 2026
-- Google account restored ✅ — scalesnap.in@gmail.com active
-- Gmail API enabled on GCP project 287963424652 ✅
-- New OAuth client: ScaleSnap Gmail MCP v2 — active ✅
-- gcp-oauth.keys.json — purged from GitHub history ✅
-- gcp-oauth.keys.json — in .gitignore ✅ never committed ✅
-- Branch protection active — no direct pushes to main ✅
-- Always check Fiverr Orders tab — never messages tab
-- Never click Google Doc links from strangers
-- Report all scam attempts immediately
-
-## LOGGING OFF SYSTEM
-When Nooralam says any of these:
-"logging off" / "done for the day" / "shutting down" /
-"closing laptop" / "that's it for today" / "wrapping up"
-
-Claude must automatically:
-1. Ask these 3 quick questions:
-   "Before you go — quick update:
-   1. Any replies received today from leads?
-   2. Any actions completed today not yet logged?
-   3. Anything urgent for tomorrow I should flag?"
-
-2. Then update these files via Claude Code prompt:
-   - management/MEMORY.md → business status + outreach status
-   - management/SCALESNAP_HANDOVER_v2.md → session summary
-   - agents/AGENT_Z_CONTEXT.md → if any leads updated
-   - agents/AGENT_W_CONTEXT.md → if revenue/clients changed
-   - agents/AGENT_S_CONTEXT.md → if any security issues found
-
-3. Push to dev branch → create PR → share link in Claude.ai
-   Claude.ai reviews → Nooralam merges if approved
-
-4. Then say:
-   "✅ All documents updated. PR created for review.
-   See you tomorrow Nooralam!
-   First thing tomorrow: paste MEMORY.md + Run Agent Z 🚀"
+CLAUDE: Read this section carefully before every session.
+Never recreate an agent that already exists here.
+Check status before suggesting anything new.
 
 ---
 
-Ready to continue! What should we do today?
+## ✅ AGENT Z — Daily LinkedIn Intelligence System
+Status: ACTIVE ✅
+Trigger: Every morning (Mon–Sat)
+Type to run: Run Agent Z
+Time: 10 minutes
+What it does:
+  - Asks for 6 LinkedIn inputs one at a time
+    (feed, notifications, network, messages, profile, search)
+  - Analyses what you saw on LinkedIn
+  - Gives a full daily action plan
+  - Posts to make, connections to send, comments to leave
+Context file: agents/AGENT_Z_CONTEXT.md
+Last run: [update daily]
+MCPs needed: None
+
+---
+
+## ✅ AGENT W — Smart Weekly Business Review
+Status: ACTIVE ✅
+Trigger: Every Sunday
+Type to run: Run Agent W
+Time: 15 minutes
+What it does:
+  - Reviews the past week: what worked, what didn't
+  - Checks revenue, leads, outreach, content
+  - Asks 3 questions with clickable A/B/C/D options
+  - Gives a full weekly plan for the coming week
+  - Prepares follow-up messages for pending leads
+Context file: agents/AGENT_W_CONTEXT.md
+Last run: [update weekly]
+MCPs needed: None
+
+---
+
+## ✅ AGENT S — Security & Health Agent
+Status: ACTIVE ✅
+Trigger: Every 2nd Sunday of the month
+Type to run: Run Agent S
+Time: 15 minutes
+What it does:
+  - Checks all credentials and security settings
+  - Reviews GitHub security (no exposed keys)
+  - Checks all platform logins are secure
+  - Reviews .gitignore and branch protection
+  - Updates security log
+Context file: agents/AGENT_S_CONTEXT.md
+Next run due: May 16, 2026
+Last run: [check AGENT_S_CONTEXT.md]
+MCPs needed: GitHub
+
+---
+
+## ✅ AGENT L — Lead Research Agent (NEW — May 3, 2026)
+Status: ACTIVE ✅ — first run May 5, 2026
+Trigger: Every Monday morning (after Agent Z)
+Type to run: Run Agent L
+Time: 15 minutes
+What it does:
+  - Searches LinkedIn and web for 5+ qualified leads
+  - Scores each lead: Need / Fit / Reach (out of 30)
+  - Deep-researches each lead's content gaps
+  - Writes 2 personalised outreach messages per lead
+    (connection note + follow-up DM — ready to send)
+  - Prioritises: HOT / WARM / COLD
+  - Gives a daily action plan for the whole week
+Context file: agents/AGENT_L_CONTEXT.md
+Next run due: May 5, 2026 (Monday)
+MCPs needed: Tavily
+
+---
+
+## ✅ AGENT 4 — Website Audit & Growth Agent (Upgraded May 3, 2026)
+Status: ACTIVE ✅
+Trigger: Every 2 weeks (audit) OR anytime (quick edit)
+Type to run:
+  - Deep audit: Run Agent 4 Audit
+  - Quick edit: Run Agent 4 Edit: [describe change]
+Time: Audit = 15 mins | Edit = 2 mins
+What it does (MODE A — Audit):
+  - Scores scalesnap.in across 8 categories
+  - First impression, trust, service clarity, pricing,
+    conversion, SEO, competitor gaps, growth ideas
+  - Brings all findings to Claude.ai for review
+  - Claude.ai approves → Claude Code implements
+What it does (MODE B — Edit):
+  - Makes a specific change to the website
+  - Always on dev branch → PR → Claude.ai approves → merge
+Context file: agents/AGENT_4_CONTEXT.md
+Next audit due: May 17, 2026
+Last audit: May 3, 2026 (PR pending — website updates)
+MCPs needed: GitHub
+
+---
+
+## ⏳ AGENT 1 — Email Reply Agent
+Status: ON DEMAND (no clients yet — ready when needed)
+Trigger: When a client or lead emails you
+Type to run: Run Agent 1
+Time: 2 minutes
+What it does:
+  - Reads the client's email
+  - Writes a warm, professional reply (max 150 words)
+  - Addresses their question + gives clear next step
+  - Signs off as Nooralam Shaikh, Founder, ScaleSnap
+Context file: agents/ScaleSnap_Agent_Templates.md
+MCPs needed: Gmail
+
+---
+
+## ⏳ AGENT 3 — Client Delivery Agent
+Status: ON DEMAND (no clients yet — ready when needed)
+Trigger: When you have a paid order to fulfill
+Type to run: Run Agent 3
+Time: 5 minutes per order
+What it does:
+  Step 1: Creates the full content (blog / social / email)
+    based on client brief — complete, no placeholders
+  Step 2: Saves to Google Drive in folder:
+    ScaleSnap_Clients/[CLIENT NAME]/
+    File: [Name]_[ContentType]_[Date].docx
+  Step 3: Shares Drive link for you to send to client
+Context file: agents/ScaleSnap_Agent_Templates.md
+MCPs needed: Google Drive
+
+---
+
+## ⏳ AGENT 6 — Order Fulfillment Agent (Fiverr)
+Status: ON DEMAND (no orders yet — ready when needed)
+Trigger: When a Fiverr order comes in
+Type to run: Run Agent 6
+Time: 20-30 minutes per order
+What it does:
+  - Takes the Fiverr client brief
+  - Creates complete polished content based on package:
+    Basic ($10): 1 blog, 800 words, 1 revision
+    Standard ($25): 2 blogs, 1000 words each, 3 revisions
+    Premium ($60): 4 blogs, 1200 words, unlimited revisions
+  - Writes delivery message to send on Fiverr
+Context file: agents/ScaleSnap_Agent_Templates.md
+MCPs needed: None
+SCAM WARNING: Real orders ONLY in Orders tab — never messages
+
+---
+
+## ❌ AGENT 2 — Weekly Content Agent
+Status: SUSPENDED ❌
+Reason: No Instagram account yet. Reactivate at Phase 2.
+Context file: agents/ScaleSnap_Agent_Templates.md
+
+---
+
+## AGENTS THAT DO NOT EXIST — DO NOT CREATE THESE
+- "analytics agent" → use Agent W instead
+- "content agent" → use Agent 3 instead
+- "github agent" → use Agent 4 Edit mode instead
+- "follow-up agent" → use Agent Z daily plan instead
+- "pricing agent" → use Agent 4 Edit mode instead
+
+# ════════════════════════════════════════════════════
+# SECTION 6 — AGENT SCHEDULE AT A GLANCE
+# ════════════════════════════════════════════════════
+
+| Agent | Type to Run | When | Time | Status |
+|-------|------------|------|------|--------|
+| Agent Z | Run Agent Z | Every morning | 10 min | ✅ Active |
+| Agent L | Run Agent L | Every Monday | 15 min | ✅ Active |
+| Agent W | Run Agent W | Every Sunday | 15 min | ✅ Active |
+| Agent S | Run Agent S | Every 2nd Sunday | 15 min | ✅ Active |
+| Agent 4 Audit | Run Agent 4 Audit | Every 2 weeks | 15 min | ✅ Active |
+| Agent 4 Edit | Run Agent 4 Edit: [x] | Anytime | 2 min | ✅ Active |
+| Agent 1 | Run Agent 1 | When client emails | 2 min | ⏳ Ready |
+| Agent 3 | Run Agent 3 | When order received | 5 min | ⏳ Ready |
+| Agent 6 | Run Agent 6 | When Fiverr order | 30 min | ⏳ Ready |
+| Agent 2 | SUSPENDED | — | — | ❌ No Instagram |
+
+## Next Due Dates
+- Agent S next run: May 16, 2026
+- Agent L first run: May 5, 2026 (Monday)
+- Agent 4 next audit: May 17, 2026
+- Agent W last run: [update every Sunday]
+- Agent Z last run: [update every morning]
+
+# ════════════════════════════════════════════════════
+# SECTION 7 — WEBSITE & TECH STACK
+# ════════════════════════════════════════════════════
+
+## Website Status
+- URL: scalesnap.in
+- Hosting: GitHub Pages (free)
+- HTTP: ✅ LIVE
+- HTTPS: ⏳ Pending SSL (auto-issued by GitHub — check daily)
+- Formspree ID: mojrjlkk → scalesnap.in@gmail.com
+- Contact form: ✅ LIVE
+- Monthly cost: ₹92/month (domain only)
+
+## Website Sections (May 3, 2026)
+- Navbar: Logo + Services, How It Works, Pricing, FAQ, Contact ✅
+- Hero: "Automate. Create. Scale with AI." (fix pending)
+- Services: AI Content Writing, Social Media, Email Sequences ✅
+- How It Works: 4 steps ✅
+- About: ⏳ PENDING — website PR not yet merged
+- Work Samples: ⏳ PENDING — website PR not yet merged
+- Pricing: ₹4,000 / ₹12,000 / ₹29,000 ✅
+- FAQ: ⏳ PENDING — website PR not yet merged
+- WhatsApp button: ⏳ PENDING — needs real phone number first
+- Footer: ✅ LIVE
+
+## Pending Website Changes
+File: management/WEBSITE_UPDATE_PROMPT.md
+1. Fix budget dropdown $ → ₹
+2. Fix hero subtext
+3. Fix Step 4 copy
+4. Add About section
+5. Add Work Samples section
+6. Add FAQ section
+7. Add WhatsApp button (needs real phone number)
+8. Add About + FAQ to navbar
+
+## Design System
+Colors:
+  --bg: #0a0a0f | --bg2: #111118 | --bg3: #1a1a24
+  --accent: #7c6ef2 (purple) | --accent2: #e4845a (orange)
+  --text: #f0f0f5 | --muted: #8888a0
+Fonts: Syne (headings 800) + DM Sans (body 400/500)
+
+## GitHub
+- Repo: shaikhnoor78692/PersonalProject (public)
+- Branch protection: main PROTECTED ✅
+- Workflow: dev branch → PR → Claude.ai review → Nooralam merges
+- Website files: docs/ folder
+
+## MCPs Connected
+GitHub ✅ | Google Drive ✅ | Gmail ✅ | Tavily ✅
+
+## Skills (Claude Code)
+content-research-writer ✅ | lead-research-assistant ✅
+
+# ════════════════════════════════════════════════════
+# SECTION 8 — SERVICES & PRICING
+# ════════════════════════════════════════════════════
+
+Services ScaleSnap delivers:
+1. AI Blog Posts — SEO-optimised, 500–1500 words
+2. Social Media Content — captions, hooks, hashtags
+3. Email Sequences — welcome, nurture, sales emails
+
+Services NOT offered (never add to website):
+Chatbot, Video Scripts, SEO Strategy, Analytics, Automation
+
+## Pricing
+Starter:  ₹4,000/mo → 4 blogs + 12 social + 1 email sequence
+Growth:  ₹12,000/mo → 12 blogs + 30 social + 3 email sequences
+Agency:  ₹29,000/mo → Unlimited everything
+
+## Fiverr
+Basic $10: 1 blog 800w 1 revision 2 days
+Standard $25: 2 blogs 1000w 3 revisions 2 days
+Premium $60: 3 blogs 1500w unlimited revisions 3 days
+
+# ════════════════════════════════════════════════════
+# SECTION 9 — KEY PROJECT FILES
+# ════════════════════════════════════════════════════
+
+Root: README.md | .gitignore | CNAME
+
+agents/
+- AGENT_Z_CONTEXT.md → Daily LinkedIn System
+- AGENT_W_CONTEXT.md → Weekly review agent
+- AGENT_S_CONTEXT.md → Security agent (next: May 16)
+- AGENT_L_CONTEXT.md → Lead Research (new May 3)
+- AGENT_4_CONTEXT.md → Website Audit (new May 3)
+- ScaleSnap_Agent_Templates.md → Agents 1, 2, 3, 6
+- LOGGING_OFF_PROMPT.md → End of day system
+
+management/
+- MEMORY.md → THIS FILE
+- CLAUDE.md → Claude Code instructions
+- SCALESNAP_HANDOVER_v2.md → Session history
+- ScaleSnap_Project_Hub.md → Master organiser
+- WEBSITE_UPDATE_PROMPT.md → Pending changes May 3
+
+docs/ → index.html | style.css | script.js | thank-you.html | CNAME
+brand/ → logos, facebook cover, fiverr gig images
+samples/ → scalesnap_sample_blog.pdf
+
+# ════════════════════════════════════════════════════
+# SECTION 10 — SECURITY & SCAM WARNINGS
+# ════════════════════════════════════════════════════
+
+Security Rules:
+- Never commit .json or .env files to GitHub
+- Run Agent S every 2nd Sunday (next: May 16)
+- gcp-oauth.keys.json → purged + in .gitignore ✅
+- Branch protection active ✅
+- Gmail API on GCP 287963424652 ✅
+
+Scam Warnings:
+- Fiverr orders ONLY in Orders tab — never messages tab
+- Never click Google Doc links from strangers
+- Facebook "Mumbai Business Network" = SCAM
+
+# ════════════════════════════════════════════════════
+# SECTION 11 — LOGGING OFF SYSTEM
+# ════════════════════════════════════════════════════
+
+When Nooralam says: "logging off" / "done for today" /
+"shutting down" / "closing laptop" / "that's it" / "wrapping up"
+
+Claude must:
+1. Ask 3 quick questions:
+   "Before you go:
+   1. Any replies from leads today?
+   2. Any actions completed not yet logged?
+   3. Anything urgent for tomorrow?"
+
+2. Give Claude Code prompt to update:
+   - management/MEMORY.md
+   - management/SCALESNAP_HANDOVER_v2.md
+   - Relevant agent context files
+
+3. Claude Code: dev branch → PR → Claude.ai reviews → merge
+
+4. End with:
+   "✅ All updated. PR ready.
+   See you tomorrow! First thing: paste MEMORY.md → Run Agent Z 🚀"
+
+# ════════════════════════════════════════════════════
+
+Ready! What do you need today?
