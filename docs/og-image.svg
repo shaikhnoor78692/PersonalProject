@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#1a1a24"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c6ef2"/>
+      <stop offset="100%" stop-color="#e4845a"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="0.2" cy="0.3" r="0.4">
+      <stop offset="0%" stop-color="#7c6ef2" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7c6ef2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0.85" cy="0.7" r="0.4">
+      <stop offset="0%" stop-color="#e4845a" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#e4845a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-grad)"/>
+
+  <!-- Decorative orbs -->
+  <ellipse cx="240" cy="190" rx="320" ry="280" fill="url(#orb1)"/>
+  <ellipse cx="1020" cy="440" rx="320" ry="280" fill="url(#orb2)"/>
+
+  <!-- Logo box (top-left) -->
+  <g transform="translate(70, 60)">
+    <rect width="68" height="68" rx="14" fill="url(#text-grad)"/>
+    <text x="34" y="48" font-family="Syne, system-ui, sans-serif" font-size="42" font-weight="800" fill="#ffffff" text-anchor="middle">S</text>
+    <text x="88" y="48" font-family="Syne, system-ui, sans-serif" font-size="32" font-weight="800" fill="#f0f0f5">ScaleSnap</text>
+  </g>
+
+  <!-- Tag -->
+  <g transform="translate(70, 220)">
+    <rect width="320" height="44" rx="22" fill="rgba(124, 110, 242, 0.15)" stroke="rgba(124, 110, 242, 0.4)" stroke-width="1"/>
+    <text x="20" y="30" font-family="DM Sans, system-ui, sans-serif" font-size="17" font-weight="500" fill="#a499ff">⚡ AI-Powered Content Agency · Mumbai</text>
+  </g>
+
+  <!-- Headline -->
+  <text x="70" y="340" font-family="Syne, system-ui, sans-serif" font-size="76" font-weight="800" fill="#f0f0f5">Automate. Create.</text>
+  <text x="70" y="430" font-family="Syne, system-ui, sans-serif" font-size="76" font-weight="800" fill="url(#text-grad)">Scale with AI.</text>
+
+  <!-- Subtext -->
+  <text x="70" y="500" font-family="DM Sans, system-ui, sans-serif" font-size="24" font-weight="400" fill="#a8a8b8">AI-powered blogs, social media &amp; email sequences</text>
+  <text x="70" y="535" font-family="DM Sans, system-ui, sans-serif" font-size="24" font-weight="400" fill="#a8a8b8">for Indian founders. Delivered in 48 hours.</text>
+
+  <!-- Bottom strip -->
+  <g transform="translate(70, 575)">
+    <text font-family="DM Sans, system-ui, sans-serif" font-size="18" font-weight="500" fill="#f0f0f5">
+      <tspan fill="#7c6ef2">●</tspan>
+      <tspan dx="8" fill="#a8a8b8">From ₹4,000/mo</tspan>
+      <tspan dx="20" fill="#7c6ef2">●</tspan>
+      <tspan dx="8" fill="#a8a8b8">48hr delivery</tspan>
+      <tspan dx="20" fill="#7c6ef2">●</tspan>
+      <tspan dx="8" fill="#a8a8b8">Free revisions</tspan>
+      <tspan dx="20" fill="#7c6ef2">●</tspan>
+      <tspan dx="8" fill="#a8a8b8">scalesnap.in</tspan>
+    </text>
+  </g>
+</svg>

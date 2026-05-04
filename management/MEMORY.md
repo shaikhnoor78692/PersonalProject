@@ -24,6 +24,7 @@ STEP 5 → Read the rest of this file silently and be ready
 Today's agents:
 ✅ Run Agent Z (LinkedIn intel — type: Run Agent Z) — 10 mins
 🔍 Run Agent L (find new leads — type: Run Agent L) — 15 mins
+🩺 Run Agent 7 (website health check — type: Run Agent 7) — 10 mins
 
 Business status: [see Section 3 below]
 [If follow-ups due today from outreach status → mention names]
@@ -369,6 +370,28 @@ SCAM WARNING: Real orders ONLY in Orders tab — never messages
 
 ---
 
+## ✅ AGENT 7 — Weekly Website Health Check
+Status: ACTIVE ✅
+Trigger: Every Monday (after Agent Z)
+Type to run: Run Agent 7
+Time: 5–10 minutes
+What it does:
+  - Auto-fetches scalesnap.in source from GitHub via MCP
+  - Also fetches the live URL to check HTTPS + render
+  - Runs 31 deep checks across 8 categories:
+    SEO, Navigation, Payment links, Form, Accessibility,
+    Footer, Performance, Hosting
+  - Compares with last week — flags new issues vs fixed ones
+  - Gives a clean pass/fail report with exact fixes needed
+  - Never auto-fixes — always asks Nooralam first
+Context file: agents/AGENT_7_CONTEXT.md
+Last run: [will be updated each Monday]
+MCPs needed: GitHub ✅ + web_fetch (built-in)
+Difference from Agent 4: Agent 4 is bi-weekly strategic
+config audit; Agent 7 is weekly tactical link/health check.
+
+---
+
 ## ❌ AGENT 2 — Weekly Content Agent
 Status: SUSPENDED ❌
 Reason: No Instagram account yet. Reactivate at Phase 2.
@@ -393,6 +416,7 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 |-------|------------|------|------|--------|
 | Agent Z | Run Agent Z | Every morning | 10 min | ✅ Active |
 | Agent L | Run Agent L | Every Monday | 15 min | ✅ Active |
+| Agent 7 | Run Agent 7 | Every Monday | 10 min | ✅ Active |
 | Agent W | Run Agent W | Every Sunday | 15 min | ✅ Active |
 | Agent S | Run Agent S | Every 2nd Sunday | 15 min | ✅ Active |
 | Agent 4 Audit | Run Agent 4 Audit | Every 2 weeks | 15 min | ✅ Active |
@@ -406,6 +430,7 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 ## Next Due Dates
 - Agent S next run: May 16, 2026
 - Agent L first run: May 5, 2026 (Monday)
+- Agent 7 first run: May 11, 2026 (Monday)
 - Agent 4 next audit: May 17, 2026
 - Agent W last run: [update every Sunday]
 - Agent Z last run: [update every morning]
@@ -437,7 +462,9 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 - Footer: ✅ LIVE
 
 ## Pending Website Changes
-None — all changes from May 3 are live ✅
+None — all changes from May 4 are live ✅
+(Privacy Policy, Terms of Service, og:image, favicon,
+lazy loading, Twitter cards — all merged via Agent 7 PR)
 
 ## Design System
 Colors:
@@ -492,6 +519,7 @@ agents/
 - AGENT_S_CONTEXT.md → Security agent (next: May 16)
 - AGENT_L_CONTEXT.md → Lead Research (new May 3)
 - AGENT_4_CONTEXT.md → Website Audit (new May 3)
+- AGENT_7_CONTEXT.md → Weekly Website Health Check (new May 4)
 - ScaleSnap_Agent_Templates.md → Agents 1, 2, 3, 6
 - LOGGING_OFF_PROMPT.md → End of day system
 
@@ -502,7 +530,9 @@ management/
 - ScaleSnap_Project_Hub.md → Master organiser
 - WEBSITE_UPDATE_PROMPT.md → Pending changes May 3
 
-docs/ → index.html | style.css | script.js | thank-you.html | CNAME
+docs/ → index.html | style.css | script.js | thank-you.html
+        | privacy-policy.html | terms-of-service.html
+        | favicon.svg | og-image.svg | CNAME
 brand/ → logos, facebook cover, fiverr gig images
 samples/ → scalesnap_sample_blog.pdf
 
