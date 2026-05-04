@@ -66,8 +66,18 @@ Paste any new messages you see.
 If nothing new just say: no new messages"
 
 → Wait for Nooralam to share messages.
-→ Don't analyse yet. Just say:
-"Got it! ✅ Moving to next step."
+→ If NO new messages → Just say:
+"Got it! ✅ No action needed. Moving to next step."
+
+→ If YES there are messages → STOP everything and say:
+"🚨 IMPORTANT — You have new messages!
+Do NOT move to Step 5 yet.
+Type: Run Agent R
+Agent R will handle these replies immediately.
+Come back and finish Agent Z after."
+
+→ Do NOT analyse messages yourself.
+→ Agent R handles all messages — not Agent Z.
 
 ---
 
