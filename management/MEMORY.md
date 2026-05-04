@@ -210,13 +210,14 @@ Trigger: Every morning (Mon–Sat)
 Type to run: Run Agent Z
 Time: 10 minutes
 What it does:
-  - Asks for 6 LinkedIn inputs one at a time
-    (feed, notifications, network, messages, profile, search)
+  - Asks for 5 LinkedIn inputs one at a time
+    (feed, notifications, network, messages, profile)
+  - In Messages step: if reply found → triggers Agent R
   - Analyses what you saw on LinkedIn
   - Gives a full daily action plan
   - Posts to make, connections to send, comments to leave
 Context file: agents/AGENT_Z_CONTEXT.md
-Last run: [update daily]
+Last run: May 4, 2026
 MCPs needed: None
 
 ---
@@ -256,22 +257,42 @@ MCPs needed: GitHub
 
 ---
 
-## ✅ AGENT L — Lead Research Agent (NEW — May 3, 2026)
-Status: ACTIVE ✅ — first run May 5, 2026
-Trigger: Every Monday morning (after Agent Z)
+## ✅ AGENT L — Connection to Client Pipeline Manager
+Status: ACTIVE ✅
+Trigger: Every Monday (after Agent Z)
 Type to run: Run Agent L
 Time: 15 minutes
 What it does:
-  - Searches LinkedIn and web for 5+ qualified leads
-  - Scores each lead: Need / Fit / Reach (out of 30)
-  - Deep-researches each lead's content gaps
-  - Writes 2 personalised outreach messages per lead
-    (connection note + follow-up DM — ready to send)
-  - Prioritises: HOT / WARM / COLD
-  - Gives a daily action plan for the whole week
+  - STEP 1: Checks replies from last week's DMs
+  - STEP 2: Follows up on people who went silent
+  - STEP 3: Researches new connections this week
+  - Scores each connection: HOT / WARM / COLD
+  - Writes personalised DM for each HOT lead
+  - Maintains full pipeline tracker
+  - Hands all replies to Agent R immediately
 Context file: agents/AGENT_L_CONTEXT.md
-Next run due: May 5, 2026 (Monday)
-MCPs needed: Tavily
+Last run: May 4, 2026
+MCPs needed: None
+
+---
+
+## ✅ AGENT R — Reply Handler (On Demand)
+Status: ACTIVE ✅
+Trigger: Anytime a LinkedIn message is received
+         Agent Z flags it → Nooralam types Run Agent R
+Type to run: Run Agent R
+Time: 2 minutes
+What it does:
+  - Reads full message conversation
+  - Classifies intent: Interested / Asking Price /
+    Hesitant / Polite / Not Interested / Scam
+  - Writes exact reply ready to copy paste
+  - Tells Nooralam exactly what to do next
+  - Sets follow up date if needed
+  - Updates Agent L pipeline
+Context file: agents/AGENT_R_CONTEXT.md
+Last run: Never — first run when first message received
+MCPs needed: None
 
 ---
 
@@ -361,6 +382,8 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 - "github agent" → use Agent 4 Edit mode instead
 - "follow-up agent" → use Agent Z daily plan instead
 - "pricing agent" → use Agent 4 Edit mode instead
+- "reply agent" → use Agent R instead
+- "lead converter" → use Agent L instead
 
 # ════════════════════════════════════════════════════
 # SECTION 6 — AGENT SCHEDULE AT A GLANCE
@@ -378,6 +401,7 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 | Agent 3 | Run Agent 3 | When order received | 5 min | ⏳ Ready |
 | Agent 6 | Run Agent 6 | When Fiverr order | 30 min | ⏳ Ready |
 | Agent 2 | SUSPENDED | — | — | ❌ No Instagram |
+| Agent R | Run Agent R | When message received | 2 min | ✅ Active |
 
 ## Next Due Dates
 - Agent S next run: May 16, 2026
