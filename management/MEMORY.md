@@ -1,5 +1,5 @@
-# ScaleSnap — Master Memory File v4.1
-# Owner: Nooralam Shaikh | Updated: May 3, 2026
+# ScaleSnap — Master Memory File v4.2
+# Owner: Nooralam Shaikh | Updated: May 5, 2026
 # Paste this at the start of EVERY new Claude.ai chat
 
 # ════════════════════════════════════════════════════
@@ -155,11 +155,11 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 - PayPal: ⏳ Pending bank verification
 - Gmail: scalesnap.in@gmail.com ✅ Active
 
-## LinkedIn Status (May 3, 2026)
-- Connections: 1
-- Followers: 1
-- Requests sent: 9 (pending)
-- Posts published: 2 (launch + personal story)
+## LinkedIn Status (May 5, 2026)
+- Connections: 6
+- Followers: 6
+- Requests sent: 9 (pending) + 3 new sent May 5
+- Posts published: 4
 - LinkedIn notes: USED UP — resets June 2026
 - Warm contact: Samuel Dias (Finance Consultant Mumbai)
 - Headline: "Helping Indian Founders Save Time on Content | AI-Powered Blogs · Social Media · Emails | ScaleSnap"
@@ -175,19 +175,16 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 # SECTION 4 — OUTREACH STATUS (update every session)
 # ════════════════════════════════════════════════════
 
-## Active Leads (May 3, 2026)
-- Dipti Mohite: LinkedIn comment sent ⏳ follow-up due MAY 4
-- Aalok Choubey: Email sent ⏳ follow-up due MAY 4
-- Abhisek Dey: Email sent ⏳ follow-up due MAY 4
-- Samuel Dias: Warm interaction ✅ replied to his mention
+## Active Leads (May 5, 2026)
+- Dipti Mohite: follow-up sent May 5 ⏳ awaiting reply
+- Aalok Choubey: follow-up sent May 5 ⏳ awaiting reply
+- Abhisek Dey: follow-up sent May 5 ⏳ awaiting reply
+- Samuel Dias: warm and active ✅
 
-## Tomorrow's Priorities (May 4, 2026)
-1. 🔴 MOST URGENT: Send follow-ups to Dipti, Aalok, Abhisek
-   (exact messages in agents/AGENT_W_CONTEXT.md)
-2. 🌐 Check scalesnap.in for HTTPS — if live → tick Enforce HTTPS
-   GitHub → Settings → Pages
-3. ✅ Paste MEMORY.md → Run Agent Z
-4. 🔍 Find 3 new leads on LinkedIn
+## New Leads Pipeline (May 5, 2026)
+- Rajshree Taori: connection sent May 5 (SnackRack, corporate gifting, Mumbai)
+- Mahek Khatri Malde: connection sent May 5 (Wellness founder, 43K Instagram, Mumbai)
+- Sangita Porwal: connection sent May 5 (Yoga studio founder, Mumbai)
 
 ## Outreach Rules
 - Always personalise — never copy-paste generic messages
@@ -218,7 +215,7 @@ What it does:
   - Gives a full daily action plan
   - Posts to make, connections to send, comments to leave
 Context file: agents/AGENT_Z_CONTEXT.md
-Last run: May 4, 2026
+Last run: May 5, 2026
 MCPs needed: None
 
 ---
@@ -272,7 +269,7 @@ What it does:
   - Maintains full pipeline tracker
   - Hands all replies to Agent R immediately
 Context file: agents/AGENT_L_CONTEXT.md
-Last run: May 4, 2026
+Last run: May 5, 2026 (also ran May 4)
 MCPs needed: None
 
 ---
@@ -429,11 +426,11 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 
 ## Next Due Dates
 - Agent S next run: May 16, 2026
-- Agent L first run: May 5, 2026 (Monday)
+- Agent L last run: May 5, 2026 | next run: May 11, 2026 (Monday)
 - Agent 7 first run: May 11, 2026 (Monday)
 - Agent 4 next audit: May 17, 2026
 - Agent W last run: [update every Sunday]
-- Agent Z last run: [update every morning]
+- Agent Z last run: May 5, 2026
 
 # ════════════════════════════════════════════════════
 # SECTION 7 — WEBSITE & TECH STACK
