@@ -460,9 +460,27 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 - Footer: ✅ LIVE
 
 ## Pending Website Changes
-None — all changes from May 4 are live ✅
-(Privacy Policy, Terms of Service, og:image, favicon,
-lazy loading, Twitter cards — all merged via Agent 7 PR)
+
+═══════════════════════════════════════════════════════
+PENDING — Saturday May 9, 2026 (Agent 4 Edit)
+═══════════════════════════════════════════════════════
+
+Website Conversion Upgrade — 3 tasks (~75 min total):
+
+1. Google Analytics 4 tracking (all 4 HTML pages)
+2. "Free First Blog" lead magnet form (above contact form)
+3. "Kind Words From The Network" social proof section
+   (between About and Pricing) using real public
+   LinkedIn engagements from Prabal Chakraborty,
+   Samuel Dias, Khairunnisa Shaikh
+
+Goal: Convert 192/week LinkedIn impressions into
+actual leads. Phase 1 — first client acquisition.
+
+Full task spec: SATURDAY_MAY_9_TASK.md (in outputs/)
+
+PRE-WORK: Create GA4 property, get Measurement ID
+(G-XXXXXXXXXX) before running Claude Code.
 
 ## Design System
 Colors:
