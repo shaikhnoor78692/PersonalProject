@@ -227,7 +227,7 @@ Best times to post (India):
 ---
 
 ## LAST UPDATED
-Date: May 3, 2026
+Date: May 7, 2026
 
 ## BUSINESS STATUS
 Clients: 0
@@ -236,12 +236,12 @@ Monthly cost: ₹92
 Phase: 1
 
 ## LINKEDIN STATUS
-Connections: 1
-Followers: 1
+Connections: 9
+Followers: 9
 Following: 4
-Requests sent: 9 (6 old + 3 new today)
-Last post topic: I almost didn't start ScaleSnap (personal story)
-Last post date: May 3, 2026
+Requests sent: 14 (9 old + 5 new May 7)
+Last post topic: Engagement vs Broadcasting (May 7)
+Last post date: May 7, 2026
 
 ## ACTIVE LEADS
 | Name | Contact | Method | Date | Status |
@@ -259,11 +259,13 @@ Action: Send follow-up messages (exact messages in AGENT_W_CONTEXT.md)
 - May 2: ScaleSnap launch announcement
 - May 3: AI content saves time — small business owners
 - May 3: I almost didn't start ScaleSnap (personal story)
+- May 7: Engagement vs Broadcasting (replies > posts)
 
 ## TOPICS USED (do not repeat)
 - ScaleSnap launch announcement
 - AI content saves time for small business owners
 - Personal story — why I started ScaleSnap
+- Engagement vs broadcasting / replying matters more than posting
 
 ## REPLIES RECEIVED
 - None yet from leads
@@ -282,12 +284,18 @@ Action: Send follow-up messages (exact messages in AGENT_W_CONTEXT.md)
 | May 3 | Seema Verma | Founder Content Junction Mumbai | ⏳ Pending |
 | May 3 | Sajal Agrawal | AI Engineer & Developer | ⏳ Pending |
 | May 3 | Mandar Gite | Founder 72° AI LABS Mumbai | ⏳ Pending |
+| May 7 | Nishita Rohera | — | ⏳ Pending |
+| May 7 | Madhavi Pundalik | — | ⏳ Pending |
+| May 7 | Komal Auti | — | ⏳ Pending |
+| May 7 | Vishal Dharamdas | — | ⏳ Pending |
+| May 7 | Vanessa D'souza | — | ⏳ Pending |
 
 ## NETWORK GROWTH TRACKER
 | Date | Connections | Followers | Following | Requests Sent |
 |------|-------------|-----------|-----------|---------------|
 | May 2 | 0 | <50 | 4 | 6 |
 | May 3 | 1 | 1 | 4 | 9 |
+| May 7 | 9 | 9 | 4 | 14 |
 
 ## WARM INTERACTIONS LOG
 | Date | Person | Action | Next Step |
