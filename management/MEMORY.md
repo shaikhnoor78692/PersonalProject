@@ -1,5 +1,5 @@
-# ScaleSnap — Master Memory File v4.3
-# Owner: Nooralam Shaikh | Updated: May 8, 2026
+# ScaleSnap — Master Memory File v4.4
+# Owner: Nooralam Shaikh | Updated: May 9, 2026
 # Paste this at the start of EVERY new Claude.ai chat
 
 # ════════════════════════════════════════════════════
@@ -155,18 +155,35 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 - PayPal: ⏳ Pending bank verification
 - Gmail: scalesnap.in@gmail.com ✅ Active
 
-## LinkedIn Status (May 8, 2026)
-- Connections: 11
-- Followers: 11
+## LinkedIn Status (May 9, 2026)
+- Connections: 13 (was 11) — Nikhil Kukalwar + Sumit Gudka 
+  accepted May 9
+- Followers: 12 (was 11)
 - Following: 11
-- Requests sent: 20 total (14 prior + 6 new May 8: Karishma Chauhan, Yash Bohra, Nikhil Kukalwar, Raunak Thakur, Rutvik Redkar, Sayali Rai)
-- Posts published: 6 (Post #6 added May 8)
-- Post impressions: 236/week (was 192/week — up 23%)
-- Profile views: 10 (last 90 days)
+- Requests sent: 29 total — 20 prior + 9 new May 9 
+  (Tilak Gaurang Shah, Noopur Sane, Dietitian Aparna Kashyap, 
+  Dr. Shruti Kamath, Pratik Gaur, Siddhant Humne, 
+  Akshat Khandpur, Bobby Janbandhu, + Sumit Gudka who 
+  accepted same-day). Skipped Alka Singh (profile not findable).
+- Posts published: 7 (Post #7 added May 9 — "Views ≠ Clients" angle)
+- Post impressions: 253/week (was 236 — up 7%)
+- Profile views: 10 (last 90 days) — unchanged
+- Search appearances: 0 last week → profile About + Skills 
+  updated May 9 to fix (added "Mumbai founders", "small business", 
+  "startup founder", "solopreneur" keywords; pinned AI Content 
+  Creation, Content Marketing, SEO as top 3 skills)
 - LinkedIn notes: USED UP — resets June 2026
-- New acceptances: Om Kinholkar (May 8)
-- Warm contact: Samuel Dias (Finance Consultant Mumbai) — strongest referral partner candidate
-- Headline: "Helping Indian Founders Save Time on Content | AI-Powered Blogs · Social Media · Emails | ScaleSnap"
+- New acceptances May 9: Nikhil Kukalwar, Sumit Gudka 
+  (welcome DMs sent both)
+- New warm contact: Khushi Gupta (long thoughtful reply on 
+  community post — responded May 9)
+- Warm contact: Samuel Dias — replied 3x in 4 days, highly 
+  active referral partner candidate (engaged on his "Sort My 
+  Finances" testimonial post May 9)
+- Other warm contacts active: Khairunnisa Shaikh (mentioned 
+  Nooralam May 5), Prabal Chakraborty (commented on post May 6)
+- Headline: "Helping Indian Founders Save Time on Content | 
+  AI-Powered Blogs · Social Media · Emails | ScaleSnap"
 
 ## Payment Details
 - UPI: shaikhnoor78692@okhdfcbank
@@ -179,16 +196,31 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 # SECTION 4 — OUTREACH STATUS (update every session)
 # ════════════════════════════════════════════════════
 
-## Active Leads (May 5, 2026)
-- Dipti Mohite: follow-up sent May 5 ⏳ awaiting reply
-- Aalok Choubey: follow-up sent May 5 ⏳ awaiting reply
-- Abhisek Dey: follow-up sent May 5 ⏳ awaiting reply
-- Samuel Dias: warm and active ✅
+## Active Leads (May 9, 2026)
+- Dipti Mohite: follow-up sent May 5 — NO REPLY after 4 days, 
+  deprioritize if no reply by May 12
+- Aalok Choubey: follow-up sent May 5 — NO REPLY after 4 days, same
+- Abhisek Dey: follow-up sent May 5 — NO REPLY after 4 days, same
+- Samuel Dias: warm and active ✅ (engaged 3x in 4 days)
+- Khushi Gupta: NEW — emerging warm contact (responded to her 
+  thoughtful comment May 9)
 
-## New Leads Pipeline (May 5, 2026)
-- Rajshree Taori: connection sent May 5 (SnackRack, corporate gifting, Mumbai)
-- Mahek Khatri Malde: connection sent May 5 (Wellness founder, 43K Instagram, Mumbai)
-- Sangita Porwal: connection sent May 5 (Yoga studio founder, Mumbai)
+## New Leads Pipeline (May 9, 2026)
+Tier 1 + Tier 2 ICP matches sent May 9:
+- Tilak Gaurang Shah: Founder, Ace of Pubs + 12th Man Brewing, Mumbai
+- Noopur Sane: Founder, The Build Inc., CRO/growth consultant, Mumbai
+- Dietitian Aparna Kashyap: Founder, FoodMends + SwasthNaari
+- Dr. Shruti Kamath: Founder/Lead Doctor, ASK Wellness
+- Pratik Gaur: Founder, Celebistaan
+- Siddhant Humne: Co-founder, AthenaProtein
+- Akshat Khandpur: Co-Founder, Fudr (restaurant marketing tech)
+- Bobby Janbandhu: Co-founder, corporate event specialist
+- Sumit Gudka: GM, CREDAI MCHI Thane — ACCEPTED SAME DAY ✅ 
+  (real estate body, gateway to Mumbai builders)
+
+Pending from May 8 batch (give till Monday before counting as 
+ignored): Karishma Chauhan, Yash Bohra, Raunak Thakur, 
+Rutvik Redkar, Sayali Rai
 
 ## Outreach Rules
 - Always personalise — never copy-paste generic messages
@@ -211,15 +243,55 @@ Status: ACTIVE ✅
 Trigger: Every morning (Mon–Sat)
 Type to run: Run Agent Z
 Time: 10 minutes
-What it does:
-  - Asks for 5 LinkedIn inputs one at a time
-    (feed, notifications, network, messages, profile)
-  - In Messages step: if reply found → triggers Agent R
-  - Analyses what you saw on LinkedIn
-  - Gives a full daily action plan
-  - Posts to make, connections to send, comments to leave
+What it does (UPDATED May 9, 2026):
+
+PHASE 1 — DATA COLLECTION (collect everything first, no tasks yet):
+  Step 1: Ask for FEED screenshot/text → analyze silently
+  Step 2: Ask for NOTIFICATIONS → analyze silently
+  Step 3: Ask for NETWORK (acceptances + suggestions) → 
+          analyze silently
+  Step 4: Ask for MESSAGES → if reply found, trigger Agent R
+  Step 5: Ask for PROFILE (analytics, numbers, search 
+          appearances) → analyze silently
+
+  IMPORTANT: During Phase 1, only confirm receipt and move to 
+  next step. Do NOT give actions yet. Save all observations 
+  for Phase 2.
+
+PHASE 2 — TASK EXECUTION (one task at a time, in this order):
+  After all 5 inputs collected, give Nooralam a clear task list:
+  Task 1: Reply to any pending comments on her own posts 
+          (warm contact maintenance — highest priority, never skip)
+  Task 2: Engage with warm contacts' recent posts (1-2 comments)
+  Task 3: Send welcome DMs to anyone who accepted in last 24-48h
+  Task 4: Send new connection requests to ICP matches 
+          (Tier 1 + Tier 2)
+  Task 5: Fix any profile health issues spotted (e.g., search 
+          appearances, headline drift)
+  Task 6: Post 3 thoughtful comments on founder posts (NEVER SKIP 
+          — this is the #1 growth lever)
+  Task 7: Publish today's post (NEVER SKIP — keeps streak alive, 
+          uses angle spotted from feed analysis)
+
+  Give ONE task at a time. Wait for "task X done" before moving 
+  to next task. Do NOT dump all tasks at once.
+
+PHASE 3 — WRAP UP (only after Tasks 6 + 7 are confirmed done):
+  - Show today's wins summary (numbers, acceptances, engagements)
+  - Tomorrow's reminder (per Section 6 schedule)
+  - Optional: ONE improvement suggestion (per Step C health check)
+  - Provide MEMORY.md update prompt for Claude Code
+
+CRITICAL RULES:
+- NEVER wrap up before Tasks 6 (3 comments) and 7 (today's post) 
+  are confirmed done. Daily comments + posting = the muscle that 
+  builds the business. Reactive engagement alone is NOT enough.
+- NEVER dump all tasks at once. One task at a time, in order.
+- If Nooralam says "skip" on Task 6 or 7, ask her to confirm and 
+  log a "missed engagement day" note in MEMORY for next session.
+
 Context file: agents/AGENT_Z_CONTEXT.md
-Last run: May 8, 2026
+Last run: May 9, 2026
 MCPs needed: None
 
 ---
@@ -433,8 +505,8 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 - Agent L last run: May 5, 2026 | next run: May 11, 2026 (Monday)
 - Agent 7 first run: May 11, 2026 (Monday)
 - Agent 4 next audit: May 17, 2026
-- Agent W last run: [update every Sunday]
-- Agent Z last run: May 8, 2026
+- Agent W last run: [update Sunday May 10]
+- Agent Z last run: May 9, 2026
 
 # ════════════════════════════════════════════════════
 # SECTION 7 — WEBSITE & TECH STACK
@@ -572,6 +644,22 @@ Scam Warnings:
 - Fiverr orders ONLY in Orders tab — never messages tab
 - Never click Google Doc links from strangers
 - Facebook "Mumbai Business Network" = SCAM
+- LinkedIn Service Marketplace Requests = LOW PRIORITY / OFTEN SCAM:
+  * Paywalled for free accounts (cannot open without LinkedIn Premium)
+  * DO NOT pay for Premium just to view requests (₹2,000+/month 
+    not worth it for ScaleSnap's ₹92/month budget)
+  * Always verify requesters by searching their name/company on 
+    LinkedIn first
+  * If profile shows blank "--" name OR no company found → SCAM, 
+    ignore
+  * Examples flagged:
+    - Pooja Shende (May 8) — vetted and dismissed (not a fit)
+    - stayzy stay (May 9) — confirmed scam (no findable 
+      profile/company)
+  * Real leads come via DMs, comments, or scalesnap.in contact 
+    form — NOT paywalled marketplace requests
+  * Agent Z will continue to mention service requests if they 
+    appear, but no longer treats them as priority leads
 
 # ════════════════════════════════════════════════════
 # SECTION 11 — LOGGING OFF SYSTEM
