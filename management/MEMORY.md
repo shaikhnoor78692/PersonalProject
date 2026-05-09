@@ -115,6 +115,7 @@ STEP D → Ask "What do you need today?"
 
 Name: Nooralam Shaikh
 Location: Mumbai, India
+Pronouns: he/him (Nooralam is male — never use she/her)
 Situation: Full-time employee + building ScaleSnap as side business
 Personality: Shy — no personal social media marketing ever
 Tech level: Beginner-intermediate
@@ -127,7 +128,7 @@ How Nooralam works with Claude:
 - Claude Code always pushes to dev branch → creates PR
 - Claude.ai reviews PR → approves or rejects
 - Nooralam merges on GitHub only after Claude.ai approval
-- Nooralam copy-pastes prompts Claude gives her
+- Nooralam copy-pastes prompts Claude gives him
 - After every session → Claude updates all relevant documents
 
 # ════════════════════════════════════════════════════
@@ -260,35 +261,66 @@ PHASE 1 — DATA COLLECTION (collect everything first, no tasks yet):
 
 PHASE 2 — TASK EXECUTION (one task at a time, in this order):
   After all 5 inputs collected, give Nooralam a clear task list:
-  Task 1: Reply to any pending comments on her own posts 
+
+  Task 1: Reply to any pending comments on his own posts 
           (warm contact maintenance — highest priority, never skip)
+
   Task 2: Engage with warm contacts' recent posts (1-2 comments)
+
   Task 3: Send welcome DMs to anyone who accepted in last 24-48h
-  Task 4: Send new connection requests to ICP matches 
-          (Tier 1 + Tier 2)
-  Task 5: Fix any profile health issues spotted (e.g., search 
-          appearances, headline drift)
-  Task 6: Post 3 thoughtful comments on founder posts (NEVER SKIP 
+
+  Task 4: ACTIVE SEARCH — Ask Nooralam to run a LinkedIn search 
+          using one ROTATING filter based on today's day of week:
+            - Monday:    "founder Mumbai"
+            - Tuesday:   "small business owner Mumbai"
+            - Wednesday: "D2C founder India"
+            - Thursday:  "wellness founder Mumbai"
+            - Friday:    "coach founder India"
+            - Saturday:  "real estate founder Mumbai"
+            - Sunday:    "startup founder Thane"
+          He pastes top 10-15 search results. Claude analyzes 
+          each profile → marks ✅ ICP match / ⚠️ maybe / 
+          ❌ skip (competitor or wrong fit) → gives a clean 
+          "send Connect to these 5-7" curated list. NEVER SKIP — 
+          this is the active lead-gen lever. PYMK alone is too 
+          passive.
+
+  Task 5: Send connection requests to PYMK suggestions 
+          (passive — Network tab "People You May Know"). 
+          Claude curates Tier 1 + Tier 2 from the list 
+          Nooralam shares.
+
+  Task 6: Fix any profile health issues spotted (e.g., search 
+          appearances at 0, headline drift, missing keywords)
+
+  Task 7: Post 3 thoughtful comments on founder posts (NEVER SKIP 
           — this is the #1 growth lever)
-  Task 7: Publish today's post (NEVER SKIP — keeps streak alive, 
+
+  Task 8: Publish today's post (NEVER SKIP — keeps streak alive, 
           uses angle spotted from feed analysis)
 
   Give ONE task at a time. Wait for "task X done" before moving 
   to next task. Do NOT dump all tasks at once.
 
-PHASE 3 — WRAP UP (only after Tasks 6 + 7 are confirmed done):
+PHASE 3 — WRAP UP (only after Tasks 7 + 8 are confirmed done):
   - Show today's wins summary (numbers, acceptances, engagements)
   - Tomorrow's reminder (per Section 6 schedule)
   - Optional: ONE improvement suggestion (per Step C health check)
   - Provide MEMORY.md update prompt for Claude Code
 
 CRITICAL RULES:
-- NEVER wrap up before Tasks 6 (3 comments) and 7 (today's post) 
+- NEVER wrap up before Tasks 7 (3 comments) and 8 (today's post) 
   are confirmed done. Daily comments + posting = the muscle that 
   builds the business. Reactive engagement alone is NOT enough.
+- NEVER skip Task 4 (Active Search). Without it, lead-gen is 
+  fully dependent on LinkedIn's PYMK suggestions, which is 
+  passive. Active search uses a rotating filter (Mon-Sun) to 
+  hit different ICP segments each day.
 - NEVER dump all tasks at once. One task at a time, in order.
-- If Nooralam says "skip" on Task 6 or 7, ask her to confirm and 
-  log a "missed engagement day" note in MEMORY for next session.
+- If Nooralam says "skip" on Task 4, 7, or 8, ask him to confirm 
+  and log a "missed engagement day" note in MEMORY for next 
+  session.
+- ALWAYS use he/him pronouns when referring to Nooralam.
 
 Context file: agents/AGENT_Z_CONTEXT.md
 Last run: May 9, 2026
