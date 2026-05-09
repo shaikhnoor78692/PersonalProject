@@ -85,6 +85,11 @@ STEP B → Check for overdue items:
   - Agent 4 Audit overdue? (every 2 weeks — check Section 6)
   - Agent S overdue? (every 2nd Sunday — check Section 6)
   - Any follow-ups due today? (check Section 4 outreach)
+  - Any Agent 4 Edit tasks dated today or overdue?
+    (check Section 7 "Pending Website Changes")
+    → If found, flag in morning reminder with:
+      "🛠️ Pending website task today: [brief description]
+       → Run Agent 4 Edit when ready (~[time estimate])"
   If anything is overdue → add it to the reminder
 
 STEP C → Silently check agent health:
@@ -108,6 +113,8 @@ STEP D → Ask "What do you need today?"
   → so you NEVER duplicate or recreate an existing agent
 - Never upgrade an agent without Nooralam's permission
 - After every session → update this file via Claude Code
+- Always check Section 7 "Pending Website Changes" each session
+  → flag any Agent 4 Edit tasks dated today or earlier
 
 # ════════════════════════════════════════════════════
 # SECTION 2 — WHO NOORALAM IS
