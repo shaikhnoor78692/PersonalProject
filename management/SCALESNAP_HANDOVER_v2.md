@@ -1,5 +1,5 @@
 # ScaleSnap Business Handover — Nooralam Shaikh
-**Last updated:** 2026-05-03 (Session 4 — Agent upgrades, LinkedIn Intelligence System, branch protection, folder restructure)
+**Last updated:** 2026-05-09 (May 9 — Agent Z extended session, 3 system upgrade PRs, Active Search added)
 **Owner:** Nooralam Shaikh
 **Business Email:** scalesnap.in@gmail.com
 **UPI:** shaikhnoor78692@okhdfcbank
@@ -10,6 +10,105 @@
 ---
 
 ## ✅ COMPLETED WORK
+
+═══════════════════════════════════════════════════
+Session: Saturday, May 9, 2026
+Agent: Z (daily LinkedIn)
+Duration: ~90 mins (extended due to system upgrades)
+═══════════════════════════════════════════════════
+
+LINKEDIN OUTCOMES:
+- Connections accepted: +2 (Nikhil Kukalwar, Sumit Gudka)
+  Both received welcome DMs same day
+- Connection requests sent: 9 new (Tier 1 + Tier 2 ICP matches)
+  Tilak Gaurang Shah, Noopur Sane, Dietitian Aparna Kashyap,
+  Dr. Shruti Kamath, Pratik Gaur, Siddhant Humne, Akshat Khandpur,
+  Bobby Janbandhu, Sumit Gudka (accepted same day)
+  Skipped: Alka Singh (profile not findable)
+- Pending May 8 batch (still no response after 1 day):
+  Karishma Chauhan, Yash Bohra, Raunak Thakur, Rutvik Redkar,
+  Sayali Rai (give till Monday May 11 before flagging silent)
+- Comments published: 3 thoughtful comments
+  (Vishal Dharamdas, Yashika Saxena, Harshita Kungwani)
+- Reply on own post: Khushi Gupta — emerging warm contact
+- Engagement on warm contact: Samuel Dias "Sort My Finances"
+  testimonial post commented on
+- Post #7 published: "Views ≠ Clients" angle (real-story format
+  using today's stayzy scam encounter as opener)
+
+NUMBERS (before → after):
+- Connections: 11 → 13
+- Followers: 11 → 12
+- Post impressions (7d): 236 → 253 (+7%)
+- Posts published: 6 → 7
+- Total connection requests sent (all-time): 20 → 29
+- Profile views (90d): 10 (unchanged)
+- Search appearances (7d): 0 → fix applied to About + Skills
+
+PROFILE FIXES APPLIED:
+- About section: added keywords "Mumbai founders", "small
+  business", "startup founder", "solopreneur"
+- Skills: pinned AI Content Creation, Content Marketing, SEO
+  as top 3
+- Reason: 0 search appearances last week — keywords needed
+
+LEADS / OUTREACH:
+- 3 silent leads (Dipti Mohite, Aalok Choubey, Abhisek Dey):
+  follow-up sent May 5, no reply 4 days, deprioritize by May 12
+- New warm contact: Khushi Gupta (responded to her thoughtful
+  comment with quote-back reply)
+- Active warm contacts: Samuel Dias (engaged 3x in 4 days),
+  Khairunnisa Shaikh, Khushi Gupta, Prabal Chakraborty
+- Strongest referral candidate: Samuel Dias
+
+SCAMS / DISMISSALS:
+- stayzy stay (LinkedIn Service Marketplace request):
+  CONFIRMED SCAM — no findable profile or company, paywalled
+  behind LinkedIn Premium. Did not respond.
+- Pooja Shende: previously dismissed yesterday May 8 (not a fit)
+- Both logged in MEMORY.md Section 10 as scam warnings
+
+SYSTEM UPGRADES (3 PRs merged today):
+- PR #18: MEMORY.md updates from May 9 session — LinkedIn
+  status, outreach pipeline, Agent Z workflow restructured
+  to 3-phase pattern (collect all → execute one-by-one →
+  wrap only after Tasks 7+8 done), scam warning added
+- PR #19: Pronoun fix (Nooralam = he/him, explicit line in
+  Section 2) + Agent Z Active Search task added with Mon-Sun
+  rotating filter, Phase 2 now has 8 tasks
+- PR #20: Morning checklist STEP B now scans Section 7 for
+  pending Agent 4 Edit tasks, surfaces them in morning
+  reminder with 🛠️ icon
+
+KEY LESSONS / IMPROVEMENTS LOCKED IN:
+1. Service Marketplace requests = paywalled, often scam.
+   No longer treated as priority leads.
+2. Agent Z must not wrap until Tasks 7 (3 comments) and
+   8 (today's post) are done — daily habit > reactive
+   engagement alone.
+3. Active Search needed alongside PYMK suggestions —
+   passive lead-gen alone is too narrow.
+4. Morning reminders must scan Section 7 for website tasks,
+   not just Sections 4 and 6.
+
+NEXT SESSION (Sunday May 10, 2026):
+1. Run Agent W (15 mins) — weekly review
+2. Run Agent Z (10 mins) — Sunday Active Search filter:
+   "startup founder Thane"
+3. Run Agent 4 Edit (~75 mins) — pending May 9 task:
+   GA4 tracking + Lead Magnet form + Social Proof section
+   (GA4 ID already created: G-XL643N289Y)
+
+THINGS TO WATCH TOMORROW:
+- Did any of the May 8 batch (Karishma, Yash, Raunak, Rutvik,
+  Sayali) accept after 2+ days?
+- Did any of the 9 sent today accept overnight?
+- Did Khushi Gupta or Samuel reply to any of today's
+  comments/replies?
+- Post #7 ("Views ≠ Clients") performance — does the
+  scam-encounter opener resonate?
+
+---
 
 ### Session 1 (May 1, 2026)
 - Website live: scalesnap.in
