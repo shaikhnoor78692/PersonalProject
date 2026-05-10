@@ -1,5 +1,5 @@
-# ScaleSnap — Master Memory File v4.6
-# Owner: Nooralam Shaikh | Updated: May 10, 2026
+# ScaleSnap — Master Memory File v4.7
+# Owner: Nooralam Shaikh | Updated: May 10, 2026 (end of day)
 # Paste this at the start of EVERY new Claude.ai chat
 
 # ════════════════════════════════════════════════════
@@ -16,9 +16,61 @@ STEP 5 → Read the rest of this file silently and be ready
 
 ---
 
+## ⚠️ MONDAY MAY 11, 2026 — SPECIAL HIGH-IMPACT DAY OVERRIDE
+
+If today is Monday May 11, 2026 — show this reminder INSTEAD of the
+default Monday reminder:
+
+"🌅 Good morning Nooralam! It's Monday — and today is the highest-impact
+day of Phase 1 so far.
+
+🚨 CRITICAL — VERIFY YESTERDAY'S WEBSITE SHIP FIRST:
+PR #23 merged Sunday May 10 (GA4 + lead magnet + founder story).
+You MUST verify the live site before doing anything else today.
+
+Verification checklist (~10 min):
+
+1. Visit scalesnap.in in incognito window
+   → Founder story sits between About and Work Samples
+   → 'Get Your Free First Blog Post' section above contact form
+   → No layout breaks (desktop + mobile)
+
+2. Open GA4 → Reports → Realtime — should see your visit
+
+3. Open GA4 → Admin → DebugView
+   → Append ?gtm_debug=1 to scalesnap.in URL
+   → Submit lead magnet form with your own email as test
+   → Should see: page_view event → lead_magnet_submit event
+
+4. Check scalesnap.in@gmail.com inbox
+   → Test submission should arrive in ~30 sec
+   → Subject line: 'Free Blog Lead — ScaleSnap'
+
+5. Verify thank-you.html?source=freeblog flow
+   → Headline: 'Got it — your blog is on its way!'
+   → 'Read a Sample Blog' CTA visible
+
+If ANY step fails → Run Agent 4 Edit again with a hotfix prompt.
+Do NOT proceed to other agents until website is verified working.
+
+After website verified, today's agents (in order):
+✅ Run Agent Z (LinkedIn intel) — 10 min
+🔍 Run Agent L (pipeline + send 3 graceful exit DMs) — 15 min
+🩺 Run Agent 7 (FIRST RUN — full website health check) — 10 min
+
+📌 GRACEFUL EXIT DMs TO SEND TODAY (scripts in Section 4):
+• Dipti Mohite
+• Aalok Choubey
+• Abhisek Dey
+
+Business status: [see Section 3 below]
+What do you need today?"
+
+---
+
 ## DAILY REMINDER SCHEDULE
 
-### IF TODAY IS MONDAY:
+### IF TODAY IS MONDAY (not May 11, 2026):
 "🌅 Good morning Nooralam! It's Monday — new week!
 
 Today's agents:
@@ -41,6 +93,7 @@ Today's agent:
 
 [If follow-ups due today → say: 📌 Follow-up due today: [Name]]
 [If Agent 4 Audit is overdue (check Section 6) → mention it]
+[If today is Friday → SOFT-PITCH DAY reminder per Section 4]
 
 Business status: [see Section 3 below]
 What do you need today?"
@@ -78,7 +131,8 @@ What do you need today?"
 
 Do this silently and fast before responding. Takes 10 seconds.
 
-STEP A → Show today's reminder (from schedule above)
+STEP A → Show today's reminder (from schedule above, including the
+  May 11 special override if applicable)
 
 STEP B → Check for overdue items:
   - Agent L overdue? (every Monday)
@@ -115,6 +169,11 @@ STEP D → Ask "What do you need today?"
 - After every session → update this file via Claude Code
 - Always check Section 7 "Pending Website Changes" each session
   → flag any Agent 4 Edit tasks dated today or earlier
+- Claude.ai is the source of truth for what gets logged in MEMORY.
+  Claude Code should NOT autonomously commit MEMORY updates without
+  the prompt from Claude.ai. Workflow: Claude.ai drafts the update
+  prompt → Nooralam pastes to Claude Code → Claude Code commits to
+  dev → PR → Claude.ai reviews → merge.
 
 # ════════════════════════════════════════════════════
 # SECTION 2 — WHO NOORALAM IS
@@ -156,58 +215,67 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 
 ## All Platforms (LIVE)
 - Website: scalesnap.in ✅ LIVE (HTTPS pending — check daily)
+  → MAJOR UPGRADE May 10: GA4 tracking + lead magnet + founder
+    story all shipped (PR #23 merged)
 - Fiverr: fiverr.com/scalesnap ✅ LIVE
 - LinkedIn: linkedin.com/in/nooralam-scalesnap ✅ LIVE
 - Facebook: ScaleSnap Business Page ✅ LIVE
 - Razorpay: 3 payment links active ✅
 - PayPal: ⏳ Pending bank verification
 - Gmail: scalesnap.in@gmail.com ✅ Active
+- GA4: G-XL643N289Y ✅ ACTIVE on all 4 HTML pages from May 10
 
 ## LinkedIn Status (May 10, 2026)
-- Connections: 15 (was 13) — Madhavi Pundalik + Siddhant Humne 
+- Connections: 15 (was 13) — Madhavi Pundalik + Siddhant Humne
   accepted May 9-10
 - Followers: 15 (was 12)
 - Following: 11
-- Requests sent: ~59 total
-- Posts published: 8 (Post #8 added May 10 — 
-  "20-second reply / doorbell vs coffee shop" angle)
+- Total invites sent: ~59
+- Posts published: 8 (Post #8 added May 10 — "20-second reply /
+  doorbell vs coffee shop" angle, riding the Madhavi exchange)
 - Post impressions: 282/week (was 253 — up 11%)
 - Profile views: 12 (last 90 days) (was 10)
-- Search appearances: 294 this week — May 9 keyword fix 
+- Search appearances: 294 this week (was 0) — May 9 keyword fix
   is working ✅
 - LinkedIn notes: USED UP — resets June 2026
-- New acceptances May 9-10: Siddhant Humne (AthenaProtein), 
-  Madhavi Pundalik (NM Ingenious) — welcome DMs sent both
-- Warm contacts (May 10):
-  * Madhavi Pundalik — connected May 9, DM'd May 10, 
-    publicly mentioned Nooralam in her own SIL post 
-    comment thread May 10, viewed profile same day. 
-    Strong potential as both client and referral channel.
-  * Khushi Gupta — confirmed warm: loved + replied with 
-    100+ word thoughtful response May 10
-  * Samuel Dias — replied 3x in 4 days, highly active 
-    referral partner candidate (engaged on his "Sort My 
-    Finances" testimonial post May 9)
-  * Khairunnisa Shaikh — mentioned Nooralam May 5
-  * Prabal Chakraborty — commented on post May 6
-- New non-network supporter: Daniel O. Livvarcin (PhD) — 
-  reacted to May 9 post (validates keyword update)
-- Headline: "Helping Indian Founders Save Time on Content | 
-  AI-Powered Blogs · Social Media · Emails | ScaleSnap"
+
+## Warm Contacts (May 10 status)
+- Madhavi Pundalik (NM Ingenious — brand activations) — connected
+  May 9, DM'd May 10, publicly mentioned Nooralam in her own SIL
+  post comment thread May 10, viewed profile same day, Nooralam
+  replied + closed loop. Strong potential as both client and
+  referral channel.
+- Khushi Gupta — confirmed warm: loved + replied with 100+ word
+  thoughtful response May 10. Peer/amplifier (not buyer).
+- Samuel Dias — replied 3x in 4 days, highly active referral
+  partner candidate (Netflix/Vir Das production accountant —
+  finance consultant for founders).
+- Khairunnisa Shaikh — mentioned Nooralam May 5; engages on
+  Mother's Day reposts May 10.
+- Prabal Chakraborty — commented on post May 6.
+- New non-network supporter: Daniel O. Livvarcin (PhD) — reacted
+  to May 9 "Views ≠ Clients" post (validates keyword update).
+- Featured supporter (May 10): Shubha Sharma — mentioned Nooralam
+  in a 134-reaction comment thread on LinkedIn News India post,
+  major non-network distribution event.
+
+## Headline
+"Helping Indian Founders Save Time on Content | AI-Powered Blogs ·
+Social Media · Emails | ScaleSnap"
 
 ## Agent W — Weekly Review (May 10, 2026)
 - Agent W completed Sunday May 10 ✅
-- Q1 answer (Claude chose): Website leak — funnel leaking before 
-  leads captured. Priority: ship Agent 4 Edit (GA4 + lead magnet 
-  + social proof) Monday May 11.
-- Q2 answer (Claude chose): Ship Agent 4 Edit Monday — highest 
-  leverage action this week.
-- Q3 answer (Claude chose): Test gig ₹1,000–2,000 by May 31 — 
-  single deliverable, paid via Razorpay → unlocks ₹4,000/mo 
-  conversations from week 5 onward.
-- Note: Nooralam deferred all 3 decisions to Claude. 
-  Review with him Monday if he wants to revisit.
-- Strategic priorities set for week of May 11–17 (see Section 6)
+- Q1 answer (Claude chose; Nooralam deferred): Website leak —
+  funnel leaking before leads captured. Priority: ship Agent 4
+  Edit (GA4 + lead magnet + founder story).
+- Q2 answer (Claude chose; Nooralam deferred): Ship Agent 4 Edit
+  Monday — highest leverage action this week. UPDATE: shipped
+  same day (Sunday May 10) instead of Monday. PR #23 merged.
+- Q3 answer (Claude chose; Nooralam deferred): Test gig
+  ₹1,000–2,000 by May 31 — single deliverable, paid via Razorpay
+  → unlocks ₹4,000/mo conversations from week 5 onward.
+- Note: Nooralam deferred all 3 decisions to Claude.
+  Review with him in next Agent W session if he wants to revisit.
 
 ## Payment Details
 - UPI: shaikhnoor78692@okhdfcbank
@@ -222,42 +290,89 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 
 ## Active Leads (May 10, 2026)
 - Dipti Mohite: follow-up sent May 5 — NO REPLY ⚠️
-  Graceful exit script drafted — send Monday May 11
+  GRACEFUL EXIT SCRIPT TO SEND MONDAY MAY 11 (see below)
 - Aalok Choubey: follow-up sent May 5 — NO REPLY ⚠️
-  Graceful exit script drafted — send Monday May 11
+  GRACEFUL EXIT SCRIPT TO SEND MONDAY MAY 11 (see below)
 - Abhisek Dey: follow-up sent May 5 — NO REPLY ⚠️
-  Graceful exit script drafted — send Monday May 11
+  GRACEFUL EXIT SCRIPT TO SEND MONDAY MAY 11 (see below)
 - Samuel Dias: warm and active ✅ (engaged 3x in 4 days)
 - Khushi Gupta: confirmed warm ✅ (100+ word reply May 10)
-- Madhavi Pundalik: strong warm ✅ — welcomed + active engagement 
+- Madhavi Pundalik: strong warm ✅ — welcomed + active engagement
   loop running (client + referral potential)
 
-## Outreach Playbook Additions
-- Friday May 15 = SOFT-PITCH DAY: send ₹1,500 test gig offer 
-  to warm contacts (Samuel Dias, Khushi Gupta, Madhavi Pundalik).
-  Template ready. Single deliverable, paid via Razorpay.
-  Goal: first paid transaction before May 31.
+## Graceful Exit Scripts — SEND MONDAY MAY 11
+
+→ Dipti Mohite:
+"Hey Dipti, I know inboxes get overwhelming so no pressure at all.
+Just wanted to circle back one last time on the content help — if
+it's not the right fit or timing, totally understand. If it ever
+becomes relevant, I'll be around. Wishing you well with everything
+you're building. 🙏"
+
+→ Aalok Choubey:
+"Hey Aalok, completely understand if this hasn't been a priority —
+last time I'll bring it up. If content/blog support ever moves up
+your list down the road, my door's always open. Wishing you the
+best with your work. 🙏"
+
+→ Abhisek Dey:
+"Hey Abhisek, no pressure on a reply at all — just closing the
+loop on my earlier note so you're not getting nudges from me. If
+you ever want to revisit content help, I'll be here. All the best
+for what you're building."
+
+After sending: if no reply within 48 hours (May 13), DEPRIORITIZE
+all 3 from Active Leads — move to a "Closed/Cold" subsection or
+remove entirely.
 
 ## New Connections Completed (May 10)
-- Siddhant Humne (AthenaProtein) — welcome DM sent
-- Madhavi Pundalik (NM Ingenious) — welcome DM + engagement loop
-- Om Kinholkar (TraccAi) — welcome DM sent (was unlogged prior)
+- Siddhant Humne (Co-Founder, AthenaProtein) — welcome DM sent
+- Madhavi Pundalik (Founder/Director, NM Ingenious) — welcome DM +
+  active engagement loop
+- Om Kinholkar (Building TraccAi — AI Strategy + BI for Indian
+  businesses) — welcome DM sent (was unlogged from prior outreach)
 
 ## New Leads Pipeline (May 10, 2026)
 5 connection requests sent May 10 from PYMK (Tier 1 ICP):
-- Trusha Daware: Pink Shore Entertainment (marketing agency)
-- Asmita Choudhary: Shape Stories Studio (D2C video)
+- Trusha Daware: Pink Shore Entertainment (marketing agency,
+  potential referral channel)
+- Asmita Choudhary: Shape Stories Studio (D2C video, complement)
 - Amrita Khurana: Royal Elephants (luxury/wellness)
-- Saransh Mathur: Ambulens.in (healthcare)
+- Saransh Mathur: Ambulens.in (healthcare/medical tourism)
 - Megha Kalyani: Wedding/event consultant
 
-Pending from May 9 batch:
+Pending acceptance from May 9 batch:
 - Tilak Gaurang Shah, Noopur Sane, Dietitian Aparna Kashyap,
   Dr. Shruti Kamath, Pratik Gaur, Akshat Khandpur, Bobby Janbandhu
 
 Pending from May 8 batch:
-- Karishma Chauhan, Yash Bohra, Raunak Thakur, Rutvik Redkar, 
+- Karishma Chauhan, Yash Bohra, Raunak Thakur, Rutvik Redkar,
   Sayali Rai
+
+## Friday May 15 — SOFT-PITCH DAY
+
+Send ₹1,500 test gig offer to ONE warm contact who has engaged
+3+ times this week. Candidates: Samuel Dias, Khushi Gupta,
+Madhavi Pundalik, OR a May 9 batch acceptance who's been active.
+
+Soft-pitch template:
+"Hey [Name], been really enjoying the back-and-forth on LinkedIn
+this week. Quick — and zero pressure — thought: I've been writing
+AI-assisted blog posts for Indian founders (~1,200 words,
+SEO-built, ready to publish), and I'm offering a single test
+piece to one or two warm contacts at ₹1,500 instead of my usual
+₹4,000/month rate. Just looking to add 1-2 case studies. If your
+business has a blog topic that's been on your 'I should write
+about this' list, would love to take it off your plate. If not
+relevant right now, no worries at all — appreciate the
+conversations regardless."
+
+Rules for soft-pitch:
+- ONLY use with contacts who've engaged 3+ times in the week
+- ONLY one contact, not all of them at once
+- If they say yes → deliver via Razorpay Starter link, single
+  blog post, 48-hour turnaround
+- If they say no → graceful, no follow-up, relationship preserved
 
 ## Outreach Rules
 - Always personalise — never copy-paste generic messages
@@ -285,57 +400,63 @@ What it does (UPDATED May 9, 2026):
 PHASE 1 — DATA COLLECTION (collect everything first, no tasks yet):
   Step 1: Ask for FEED screenshot/text → analyze silently
   Step 2: Ask for NOTIFICATIONS → analyze silently
-  Step 3: Ask for NETWORK (acceptances + suggestions) → 
+  Step 3: Ask for NETWORK (acceptances + suggestions) →
           analyze silently
   Step 4: Ask for MESSAGES → if reply found, trigger Agent R
-  Step 5: Ask for PROFILE (analytics, numbers, search 
+  Step 5: Ask for PROFILE (analytics, numbers, search
           appearances) → analyze silently
 
-  IMPORTANT: During Phase 1, only confirm receipt and move to 
-  next step. Do NOT give actions yet. Save all observations 
+  IMPORTANT: During Phase 1, only confirm receipt and move to
+  next step. Do NOT give actions yet. Save all observations
   for Phase 2.
 
 PHASE 2 — TASK EXECUTION (one task at a time, in this order):
   After all 5 inputs collected, give Nooralam a clear task list:
 
-  Task 1: Reply to any pending comments on his own posts 
+  Task 1: Reply to any pending comments on his own posts
           (warm contact maintenance — highest priority, never skip)
 
   Task 2: Engage with warm contacts' recent posts (1-2 comments)
 
   Task 3: Send welcome DMs to anyone who accepted in last 24-48h
 
-  Task 4: ACTIVE SEARCH — Ask Nooralam to run a LinkedIn search 
+  Task 4: ACTIVE SEARCH — Ask Nooralam to run a LinkedIn search
           using one ROTATING filter based on today's day of week:
             - Monday:    "founder Mumbai"
             - Tuesday:   "small business owner Mumbai"
             - Wednesday: "D2C founder India"
             - Thursday:  "wellness founder Mumbai"
             - Friday:    "coach founder India"
-            - Saturday:  "real estate founder Mumbai"
-            - Sunday:    "startup founder Thane"
-          He pastes top 10-15 search results. Claude analyzes 
-          each profile → marks ✅ ICP match / ⚠️ maybe / 
-          ❌ skip (competitor or wrong fit) → gives a clean 
-          "send Connect to these 5-7" curated list. NEVER SKIP — 
-          this is the active lead-gen lever. PYMK alone is too 
+            - Saturday:  "wellness founder Thane"      ← UPDATED May 10
+            - Sunday:    "D2C founder Mumbai"          ← UPDATED May 10
+          He pastes top 10-15 search results. Claude analyzes
+          each profile → marks ✅ ICP match / ⚠️ maybe /
+          ❌ skip (competitor or wrong fit) → gives a clean
+          "send Connect to these 5-7" curated list. NEVER SKIP —
+          this is the active lead-gen lever. PYMK alone is too
           passive.
 
-  Task 5: Send connection requests to PYMK suggestions 
-          (passive — Network tab "People You May Know"). 
-          Claude curates Tier 1 + Tier 2 from the list 
+          FALLBACK RULE (added May 10): If a daily filter returns
+          fewer than 5 results, drop the city qualifier and rerun
+          (e.g., "wellness founder Thane" → "wellness founder").
+          If still <5 results → skip Task 4 for the day, log as
+          underperformed, suggest filter rotation in next Agent W.
+
+  Task 5: Send connection requests to PYMK suggestions
+          (passive — Network tab "People You May Know").
+          Claude curates Tier 1 + Tier 2 from the list
           Nooralam shares.
 
-  Task 6: Fix any profile health issues spotted (e.g., search 
+  Task 6: Fix any profile health issues spotted (e.g., search
           appearances at 0, headline drift, missing keywords)
 
-  Task 7: Post 3 thoughtful comments on founder posts (NEVER SKIP 
+  Task 7: Post 3 thoughtful comments on founder posts (NEVER SKIP
           — this is the #1 growth lever)
 
-  Task 8: Publish today's post (NEVER SKIP — keeps streak alive, 
+  Task 8: Publish today's post (NEVER SKIP — keeps streak alive,
           uses angle spotted from feed analysis)
 
-  Give ONE task at a time. Wait for "task X done" before moving 
+  Give ONE task at a time. Wait for "task X done" before moving
   to next task. Do NOT dump all tasks at once.
 
 PHASE 3 — WRAP UP (only after Tasks 7 + 8 are confirmed done):
@@ -345,23 +466,31 @@ PHASE 3 — WRAP UP (only after Tasks 7 + 8 are confirmed done):
   - Provide MEMORY.md update prompt for Claude Code
 
 CRITICAL RULES:
-- NEVER wrap up before Tasks 7 (3 comments) and 8 (today's post) 
-  are confirmed done. Daily comments + posting = the muscle that 
+- NEVER wrap up before Tasks 7 (3 comments) and 8 (today's post)
+  are confirmed done. Daily comments + posting = the muscle that
   builds the business. Reactive engagement alone is NOT enough.
-- NEVER skip Task 4 (Active Search). Without it, lead-gen is 
-  fully dependent on LinkedIn's PYMK suggestions, which is 
-  passive. Active search uses a rotating filter (Mon-Sun) to 
+- NEVER skip Task 4 (Active Search). Without it, lead-gen is
+  fully dependent on LinkedIn's PYMK suggestions, which is
+  passive. Active search uses a rotating filter (Mon-Sun) to
   hit different ICP segments each day.
 - NEVER dump all tasks at once. One task at a time, in order.
-- If Nooralam says "skip" on Task 4, 7, or 8, ask him to confirm 
-  and log a "missed engagement day" note in MEMORY for next 
+- If Nooralam says "skip" on Task 4, 7, or 8, ask him to confirm
+  and log a "missed engagement day" note in MEMORY for next
   session.
 - ALWAYS use he/him pronouns when referring to Nooralam.
 
+Filter Rotation Update (APPROVED May 10):
+- Sunday changed from "startup founder Thane" to "D2C founder Mumbai"
+  (reason: Sunday filter underperformed May 10 — only 6 results,
+  all non-ICP)
+- Saturday changed from "real estate founder Mumbai" to
+  "wellness founder Thane" (better ICP alignment with Phase 1)
+- Fallback rule added (see Task 4 above)
+
 Context file: agents/AGENT_Z_CONTEXT.md
 Last run: May 10, 2026
-Task 4 note: UNDERPERFORMED May 10 — filter "startup founder Thane" 
-  yielded weak results on Sunday. Monitor next Sunday run.
+Task 4 note: UNDERPERFORMED May 10 with old Sunday filter —
+  new "D2C founder Mumbai" filter takes effect May 17.
 MCPs needed: None
 
 ---
@@ -395,7 +524,7 @@ What it does:
   - Reviews .gitignore and branch protection
   - Updates security log
 Context file: agents/AGENT_S_CONTEXT.md
-Next run due: May 16, 2026
+Next run due: Saturday May 16, 2026
 Last run: [check AGENT_S_CONTEXT.md]
 MCPs needed: GitHub
 
@@ -415,7 +544,8 @@ What it does:
   - Maintains full pipeline tracker
   - Hands all replies to Agent R immediately
 Context file: agents/AGENT_L_CONTEXT.md
-Last run: May 5, 2026 (also ran May 4)
+Last run: May 5, 2026
+Next run: May 11, 2026 (Monday)
 MCPs needed: None
 
 ---
@@ -446,7 +576,7 @@ Trigger: Every 2 weeks (audit) OR anytime (quick edit)
 Type to run:
   - Deep audit: Run Agent 4 Audit
   - Quick edit: Run Agent 4 Edit: [describe change]
-Time: Audit = 15 mins | Edit = 2 mins
+Time: Audit = 15 mins | Edit = 2 mins (simple) to 75 mins (complex)
 What it does (MODE A — Audit):
   - Scores scalesnap.in across 8 categories
   - First impression, trust, service clarity, pricing,
@@ -457,9 +587,10 @@ What it does (MODE B — Edit):
   - Makes a specific change to the website
   - Always on dev branch → PR → Claude.ai approves → merge
 Context file: agents/AGENT_4_CONTEXT.md
+Last edit shipped: May 10, 2026 — GA4 + lead magnet + founder
+  story (PR #23 merged)
 Next audit due: May 17, 2026 (Sunday)
-Last audit: May 3, 2026
-Last edit: May 11, 2026 (GA4 + lead magnet + founder story — PR pending merge)
+Last audit: May 3, 2026 (PR confirmed merged)
 MCPs needed: GitHub
 
 ---
@@ -529,8 +660,19 @@ What it does:
   - Gives a clean pass/fail report with exact fixes needed
   - Never auto-fixes — always asks Nooralam first
 Context file: agents/AGENT_7_CONTEXT.md
-Last run: [will be updated each Monday]
+Last run: Never — FIRST RUN MAY 11, 2026
 MCPs needed: GitHub ✅ + web_fetch (built-in)
+
+NEW CHECKS ADDED MAY 10 (Agent 7 should verify weekly):
+  - GA4 page_view event firing on all 4 HTML pages
+  - Lead magnet form submits successfully (test entry, verify
+    email arrives in scalesnap.in@gmail.com inbox with subject
+    "Free Blog Lead — ScaleSnap")
+  - thank-you.html?source=freeblog renders correct dynamic copy
+  - Founder story section visible between About and Work Samples
+  - Lead magnet section visible above Contact form
+  - HTTPS still pending → check daily until issued
+
 Difference from Agent 4: Agent 4 is bi-weekly strategic
 config audit; Agent 7 is weekly tactical link/health check.
 
@@ -544,7 +686,7 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 ---
 
 ## AGENTS THAT DO NOT EXIST — DO NOT CREATE THESE
-- "analytics agent" → use Agent W instead
+- "analytics agent" → use Agent W instead (or GA4 dashboard direct)
 - "content agent" → use Agent 3 instead
 - "github agent" → use Agent 4 Edit mode instead
 - "follow-up agent" → use Agent Z daily plan instead
@@ -564,7 +706,7 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 | Agent W | Run Agent W | Every Sunday | 15 min | ✅ Active |
 | Agent S | Run Agent S | Every 2nd Sunday | 15 min | ✅ Active |
 | Agent 4 Audit | Run Agent 4 Audit | Every 2 weeks | 15 min | ✅ Active |
-| Agent 4 Edit | Run Agent 4 Edit: [x] | Anytime | 2 min | ✅ Active |
+| Agent 4 Edit | Run Agent 4 Edit: [x] | Anytime | 2-75 min | ✅ Active |
 | Agent 1 | Run Agent 1 | When client emails | 2 min | ⏳ Ready |
 | Agent 3 | Run Agent 3 | When order received | 5 min | ⏳ Ready |
 | Agent 6 | Run Agent 6 | When Fiverr order | 30 min | ⏳ Ready |
@@ -572,101 +714,137 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 | Agent R | Run Agent R | When message received | 2 min | ✅ Active |
 
 ## Next Due Dates
-- Agent S next run: May 16, 2026 (Saturday)
-- Agent L last run: May 5, 2026 | next run: May 11, 2026 (Monday)
-- Agent 7 first run: May 11, 2026 (Monday)
-- Agent 4 Edit: ✅ SHIPPED Monday May 11 (PR pending merge)
+- Agent Z last run: May 10, 2026 | next: May 11, 2026 (daily)
+- Agent W last run: May 10, 2026 | next: May 17, 2026 (Sunday)
+- Agent L last run: May 5, 2026 | next: May 11, 2026 (Monday)
+- Agent 7 first run: May 11, 2026 (Monday) — NEVER RUN BEFORE
+- Agent S next run: Saturday May 16, 2026
+- Agent 4 Edit: ✅ COMPLETED May 10 (PR #23 merged)
 - Agent 4 next audit: May 17, 2026 (Sunday)
-- Agent W last run: May 10, 2026
-- Agent Z last run: May 10, 2026
 
 ## Week of May 11–17 — Daily Schedule
-- Mon May 11: Z + L + 7 + Agent 4 Edit — HIGH-IMPACT DAY (~110 min)
-  → Send graceful exit DMs to Dipti Mohite, Aalok Choubey, Abhisek Dey
-  → Ship GA4 + lead magnet + social proof (Agent 4 Edit)
-- Tue May 12: Z only — deprioritize 3 silent leads if still no reply
-- Wed May 13: Z only
-- Thu May 14: Z — wellness vertical focus (search filter: wellness founder Mumbai)
-- Fri May 15: Z — soft-pitch warm contacts (₹1,500 test gig template)
-- Sat May 16: Z + Agent S (security check due)
-- Sun May 17: W + Z + Agent 4 Audit (bi-weekly due)
+
+### Monday May 11 — HIGH-IMPACT DAY (~2.5 hours total)
+- ⚠️ FIRST: Verify PR #23 ship (10 min) — see Section 1 override
+- Run Agent Z (10 min)
+- Run Agent L (15 min)
+  → Send 3 graceful exit DMs (Dipti, Aalok, Abhisek)
+- Run Agent 7 — FIRST RUN (10 min)
+- GA4 DebugView verification (10 min)
+
+### Tuesday May 12
+- Run Agent Z (10 min) — filter: "small business owner Mumbai"
+- If still no reply from Dipti/Aalok/Abhisek → DEPRIORITIZE
+  (move to Closed/Cold or remove from Active Leads)
+
+### Wednesday May 13
+- Run Agent Z (10 min) — filter: "D2C founder India"
+- Mid-day: glance at GA4 → any visitors from this week's posts?
+
+### Thursday May 14
+- Run Agent Z (10 min) — filter: "wellness founder Mumbai"
+- Wellness vertical focus — if Aparna Kashyap or Shruti Kamath
+  accepted by today, send wellness-themed welcome DM
+
+### Friday May 15 — SOFT-PITCH DAY
+- Run Agent Z (10 min) — filter: "coach founder India"
+- ⭐ SEND ₹1,500 TEST GIG OFFER to ONE warm contact
+  (template in Section 4)
+- Candidates: Samuel Dias, Khushi Gupta, Madhavi Pundalik
+
+### Saturday May 16 — SECURITY SATURDAY
+- Run Agent Z (10 min) — filter: "wellness founder Thane" (NEW)
+- 🔐 Run Agent S (15 min) — security check due
+
+### Sunday May 17
+- Run Agent W (15 min) — review the week, GA4 first-week data
+- Run Agent Z (10 min) — filter: "D2C founder Mumbai" (NEW)
+- 📊 Run Agent 4 Audit (15 min) — bi-weekly strategic audit
 
 ## Strategic Priority — Week of May 11–17
-THE ONE BIG THING: Ship Agent 4 Edit Monday May 11.
-  GA4 + lead magnet + social proof.
-  Without this, all marketing is dumping into a leaky bucket.
+THE ONE BIG THING: Verify Sunday's Agent 4 Edit ship is working
+on Monday morning. GA4 events firing, lead magnet form submitting,
+founder story rendering. If any verification step fails → fix
+forward immediately. If all pass → the funnel is now WIRED and
+every LinkedIn post finally has a working conversion mechanism.
 
 Phase 1 goal locked: 1 test gig at ₹1,000–2,000 by May 31
-  (single deliverable, paid via Razorpay)
-  → unlocks ₹4,000/mo conversations from week 5 onward.
+(single deliverable, paid via Razorpay) → unlocks ₹4,000/mo
+conversations from week 5 onward.
 
-Week's narrative: PLUG the funnel, then GROW the funnel.
-
-## Improvement Suggestion — PENDING NOORALAM APPROVAL
-Agent Z — Task 4 Active Search filter rotation update:
-  PROPOSED changes:
-  - Sunday:   "startup founder Thane" → "D2C founder Mumbai"
-    (reason: Sunday filter underperformed May 10 — too narrow)
-  - Saturday: "real estate founder Mumbai" → "wellness founder Thane"
-  - Add fallback rule: if daily filter returns < 5 results, 
-    drop the city qualifier and rerun broader search
-  Status: PROPOSED — awaiting Nooralam's approval
-  DO NOT implement until approved.
+Week's narrative: VERIFY the funnel, then GROW the funnel.
 
 # ════════════════════════════════════════════════════
 # SECTION 7 — WEBSITE & TECH STACK
 # ════════════════════════════════════════════════════
 
-## Website Status
+## Website Status (May 10, 2026)
 - URL: scalesnap.in
 - Hosting: GitHub Pages (free)
 - HTTP: ✅ LIVE
 - HTTPS: ⏳ Pending SSL (auto-issued by GitHub — check daily)
 - Formspree ID: mojrjlkk → scalesnap.in@gmail.com
 - Contact form: ✅ LIVE
+- Lead magnet form: ✅ LIVE (NEW May 10) — same Formspree
+  endpoint, distinguished by hidden _subject "Free Blog Lead"
+- GA4: G-XL643N289Y ✅ LIVE on all 4 HTML pages
 - Monthly cost: ₹92/month (domain only)
 
-## Website Sections (May 3, 2026)
-- Navbar: Logo + Services, How It Works, Pricing, FAQ, About, Contact ✅
-- Hero: "Automate. Create. Scale with AI." — subtext fixed ✅
+## Website Sections (May 10, 2026)
+- Navbar: Logo + Services, How It Works, Pricing, FAQ, About,
+  Contact ✅
+- Hero: "Automate. Create. Scale with AI." ✅
 - Services: AI Content Writing, Social Media, Email Sequences ✅
-- How It Works: 4 steps — Step 4 copy fixed ✅
+- How It Works: 4 steps ✅
 - About: Nooralam Shaikh, Mumbai, 3 stats cards ✅ LIVE
-- Work Samples: 3 cards — Blog (PDF), Social Media, Email ✅ LIVE
-- Pricing: ₹4,000 / ₹12,000 / ₹29,000 — dropdown fixed to ₹ ✅
+- Founder Story (#founder-story) NEW May 10 ✅ LIVE
+  → "Why ScaleSnap Exists" — 3-paragraph founder story
+  → Sits between About and Work Samples
+- Work Samples: 3 cards — Blog (PDF), Social Media, Email ✅
+- Pricing: ₹4,000 / ₹12,000 / ₹29,000 ✅
 - FAQ: 6-item accordion ✅ LIVE
-- WhatsApp button: wa.me/918356012566, pulse, mobile-safe ✅ LIVE
-- Logo: scalesnap_logo_transparent.svg in docs/ ✅ FIXED
+- Free First Blog (#free-blog) NEW May 10 ✅ LIVE
+  → 4-field form (name, email, business name, about)
+  → Submits to Formspree → redirects to thank-you.html?source=freeblog
+  → Fires GA4 lead_magnet_submit event before redirect
+- Contact form: ✅ LIVE (existing)
+- WhatsApp button: wa.me/918356012566 ✅ LIVE
+- Logo: scalesnap_logo_transparent.svg ✅
 - Footer: ✅ LIVE
+- thank-you.html: ✅ LIVE — DUAL-MODE (May 10)
+  → Default mode: generic "You're All Set!" for contact form
+  → ?source=freeblog mode: "Got it — your blog is on its way!"
+    Read a Sample Blog CTA (links to PDF)
 
 ## Pending Website Changes
 
 ═══════════════════════════════════════════════════════
-COMPLETED — Monday May 11, 2026 (Agent 4 Edit)
-Originally scheduled: Saturday May 9, 2026
+✅ COMPLETED — Sunday May 10, 2026 (Agent 4 Edit shipped)
 ═══════════════════════════════════════════════════════
 
-Website Conversion Upgrade — 3 tasks SHIPPED ✅
+GA4 Property: G-XL643N289Y created May 8 ✅
+Website Conversion Upgrade — 3 tasks shipped via PR #23:
+  ✅ Google Analytics 4 tracking (all 4 HTML pages)
+  ✅ "Free First Blog" lead magnet form (above contact)
+  ✅ "Why ScaleSnap Exists" founder story section
+     (replaced original social proof spec — Nooralam decided
+     May 10 to keep LinkedIn relationships separate from sales)
 
-1. ✅ Google Analytics 4 (G-XL643N289Y) — added to all 4 HTML pages
-   Verify in GA4 DebugView Monday afternoon after merge.
-2. ✅ "Free First Blog" lead magnet form — added above contact form
-   Formspree (mojrjlkk) + hidden subject tag + GA4 event on submit
-   + redirect to thank-you.html?source=freeblog (dynamic copy).
-3. ✅ "Why ScaleSnap Exists" founder story section — added between
-   About and Work Samples. (Social proof quotes dropped May 10 by
-   Nooralam — keeping LinkedIn relationships separate from sales.)
-   thank-you.html updated with dynamic copy for lead magnet flow.
+PR #23 merged Sunday May 10 — verify Monday morning per
+Section 1 override.
 
-PR: dev → main (pending Claude.ai review)
-Next check: GA4 DebugView Monday to confirm tracking fires.
-Next pending task: none — queue is clear until Agent 4 Audit May 17.
+═══════════════════════════════════════════════════════
+NO CURRENT PENDING WEBSITE CHANGES
+═══════════════════════════════════════════════════════
+(Next changes will come from Agent 4 Audit due May 17)
 
 ## Design System
 Colors:
   --bg: #0a0a0f | --bg2: #111118 | --bg3: #1a1a24
   --accent: #7c6ef2 (purple) | --accent2: #e4845a (orange)
   --text: #f0f0f5 | --muted: #8888a0
+  (CSS uses semantic tokens: --surface, --surface-2, --border,
+  --text-muted, --font-head, --radius-lg)
 Fonts: Syne (headings 800) + DM Sans (body 400/500)
 
 ## GitHub
@@ -674,6 +852,10 @@ Fonts: Syne (headings 800) + DM Sans (body 400/500)
 - Branch protection: main PROTECTED ✅
 - Workflow: dev branch → PR → Claude.ai review → Nooralam merges
 - Website files: docs/ folder
+- Recent merged PRs:
+  PR #22 merged May 10 (MEMORY.md v4.6 — session log)
+  PR #23 merged May 10 (Agent 4 Edit — GA4 + lead magnet +
+  founder story)
 
 ## MCPs Connected
 GitHub ✅ | Google Drive ✅ | Gmail ✅ | Tavily ✅
@@ -698,6 +880,17 @@ Starter:  ₹4,000/mo → 4 blogs + 12 social + 1 email sequence
 Growth:  ₹12,000/mo → 12 blogs + 30 social + 3 email sequences
 Agency:  ₹29,000/mo → Unlimited everything
 
+## Lead Magnet Offer (NEW May 10)
+"Free First Blog" — single 1,200-word SEO blog post, written
+based on the brief submitted via #free-blog form, delivered
+within 48 hours. No payment required. Quality demonstration
+only — judge before paying.
+
+## Test Gig (Phase 1 conversion bridge — May 10 strategy)
+₹1,500 single blog post — for warm contacts who've engaged 3+
+times. Bridge between free demo and full ₹4,000 Starter
+package. Goal: first paid transaction + testimonial by May 31.
+
 ## Fiverr
 Basic $10: 1 blog 800w 1 revision 2 days
 Standard $25: 2 blogs 1000w 3 revisions 2 days
@@ -713,22 +906,22 @@ agents/
 - AGENT_Z_CONTEXT.md → Daily LinkedIn System
 - AGENT_W_CONTEXT.md → Weekly review agent
 - AGENT_S_CONTEXT.md → Security agent (next: May 16)
-- AGENT_L_CONTEXT.md → Lead Research (new May 3)
-- AGENT_4_CONTEXT.md → Website Audit (new May 3)
-- AGENT_7_CONTEXT.md → Weekly Website Health Check (new May 4)
+- AGENT_L_CONTEXT.md → Lead Research
+- AGENT_4_CONTEXT.md → Website Audit
+- AGENT_7_CONTEXT.md → Weekly Website Health Check
 - ScaleSnap_Agent_Templates.md → Agents 1, 2, 3, 6
 - LOGGING_OFF_PROMPT.md → End of day system
 
 management/
-- MEMORY.md → THIS FILE
+- MEMORY.md → THIS FILE (v4.7)
 - CLAUDE.md → Claude Code instructions
 - SCALESNAP_HANDOVER_v2.md → Session history
 - ScaleSnap_Project_Hub.md → Master organiser
-- WEBSITE_UPDATE_PROMPT.md → Pending changes May 3
 
 docs/ → index.html | style.css | script.js | thank-you.html
         | privacy-policy.html | terms-of-service.html
         | favicon.svg | og-image.svg | CNAME
+        | scalesnap_sample_blog.pdf
 brand/ → logos, facebook cover, fiverr gig images
 samples/ → scalesnap_sample_blog.pdf
 
@@ -738,6 +931,8 @@ samples/ → scalesnap_sample_blog.pdf
 
 Security Rules:
 - Never commit .json or .env files to GitHub
+- Never put GA4 API secret in HTML — only the public
+  Measurement ID (G-XL643N289Y) is allowed in client code
 - Run Agent S every 2nd Sunday (next: May 16)
 - gcp-oauth.keys.json → purged + in .gitignore ✅
 - Branch protection active ✅
@@ -749,20 +944,19 @@ Scam Warnings:
 - Facebook "Mumbai Business Network" = SCAM
 - LinkedIn Service Marketplace Requests = LOW PRIORITY / OFTEN SCAM:
   * Paywalled for free accounts (cannot open without LinkedIn Premium)
-  * DO NOT pay for Premium just to view requests (₹2,000+/month 
-    not worth it for ScaleSnap's ₹92/month budget)
-  * Always verify requesters by searching their name/company on 
+  * DO NOT pay for Premium just to view requests
+  * Always verify requesters by searching their name/company on
     LinkedIn first
-  * If profile shows blank "--" name OR no company found → SCAM, 
+  * If profile shows blank "--" name OR no company found → SCAM,
     ignore
   * Examples flagged:
-    - Pooja Shende (May 8) — vetted and dismissed (not a fit)
-    - stayzy stay (May 9) — confirmed scam (no findable 
-      profile/company)
-  * Real leads come via DMs, comments, or scalesnap.in contact 
-    form — NOT paywalled marketplace requests
-  * Agent Z will continue to mention service requests if they 
-    appear, but no longer treats them as priority leads
+    - Pooja Shende (May 8) — vetted and dismissed
+    - stayzy stay (May 9-10) — confirmed scam, reappeared May 10,
+      ignored per protocol
+  * Real leads come via DMs, comments, scalesnap.in contact form,
+    OR scalesnap.in lead magnet form (NEW May 10) — NOT
+    paywalled marketplace requests
+  * Agent Z mentions service requests but treats as low priority
 
 # ════════════════════════════════════════════════════
 # SECTION 11 — LOGGING OFF SYSTEM
@@ -784,6 +978,9 @@ Claude must:
    - Relevant agent context files
 
 3. Claude Code: dev branch → PR → Claude.ai reviews → merge
+
+   IMPORTANT: Claude Code should NOT autonomously commit without
+   the prompt from Claude.ai. Always wait for the prompt.
 
 4. End with:
    "✅ All updated. PR ready.
