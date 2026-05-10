@@ -1,5 +1,5 @@
-# ScaleSnap — Master Memory File v4.4
-# Owner: Nooralam Shaikh | Updated: May 9, 2026
+# ScaleSnap — Master Memory File v4.6
+# Owner: Nooralam Shaikh | Updated: May 10, 2026
 # Paste this at the start of EVERY new Claude.ai chat
 
 # ════════════════════════════════════════════════════
@@ -163,35 +163,51 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 - PayPal: ⏳ Pending bank verification
 - Gmail: scalesnap.in@gmail.com ✅ Active
 
-## LinkedIn Status (May 9, 2026)
-- Connections: 13 (was 11) — Nikhil Kukalwar + Sumit Gudka 
-  accepted May 9
-- Followers: 12 (was 11)
+## LinkedIn Status (May 10, 2026)
+- Connections: 15 (was 13) — Madhavi Pundalik + Siddhant Humne 
+  accepted May 9-10
+- Followers: 15 (was 12)
 - Following: 11
-- Requests sent: 29 total — 20 prior + 9 new May 9 
-  (Tilak Gaurang Shah, Noopur Sane, Dietitian Aparna Kashyap, 
-  Dr. Shruti Kamath, Pratik Gaur, Siddhant Humne, 
-  Akshat Khandpur, Bobby Janbandhu, + Sumit Gudka who 
-  accepted same-day). Skipped Alka Singh (profile not findable).
-- Posts published: 7 (Post #7 added May 9 — "Views ≠ Clients" angle)
-- Post impressions: 253/week (was 236 — up 7%)
-- Profile views: 10 (last 90 days) — unchanged
-- Search appearances: 0 last week → profile About + Skills 
-  updated May 9 to fix (added "Mumbai founders", "small business", 
-  "startup founder", "solopreneur" keywords; pinned AI Content 
-  Creation, Content Marketing, SEO as top 3 skills)
+- Requests sent: ~59 total
+- Posts published: 8 (Post #8 added May 10 — 
+  "20-second reply / doorbell vs coffee shop" angle)
+- Post impressions: 282/week (was 253 — up 11%)
+- Profile views: 12 (last 90 days) (was 10)
+- Search appearances: 294 this week — May 9 keyword fix 
+  is working ✅
 - LinkedIn notes: USED UP — resets June 2026
-- New acceptances May 9: Nikhil Kukalwar, Sumit Gudka 
-  (welcome DMs sent both)
-- New warm contact: Khushi Gupta (long thoughtful reply on 
-  community post — responded May 9)
-- Warm contact: Samuel Dias — replied 3x in 4 days, highly 
-  active referral partner candidate (engaged on his "Sort My 
-  Finances" testimonial post May 9)
-- Other warm contacts active: Khairunnisa Shaikh (mentioned 
-  Nooralam May 5), Prabal Chakraborty (commented on post May 6)
+- New acceptances May 9-10: Siddhant Humne (AthenaProtein), 
+  Madhavi Pundalik (NM Ingenious) — welcome DMs sent both
+- Warm contacts (May 10):
+  * Madhavi Pundalik — connected May 9, DM'd May 10, 
+    publicly mentioned Nooralam in her own SIL post 
+    comment thread May 10, viewed profile same day. 
+    Strong potential as both client and referral channel.
+  * Khushi Gupta — confirmed warm: loved + replied with 
+    100+ word thoughtful response May 10
+  * Samuel Dias — replied 3x in 4 days, highly active 
+    referral partner candidate (engaged on his "Sort My 
+    Finances" testimonial post May 9)
+  * Khairunnisa Shaikh — mentioned Nooralam May 5
+  * Prabal Chakraborty — commented on post May 6
+- New non-network supporter: Daniel O. Livvarcin (PhD) — 
+  reacted to May 9 post (validates keyword update)
 - Headline: "Helping Indian Founders Save Time on Content | 
   AI-Powered Blogs · Social Media · Emails | ScaleSnap"
+
+## Agent W — Weekly Review (May 10, 2026)
+- Agent W completed Sunday May 10 ✅
+- Q1 answer (Claude chose): Website leak — funnel leaking before 
+  leads captured. Priority: ship Agent 4 Edit (GA4 + lead magnet 
+  + social proof) Monday May 11.
+- Q2 answer (Claude chose): Ship Agent 4 Edit Monday — highest 
+  leverage action this week.
+- Q3 answer (Claude chose): Test gig ₹1,000–2,000 by May 31 — 
+  single deliverable, paid via Razorpay → unlocks ₹4,000/mo 
+  conversations from week 5 onward.
+- Note: Nooralam deferred all 3 decisions to Claude. 
+  Review with him Monday if he wants to revisit.
+- Strategic priorities set for week of May 11–17 (see Section 6)
 
 ## Payment Details
 - UPI: shaikhnoor78692@okhdfcbank
@@ -204,31 +220,44 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 # SECTION 4 — OUTREACH STATUS (update every session)
 # ════════════════════════════════════════════════════
 
-## Active Leads (May 9, 2026)
-- Dipti Mohite: follow-up sent May 5 — NO REPLY after 4 days, 
-  deprioritize if no reply by May 12
-- Aalok Choubey: follow-up sent May 5 — NO REPLY after 4 days, same
-- Abhisek Dey: follow-up sent May 5 — NO REPLY after 4 days, same
+## Active Leads (May 10, 2026)
+- Dipti Mohite: follow-up sent May 5 — NO REPLY ⚠️
+  Graceful exit script drafted — send Monday May 11
+- Aalok Choubey: follow-up sent May 5 — NO REPLY ⚠️
+  Graceful exit script drafted — send Monday May 11
+- Abhisek Dey: follow-up sent May 5 — NO REPLY ⚠️
+  Graceful exit script drafted — send Monday May 11
 - Samuel Dias: warm and active ✅ (engaged 3x in 4 days)
-- Khushi Gupta: NEW — emerging warm contact (responded to her 
-  thoughtful comment May 9)
+- Khushi Gupta: confirmed warm ✅ (100+ word reply May 10)
+- Madhavi Pundalik: strong warm ✅ — welcomed + active engagement 
+  loop running (client + referral potential)
 
-## New Leads Pipeline (May 9, 2026)
-Tier 1 + Tier 2 ICP matches sent May 9:
-- Tilak Gaurang Shah: Founder, Ace of Pubs + 12th Man Brewing, Mumbai
-- Noopur Sane: Founder, The Build Inc., CRO/growth consultant, Mumbai
-- Dietitian Aparna Kashyap: Founder, FoodMends + SwasthNaari
-- Dr. Shruti Kamath: Founder/Lead Doctor, ASK Wellness
-- Pratik Gaur: Founder, Celebistaan
-- Siddhant Humne: Co-founder, AthenaProtein
-- Akshat Khandpur: Co-Founder, Fudr (restaurant marketing tech)
-- Bobby Janbandhu: Co-founder, corporate event specialist
-- Sumit Gudka: GM, CREDAI MCHI Thane — ACCEPTED SAME DAY ✅ 
-  (real estate body, gateway to Mumbai builders)
+## Outreach Playbook Additions
+- Friday May 15 = SOFT-PITCH DAY: send ₹1,500 test gig offer 
+  to warm contacts (Samuel Dias, Khushi Gupta, Madhavi Pundalik).
+  Template ready. Single deliverable, paid via Razorpay.
+  Goal: first paid transaction before May 31.
 
-Pending from May 8 batch (give till Monday before counting as 
-ignored): Karishma Chauhan, Yash Bohra, Raunak Thakur, 
-Rutvik Redkar, Sayali Rai
+## New Connections Completed (May 10)
+- Siddhant Humne (AthenaProtein) — welcome DM sent
+- Madhavi Pundalik (NM Ingenious) — welcome DM + engagement loop
+- Om Kinholkar (TraccAi) — welcome DM sent (was unlogged prior)
+
+## New Leads Pipeline (May 10, 2026)
+5 connection requests sent May 10 from PYMK (Tier 1 ICP):
+- Trusha Daware: Pink Shore Entertainment (marketing agency)
+- Asmita Choudhary: Shape Stories Studio (D2C video)
+- Amrita Khurana: Royal Elephants (luxury/wellness)
+- Saransh Mathur: Ambulens.in (healthcare)
+- Megha Kalyani: Wedding/event consultant
+
+Pending from May 9 batch:
+- Tilak Gaurang Shah, Noopur Sane, Dietitian Aparna Kashyap,
+  Dr. Shruti Kamath, Pratik Gaur, Akshat Khandpur, Bobby Janbandhu
+
+Pending from May 8 batch:
+- Karishma Chauhan, Yash Bohra, Raunak Thakur, Rutvik Redkar, 
+  Sayali Rai
 
 ## Outreach Rules
 - Always personalise — never copy-paste generic messages
@@ -330,7 +359,9 @@ CRITICAL RULES:
 - ALWAYS use he/him pronouns when referring to Nooralam.
 
 Context file: agents/AGENT_Z_CONTEXT.md
-Last run: May 9, 2026
+Last run: May 10, 2026
+Task 4 note: UNDERPERFORMED May 10 — filter "startup founder Thane" 
+  yielded weak results on Sunday. Monitor next Sunday run.
 MCPs needed: None
 
 ---
@@ -347,7 +378,7 @@ What it does:
   - Gives a full weekly plan for the coming week
   - Prepares follow-up messages for pending leads
 Context file: agents/AGENT_W_CONTEXT.md
-Last run: [update weekly]
+Last run: May 10, 2026
 MCPs needed: None
 
 ---
@@ -540,12 +571,46 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 | Agent R | Run Agent R | When message received | 2 min | ✅ Active |
 
 ## Next Due Dates
-- Agent S next run: May 16, 2026
+- Agent S next run: May 16, 2026 (Saturday)
 - Agent L last run: May 5, 2026 | next run: May 11, 2026 (Monday)
 - Agent 7 first run: May 11, 2026 (Monday)
-- Agent 4 next audit: May 17, 2026
-- Agent W last run: [update Sunday May 10]
-- Agent Z last run: May 9, 2026
+- Agent 4 Edit: OVERDUE → ship Monday May 11 (HIGH PRIORITY)
+- Agent 4 next audit: May 17, 2026 (Sunday)
+- Agent W last run: May 10, 2026
+- Agent Z last run: May 10, 2026
+
+## Week of May 11–17 — Daily Schedule
+- Mon May 11: Z + L + 7 + Agent 4 Edit — HIGH-IMPACT DAY (~110 min)
+  → Send graceful exit DMs to Dipti Mohite, Aalok Choubey, Abhisek Dey
+  → Ship GA4 + lead magnet + social proof (Agent 4 Edit)
+- Tue May 12: Z only — deprioritize 3 silent leads if still no reply
+- Wed May 13: Z only
+- Thu May 14: Z — wellness vertical focus (search filter: wellness founder Mumbai)
+- Fri May 15: Z — soft-pitch warm contacts (₹1,500 test gig template)
+- Sat May 16: Z + Agent S (security check due)
+- Sun May 17: W + Z + Agent 4 Audit (bi-weekly due)
+
+## Strategic Priority — Week of May 11–17
+THE ONE BIG THING: Ship Agent 4 Edit Monday May 11.
+  GA4 + lead magnet + social proof.
+  Without this, all marketing is dumping into a leaky bucket.
+
+Phase 1 goal locked: 1 test gig at ₹1,000–2,000 by May 31
+  (single deliverable, paid via Razorpay)
+  → unlocks ₹4,000/mo conversations from week 5 onward.
+
+Week's narrative: PLUG the funnel, then GROW the funnel.
+
+## Improvement Suggestion — PENDING NOORALAM APPROVAL
+Agent Z — Task 4 Active Search filter rotation update:
+  PROPOSED changes:
+  - Sunday:   "startup founder Thane" → "D2C founder Mumbai"
+    (reason: Sunday filter underperformed May 10 — too narrow)
+  - Saturday: "real estate founder Mumbai" → "wellness founder Thane"
+  - Add fallback rule: if daily filter returns < 5 results, 
+    drop the city qualifier and rerun broader search
+  Status: PROPOSED — awaiting Nooralam's approval
+  DO NOT implement until approved.
 
 # ════════════════════════════════════════════════════
 # SECTION 7 — WEBSITE & TECH STACK
@@ -576,7 +641,8 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 ## Pending Website Changes
 
 ═══════════════════════════════════════════════════════
-PENDING — Saturday May 9, 2026 (Agent 4 Edit)
+PENDING — CARRY OVER → Monday May 11, 2026 (Agent 4 Edit)
+Originally scheduled: Saturday May 9, 2026
 ═══════════════════════════════════════════════════════
 
 Website Conversion Upgrade — 3 tasks (~75 min total):
