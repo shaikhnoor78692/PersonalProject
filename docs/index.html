@@ -57,6 +57,15 @@
     ]
   }
   </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL643N289Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XL643N289Y');
+  </script>
 </head>
 <body>
 
@@ -285,6 +294,25 @@
 
 
   <!-- ============================================================
+       FOUNDER STORY — WHY SCALESNAP EXISTS
+  ============================================================ -->
+  <section id="founder-story" class="section founder-story" aria-label="Why ScaleSnap exists">
+    <div class="container">
+      <div class="founder-story-inner fade-in">
+        <span class="section-tag">Our Story</span>
+        <h2 class="founder-story-heading">Why ScaleSnap Exists</h2>
+        <div class="founder-story-body">
+          <p>Last year I was talking to a Mumbai shop owner who'd been running her business for eight years. She told me she knew she needed to post on Instagram, write blog posts, send emails to customers — she just had no time. So she'd write captions at midnight, half-asleep, and wonder why nothing landed.</p>
+          <p>That conversation broke something open. The problem isn't that Indian founders don't want to do content. It's that the cost of doing it well — agencies at ₹40,000+/month, freelancers who ghost, AI tools that produce sludge — has priced most small businesses out of the game entirely.</p>
+          <p>ScaleSnap exists for the founder writing captions at midnight. AI-powered content systems, priced for Indian small businesses, built so you can keep showing up online without sacrificing the rest of your life. Starting at ₹4,000/month. Your first blog post is free — judge the quality before you pay anything.</p>
+        </div>
+        <a href="scalesnap_sample_blog.pdf" target="_blank" rel="noopener" class="btn btn-outline">See a sample blog →</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
        WORK SAMPLES SECTION
   ============================================================ -->
   <section id="work-samples" class="section work-samples" aria-label="Work samples">
@@ -481,6 +509,88 @@
         </div>
 
       </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FREE BLOG LEAD MAGNET
+  ============================================================ -->
+  <section id="free-blog" class="section lead-magnet" aria-label="Get your free first blog post">
+    <div class="container lead-magnet-inner">
+
+      <div class="section-header fade-in">
+        <span class="section-tag">Free Offer</span>
+        <h2>Get Your Free First Blog Post</h2>
+        <p>Tell us about your business and we'll write your first blog post — no charge, no catch, delivered in 48 hours.</p>
+      </div>
+
+      <form
+        id="leadMagnetForm"
+        class="lead-form fade-in"
+        action="https://formspree.io/f/mojrjlkk"
+        method="POST"
+        novalidate
+      >
+        <input type="hidden" name="_subject" value="Free Blog Lead — ScaleSnap">
+
+        <div class="form-group">
+          <label for="lm-name">Your Name <span class="required-star" aria-hidden="true">*</span></label>
+          <input
+            type="text"
+            id="lm-name"
+            name="name"
+            placeholder="Your name"
+            autocomplete="name"
+            aria-required="true"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="lm-email">Email Address <span class="required-star" aria-hidden="true">*</span></label>
+          <input
+            type="email"
+            id="lm-email"
+            name="email"
+            placeholder="you@company.com"
+            autocomplete="email"
+            aria-required="true"
+          />
+        </div>
+
+        <div class="form-group form-group--full">
+          <label for="lm-business">Business Name <span class="required-star" aria-hidden="true">*</span></label>
+          <input
+            type="text"
+            id="lm-business"
+            name="business_name"
+            placeholder="Your business name"
+            aria-required="true"
+          />
+        </div>
+
+        <div class="form-group form-group--full">
+          <label for="lm-about">What's your business about? <span class="required-star" aria-hidden="true">*</span></label>
+          <textarea
+            id="lm-about"
+            name="business_about"
+            rows="4"
+            maxlength="200"
+            placeholder="Describe your business in a sentence or two — who you serve and what you do…"
+            aria-required="true"
+          ></textarea>
+          <span class="lm-char-count" id="lmCharCount" aria-live="polite">0 / 200</span>
+        </div>
+
+        <div class="form-group form-group--full lm-submit-wrap">
+          <button type="submit" class="btn btn-primary btn-lg" id="lmSubmitBtn">
+            <span class="btn-text">Send Me My Free Blog</span>
+            <span class="btn-spinner" aria-hidden="true"></span>
+          </button>
+          <p class="lm-disclaimer">No spam. We'll write your blog within 48 hours of receiving your brief.</p>
+        </div>
+
+      </form>
     </div>
   </section>
 

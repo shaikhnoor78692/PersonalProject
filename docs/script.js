@@ -349,6 +349,112 @@
 
 
 /* ============================================================
+   7. LEAD MAGNET FORM — Validation, GA4 event & Formspree submit
+============================================================ */
+(function initLeadMagnetForm() {
+  var form       = document.getElementById('leadMagnetForm');
+  var submitBtn  = document.getElementById('lmSubmitBtn');
+  var charCount  = document.getElementById('lmCharCount');
+  var aboutField = document.getElementById('lm-about');
+
+  if (!form) return;
+
+  /* -- Character counter for the textarea -- */
+  if (aboutField && charCount) {
+    aboutField.addEventListener('input', function () {
+      charCount.textContent = aboutField.value.length + ' / 200';
+    });
+  }
+
+  /* -- Validate all four fields, mark errors, return true if clean -- */
+  function validate() {
+    var nameEl     = document.getElementById('lm-name');
+    var emailEl    = document.getElementById('lm-email');
+    var businessEl = document.getElementById('lm-business');
+    var aboutEl    = document.getElementById('lm-about');
+    var valid      = true;
+
+    function check(el, ok) {
+      if (!el) return;
+      if (ok) {
+        el.classList.remove('error');
+      } else {
+        el.classList.add('error');
+        valid = false;
+      }
+    }
+
+    check(nameEl,     nameEl     && nameEl.value.trim().length >= 2);
+    check(emailEl,    emailEl    && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailEl.value.trim()));
+    check(businessEl, businessEl && businessEl.value.trim().length >= 1);
+    check(aboutEl,    aboutEl    && aboutEl.value.trim().length >= 10);
+
+    return valid;
+  }
+
+  /* -- Live validation: clear error as user types -- */
+  ['lm-name', 'lm-email', 'lm-business', 'lm-about'].forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el) {
+      el.addEventListener('input', function () {
+        el.classList.remove('error');
+      });
+    }
+  });
+
+  /* -- Submit handler -- */
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    if (!validate()) {
+      var firstError = form.querySelector('.error');
+      if (firstError) {
+        var navH = (document.getElementById('navbar') || {}).offsetHeight || 0;
+        var top  = firstError.getBoundingClientRect().top + window.scrollY - navH - 20;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      }
+      return;
+    }
+
+    /* Loading state */
+    if (submitBtn) {
+      submitBtn.classList.add('btn--loading');
+      submitBtn.disabled = true;
+    }
+
+    /* Fire GA4 conversion event */
+    if (typeof gtag === 'function') {
+      gtag('event', 'lead_magnet_submit', {
+        'event_category': 'lead_magnet',
+        'event_label':    'free_first_blog'
+      });
+    }
+
+    /* POST to Formspree */
+    var urlEncoded = new URLSearchParams(new FormData(form)).toString();
+    var submitPromise;
+
+    if (window.location.protocol !== 'file:') {
+      submitPromise = fetch('https://formspree.io/f/mojrjlkk', {
+        method:  'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'Accept':       'application/json'
+        },
+        body: urlEncoded,
+      }).catch(function () { /* swallow network errors, still redirect */ });
+    } else {
+      submitPromise = new Promise(function (resolve) { setTimeout(resolve, 800); });
+    }
+
+    submitPromise.then(function () {
+      window.location.href = 'thank-you.html?source=freeblog';
+    });
+  });
+})();
+
+
+/* ============================================================
    7. FAQ ACCORDION
    Toggles .open on .faq-item when question is clicked.
    Only one item open at a time.

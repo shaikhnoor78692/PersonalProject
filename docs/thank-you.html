@@ -163,6 +163,15 @@
       z-index: 100;
     }
   </style>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL643N289Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XL643N289Y');
+  </script>
 </head>
 <body>
 
@@ -179,19 +188,19 @@
       <span class="ty-icon" role="img" aria-label="Party popper">🎉</span>
 
       <!-- Headline -->
-      <h1>You're All Set!</h1>
+      <h1 id="ty-headline">You're All Set!</h1>
 
       <!-- Sub-copy -->
-      <p>
+      <p id="ty-subcopy">
         Thanks for reaching out to <strong>ScaleSnap</strong>. We've received
         your project request and a member of our team will be in touch with
         you within <strong>24 hours</strong>.
       </p>
 
       <!-- What happens next -->
-      <div class="ty-next" aria-label="What happens next">
+      <div class="ty-next" aria-label="What happens next" id="ty-next-box">
         <h2>What Happens Next</h2>
-        <ul>
+        <ul id="ty-next-list">
           <li>We review your project details and requirements</li>
           <li>A strategist prepares a custom proposal for your goals</li>
           <li>We email you a detailed quote within 24 hours</li>
@@ -200,10 +209,29 @@
       </div>
 
       <!-- Actions -->
-      <div class="ty-actions">
+      <div class="ty-actions" id="ty-actions">
         <a href="index.html" class="btn btn-primary btn-lg">Back to Home</a>
         <a href="index.html#services" class="btn btn-ghost">Explore Services</a>
       </div>
+
+      <script>
+        (function () {
+          var params = new URLSearchParams(window.location.search);
+          if (params.get('source') === 'freeblog') {
+            document.getElementById('ty-headline').textContent = 'Got it — your blog is on its way!';
+            document.getElementById('ty-subcopy').innerHTML =
+              "We’ll write your free blog post and send it to your inbox within <strong>48 hours</strong>. While you wait, check out a recent sample below.";
+            document.getElementById('ty-next-list').innerHTML =
+              '<li>We review your business brief</li>' +
+              '<li>We write a custom blog post tailored to your audience</li>' +
+              '<li>You receive the finished blog in your inbox within 48 hours</li>' +
+              ‘<li>Happy with the quality? Let\’s talk about a monthly plan.</li>’;
+            document.getElementById('ty-actions').innerHTML =
+              '<a href="scalesnap_sample_blog.pdf" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Read a Sample Blog</a>' +
+              '<a href="index.html" class="btn btn-ghost">Back to Home</a>';
+          }
+        })();
+      </script>
 
     </div>
   </main>
