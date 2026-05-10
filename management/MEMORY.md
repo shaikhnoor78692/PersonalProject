@@ -1,4 +1,4 @@
-# ScaleSnap — Master Memory File v4.5
+# ScaleSnap — Master Memory File v4.6
 # Owner: Nooralam Shaikh | Updated: May 10, 2026
 # Paste this at the start of EVERY new Claude.ai chat
 
@@ -195,6 +195,20 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 - Headline: "Helping Indian Founders Save Time on Content | 
   AI-Powered Blogs · Social Media · Emails | ScaleSnap"
 
+## Agent W — Weekly Review (May 10, 2026)
+- Agent W completed Sunday May 10 ✅
+- Q1 answer (Claude chose): Website leak — funnel leaking before 
+  leads captured. Priority: ship Agent 4 Edit (GA4 + lead magnet 
+  + social proof) Monday May 11.
+- Q2 answer (Claude chose): Ship Agent 4 Edit Monday — highest 
+  leverage action this week.
+- Q3 answer (Claude chose): Test gig ₹1,000–2,000 by May 31 — 
+  single deliverable, paid via Razorpay → unlocks ₹4,000/mo 
+  conversations from week 5 onward.
+- Note: Nooralam deferred all 3 decisions to Claude. 
+  Review with him Monday if he wants to revisit.
+- Strategic priorities set for week of May 11–17 (see Section 6)
+
 ## Payment Details
 - UPI: shaikhnoor78692@okhdfcbank
 - Razorpay Starter: https://rzp.io/rzp/5ettcpbh
@@ -207,14 +221,22 @@ Phase 4 (₹50k/mo): Custom → Full AI agent system
 # ════════════════════════════════════════════════════
 
 ## Active Leads (May 10, 2026)
-- Dipti Mohite: follow-up sent May 5 — NO REPLY, 
-  deprioritize if no reply by May 12 ⚠️
-- Aalok Choubey: follow-up sent May 5 — NO REPLY, same ⚠️
-- Abhisek Dey: follow-up sent May 5 — NO REPLY, same ⚠️
+- Dipti Mohite: follow-up sent May 5 — NO REPLY ⚠️
+  Graceful exit script drafted — send Monday May 11
+- Aalok Choubey: follow-up sent May 5 — NO REPLY ⚠️
+  Graceful exit script drafted — send Monday May 11
+- Abhisek Dey: follow-up sent May 5 — NO REPLY ⚠️
+  Graceful exit script drafted — send Monday May 11
 - Samuel Dias: warm and active ✅ (engaged 3x in 4 days)
 - Khushi Gupta: confirmed warm ✅ (100+ word reply May 10)
 - Madhavi Pundalik: strong warm ✅ — welcomed + active engagement 
   loop running (client + referral potential)
+
+## Outreach Playbook Additions
+- Friday May 15 = SOFT-PITCH DAY: send ₹1,500 test gig offer 
+  to warm contacts (Samuel Dias, Khushi Gupta, Madhavi Pundalik).
+  Template ready. Single deliverable, paid via Razorpay.
+  Goal: first paid transaction before May 31.
 
 ## New Connections Completed (May 10)
 - Siddhant Humne (AthenaProtein) — welcome DM sent
@@ -356,7 +378,7 @@ What it does:
   - Gives a full weekly plan for the coming week
   - Prepares follow-up messages for pending leads
 Context file: agents/AGENT_W_CONTEXT.md
-Last run: [update weekly]
+Last run: May 10, 2026
 MCPs needed: None
 
 ---
@@ -549,12 +571,46 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 | Agent R | Run Agent R | When message received | 2 min | ✅ Active |
 
 ## Next Due Dates
-- Agent S next run: May 16, 2026
+- Agent S next run: May 16, 2026 (Saturday)
 - Agent L last run: May 5, 2026 | next run: May 11, 2026 (Monday)
 - Agent 7 first run: May 11, 2026 (Monday)
-- Agent 4 next audit: May 17, 2026
+- Agent 4 Edit: OVERDUE → ship Monday May 11 (HIGH PRIORITY)
+- Agent 4 next audit: May 17, 2026 (Sunday)
 - Agent W last run: May 10, 2026
 - Agent Z last run: May 10, 2026
+
+## Week of May 11–17 — Daily Schedule
+- Mon May 11: Z + L + 7 + Agent 4 Edit — HIGH-IMPACT DAY (~110 min)
+  → Send graceful exit DMs to Dipti Mohite, Aalok Choubey, Abhisek Dey
+  → Ship GA4 + lead magnet + social proof (Agent 4 Edit)
+- Tue May 12: Z only — deprioritize 3 silent leads if still no reply
+- Wed May 13: Z only
+- Thu May 14: Z — wellness vertical focus (search filter: wellness founder Mumbai)
+- Fri May 15: Z — soft-pitch warm contacts (₹1,500 test gig template)
+- Sat May 16: Z + Agent S (security check due)
+- Sun May 17: W + Z + Agent 4 Audit (bi-weekly due)
+
+## Strategic Priority — Week of May 11–17
+THE ONE BIG THING: Ship Agent 4 Edit Monday May 11.
+  GA4 + lead magnet + social proof.
+  Without this, all marketing is dumping into a leaky bucket.
+
+Phase 1 goal locked: 1 test gig at ₹1,000–2,000 by May 31
+  (single deliverable, paid via Razorpay)
+  → unlocks ₹4,000/mo conversations from week 5 onward.
+
+Week's narrative: PLUG the funnel, then GROW the funnel.
+
+## Improvement Suggestion — PENDING NOORALAM APPROVAL
+Agent Z — Task 4 Active Search filter rotation update:
+  PROPOSED changes:
+  - Sunday:   "startup founder Thane" → "D2C founder Mumbai"
+    (reason: Sunday filter underperformed May 10 — too narrow)
+  - Saturday: "real estate founder Mumbai" → "wellness founder Thane"
+  - Add fallback rule: if daily filter returns < 5 results, 
+    drop the city qualifier and rerun broader search
+  Status: PROPOSED — awaiting Nooralam's approval
+  DO NOT implement until approved.
 
 # ════════════════════════════════════════════════════
 # SECTION 7 — WEBSITE & TECH STACK
@@ -585,7 +641,8 @@ Context file: agents/ScaleSnap_Agent_Templates.md
 ## Pending Website Changes
 
 ═══════════════════════════════════════════════════════
-PENDING — Saturday May 9, 2026 (Agent 4 Edit)
+PENDING — CARRY OVER → Monday May 11, 2026 (Agent 4 Edit)
+Originally scheduled: Saturday May 9, 2026
 ═══════════════════════════════════════════════════════
 
 Website Conversion Upgrade — 3 tasks (~75 min total):
