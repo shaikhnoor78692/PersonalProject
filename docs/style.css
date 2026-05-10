@@ -1455,6 +1455,12 @@ textarea {
     grid-template-columns: 1fr;
   }
 
+  /* -- Lead magnet -- */
+  .lead-form {
+    grid-template-columns: 1fr;
+    padding: 28px 24px;
+  }
+
   /* -- Footer -- */
   .footer-inner {
     flex-direction: column;
@@ -1486,6 +1492,98 @@ textarea {
 
 
 /* ============================================================
+   22a. FOUNDER STORY SECTION
+============================================================ */
+.founder-story {
+  background: var(--surface);
+}
+
+.founder-story-inner {
+  max-width: 720px;
+  margin-inline: auto;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: clamp(36px, 6vw, 64px);
+  text-align: center;
+}
+
+.founder-story-inner .section-tag {
+  margin-bottom: 16px;
+}
+
+.founder-story-heading {
+  font-family: var(--font-head);
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+  margin-bottom: 32px;
+}
+
+.founder-story-body {
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.founder-story-body p {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.founder-story-body p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ============================================================
+   22b. LEAD MAGNET SECTION
+============================================================ */
+.lead-magnet {
+  background: var(--bg);
+}
+
+.lead-magnet-inner {
+  max-width: 640px;
+  margin-inline: auto;
+}
+
+.lead-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+}
+
+.lm-char-count {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-align: right;
+  margin-top: 4px;
+  display: block;
+}
+
+.lm-submit-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: flex-start;
+}
+
+.lm-disclaimer {
+  margin-top: 12px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+
+/* ============================================================
    23. RESPONSIVE — SMALL MOBILE (≤480px)
 ============================================================ */
 @media (max-width: 480px) {
@@ -1509,5 +1607,13 @@ textarea {
 
   .sample-card {
     padding: 24px;
+  }
+
+  .founder-story-inner {
+    padding: 28px 24px;
+  }
+
+  .lead-form {
+    padding: 24px 20px;
   }
 }
